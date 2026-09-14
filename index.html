@@ -1,70 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Tools Showcase</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Menu</title>
+  <script src="ObjectiveCode_2.js" defer></script>
+  <style>
+	body {
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		display: flex;
+		height: 100vh;
+	}
+
+	.left-panel {
+		flex: 4; /* Adjust the ratio for the left side width */
+		background-color: black;
+		padding: 20px;
+		box-sizing: border-box;
+		overflow-y: scroll;
+	}
+
+	.right-panel {
+		flex: 1; /* Adjust the ratio for the right side width */
+		background-color: #ddd;
+		padding: 20px;
+		box-sizing: border-box;
+		overflow-y: scroll;
+		z-index: 25;
+	}
+    .first {
+	  display: block;
+	  border: 1px solid white;
+	  background-color: white;
+      position: absolute;
+	  left: 5px;
+	  top: 25px;
+	  color: purple;
+	}
+	.button {
+	  display: block;
+	  border: 1px solid black;
+	  background-color: lightgray;
+      position: relative;
+	  width:100%;
+	  left: 20px;
+	  margin-top: 2px;
+	  margin-bottom: 0px;
+	  color: purple;
+	  z-index: 5;
+    }
+    .buttonLink {	  
+	  text-decoration: None;
+	  vertical-align: top;
+      width: 200px;
+	  margin-top: 3px;
+	  margin-left: 3px;	
+	  color: purple;
+	  font-weight: bold;
+    }
+	.saveLink {
+	  text-decoration: None;	
+	  color: green;
+	  font-weight: bold;
+	  cursor: pointer;
+	}
+	.dropper {
+	  text-decoration: None;
+	  color: white;
+	  background-color: teal;
+	  border-radius: 4px;
+	  font-size: 0.8em;
+	  font-weight: bold;
+	  padding: 1px 6px;
+	  margin-left: 4px;
+	  cursor: copy;
+	}
+	.category {
+	  text-decoration: None;
+	  color: white;
+	  background-color: rgb(133, 74, 40);
+	  border-radius: 4px;
+	  font-size: 0.8em;
+	  font-weight: bold;
+	  padding: 1px 6px;
+	  margin-left: 4px;
+	  cursor: copy;
+	}
+	.label {
+	  text-decoration: None;
+	  color: white;
+	  background-color: rgb(22, 88, 44);
+	  border-radius: 4px;
+	  font-size: 0.8em;
+	  font-weight: bold;
+	  padding: 1px 6px;
+	  margin-left: 4px;
+	  cursor: copy;
+	}
+	.white {
+	  background-color: white;
+	}
+	.yellow {
+	  background-color: yellow;
+	}
+	.orange {
+	  background-color: orange;
+	}
+	.green {
+	  background-color: green;
+	}
+	.blue {
+	  background-color: blue;
+	}
+	.purple {
+	  background-color: purple;
+	}
+	.brown {
+	  background-color: brown; 
+	}
+	.black {
+	  background-color: black; 
+	}
+	.rainbow {
+	  background-color: red;
+	}
+	.leaf {
+	  background-color: white;
+	}
+	.inventoryItem {
+		display: block;
+		margin-top: 3px;
+		margin-left: 3px;	
+		width: fit-content;
+		padding: 10px;
+		border-bottom: 1px solid #ddd;
+		cursor: pointer;
+	}
+    .inventoryItem:hover {
+        background-color: #f5f5f5;
+	}
+	.draggable {	
+		background-color: #ddd;
+		width: fit-content;
+		position: fixed;
+		pointer-events: none;
+		z-index: 999;
+		cursor: move;
+		padding: 5px;
+	}
+  </style>
 </head>
 <body>
-    <header>
-        <div class="logo">AI Tools Showcase</div>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section class="hero">
-            <h1>Discover AI Tools I've Used</h1>
-            <p>Exploring the capabilities of modern artificial intelligence</p>
-        </section>
-
-        <section class="tools-grid">
-            <div class="tool-card">
-                <h2>ChatGPT</h2>
-                <div class="tool-image">
-                    <i class="fas fa-robot"></i>
-                </div>
-                <p>Text-based AI assistant for conversations and content creation</p>
-                <a href="tools/chatgpt.html" class="view-button">View Details</a>
-            </div>
-
-            <div class="tool-card">
-                <h2>DALL-E</h2>
-                <div class="tool-image">
-                    <i class="fas fa-palette"></i>
-                </div>
-                <p>AI image generation from textual descriptions</p>
-                <a href="tools/dalle.html" class="view-button">View Details</a>
-            </div>
-
-            <div class="tool-card">
-                <h2>Claude</h2>
-                <div class="tool-image">
-                    <i class="fas fa-comments"></i>
-                </div>
-                <p>Conversational AI with reasoning capabilities</p>
-                <a href="tools/claude.html" class="view-button">View Details</a>
-            </div>
-
-            <div class="tool-card">
-                <h2>Midjourney</h2>
-                <div class="tool-image">
-                    <i class="fas fa-image"></i>
-                </div>
-                <p>Advanced AI art and image generation</p>
-                <a href="tools/midjourney.html" class="view-button">View Details</a>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 AI Tools Showcase. All rights reserved.</p>
-    </footer>
+	<div id="base" class="left-panel"></div>
+    <div class="right-panel">
+        <!-- Content for the right side -->
+        <div id="inventory" class="inventory">INVENTORY</div>
+	</div>
+	
 </body>
 </html>

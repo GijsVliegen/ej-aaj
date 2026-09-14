@@ -1,0 +1,21 @@
+{
+    "all": {
+        "children": [
+            "blog",
+            "about"
+        ]
+    },
+    "blog": {
+        "children": [
+            "13-09-2026"
+        ]
+    },
+    "13-09-2026": {
+        "children": [
+            "floor slab",
+            "floor surface",
+            "support beam",
+            "debris"
+        ]
+    }
+}

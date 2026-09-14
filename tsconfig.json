@@ -6,5 +6,5 @@
     "noEmitOnError": true,
     "sourceMap": true
   },
-  "include": ["Hierarchy.ts"]
+  "include": ["hierarchy.ts"]
 }

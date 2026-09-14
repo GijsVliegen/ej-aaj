@@ -1,5 +1,5 @@
 {
-    "all": {
+    "universe": {
         "children": [
             "blog",
             "about"

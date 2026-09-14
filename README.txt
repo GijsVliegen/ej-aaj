@@ -2,7 +2,7 @@ Hierarchy - TypeScript dropdown tree renderer
 =======================================================
 
 This folder is a from-scratch TypeScript rewrite of the dropdown
-tree. It loads the object hierarchy from `hierarchy.json`
+tree. It loads the object hierarchy from `objects/objects.json`
 and renders it as an expandable/collapsible tree of buttons, with an
 inventory panel that supports saving a button out of the tree and
 dragging it back onto another button.
@@ -16,7 +16,7 @@ One-time setup:
 	> cd "Objective 2"
 	> npm install
 
-Build the TypeScript into ObjectiveCode_2.js:
+Build the TypeScript into hierarchy.js:
 	> npm run build
 	(or `npm run watch` to recompile automatically on save)
 

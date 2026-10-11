@@ -162,6 +162,13 @@ function fillButtonElement(button) {
                     mdDiv.innerHTML = marked.parse(childDef.content);
                     baseDiv.appendChild(mdDiv);
                 }
+                else if (childDef.type === "game") {
+                    // render game link inline
+                    const gameDiv = document.createElement("div");
+                    gameDiv.className = "game";
+                    gameDiv.innerHTML = childDef.content;
+                    baseDiv.appendChild(gameDiv);
+                }
                 else {
                     console.warn(`Unknown child type: ${childDef.type}`);
                 }
@@ -417,7 +424,7 @@ function drawFirst() {
 /** Fetches Objects/objects 2 from llm.json and kicks off the initial render. */
 function initialize() {
     Promise.all([
-        fetch(encodeURI("objects/objects.json"))
+        fetch(encodeURI("objects/objects.json"), { cache: "no-store" })
             .then(response => {
             if (!response.ok) {
                 throw new Error("Failed to load objects/objects.json: " + response.status);
@@ -437,7 +444,7 @@ function initialize() {
             .then((data) => {
             objectsDict = data;
         }),
-        fetch(encodeURI("objects/categories.json"))
+        fetch(encodeURI("objects/categories.json"), { cache: "no-store" })
             .then(response => {
             if (!response.ok) {
                 throw new Error("Failed to load objects/categories.json: " + response.status);

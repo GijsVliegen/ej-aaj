@@ -1,13 +1,14 @@
 {
     "universe": {
         "children": [
+            { "type": "tab", "content": "games" },
             { "type": "tab", "content": "blog" },
             { "type": "tab", "content": "about" }
         ]
     },
     "games": {
         "children": [
-            { "type": "game", "content": "<a href=\"/ej-aaj/games/Objective 2/index.html\" target=\"_blank\">Objective 2</a>"}
+            { "type": "game", "content": "<a href=games/Objective_2/ObjectiveHTML.html target=\"_blank\">Objective 2</a>"}
         ]
     },
     "blog": {

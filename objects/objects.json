@@ -1,21 +1,43 @@
 {
     "universe": {
         "children": [
-            "blog",
-            "about"
+            { "type": "tab", "content": "blog" },
+            { "type": "tab", "content": "about" }
         ]
     },
     "blog": {
         "children": [
-            "13-09-2026"
+            { "type": "tab", "content": "13-09-2026" },
+            { "type": "tab", "content": "26-09-2026" }
         ]
     },
     "13-09-2026": {
         "children": [
-            "floor slab",
-            "floor surface",
-            "support beam",
-            "debris"
+            { "type": "markdown", "content": "text A" },
+            { "type": "tab", "content": "button A" },
+            { "type": "markdown", "content": "text B" },
+            { "type": "tab", "content": "button B" }
+        ]
+    },
+    "26-09-2026": {
+        "children": [
+            { "type": "markdown", "content": "## On books and papers" },
+            { "type": "markdown", "content": "Finished book *The night in Lissabon*, I recommend it." },
+            { "type": "markdown", "content": "Came accross paper *Learning Concept Hierarchies from Text Corpora using Formal Concept Analysis* to learn about automatic taxonomy creating" }
+        ]
+    },
+    "button A": {
+        "children": [
+            { "type": "markdown", "content": "text A.A" },
+            { "type": "tab", "content": "button A.A" },
+            { "type": "markdown", "content": "text B.B" }
+        ]
+    },
+    "button B": {
+        "children": [
+            { "type": "markdown", "content": "text A.A" },
+            { "type": "tab", "content": "button A.A" },
+            { "type": "markdown", "content": "text B.B" }
         ]
     }
 }

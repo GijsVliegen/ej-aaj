@@ -1,19 +1,49 @@
 /* Modern, clean design with contrasting colors */
 :root {
+    --space-xxs: 0.25rem;
+    --space-xs: 0.5rem;
+    --space-sm: 0.75rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-xxl: 3rem;
+
+    --font-size-base: 1rem;
+    --font-size-sm: 0.875rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.5rem;
+    --font-size-xxl: 2.5rem;
+
     --primary-color: #1a1a1a;
     --secondary-color: #ffffff;
     --accent-color: #0088cc;
     --background-color: #f5f5f5;
     --card-background: #ffffff;
     --text-color: #333333;
-    --border-radius: 0px;
+    --border-radius: 4px;
+    --font-body: Georgia, serif;
+    --font-ui: Arial, sans-serif;
+    --border-color: #ddd;
+}
+:root {
+    --primary-color: #1a1a1a;
+    --secondary-color: #ffffff;
+    --accent-color: #0088cc;
+    --background-color: #f5f5f5;
+    --card-background: #ffffff;
+    --text-color: #333333;
+    --border-radius: 4px;
+    --font-body: Georgia, serif;
+    --font-ui: Arial, sans-serif;
+    --border-color: #ddd;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-ui);
+    font-size: var(--font-size-base);
 }
 
 body {
@@ -27,13 +57,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 5%;
+    padding: var(--space-lg) var(--space-md);
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: var(--font-size-xl);
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -44,7 +74,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 2rem;
+    margin-left: var(--space-lg);
 }
 
 nav ul li a {
@@ -62,22 +92,24 @@ nav ul li a:hover, nav ul li a.active {
 main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 5%;
+    padding: var(--space-xl) var(--space-md);
+    font-family: var(--font-body);
 }
 
 .hero {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: var(--space-xxl);
+    font-family: var(--font-body);
 }
 
 .hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: var(--font-size-xxl);
+    margin-bottom: var(--space-lg);
     color: var(--primary-color);
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: var(--font-size-lg);
     color: #666;
 }
 
@@ -85,13 +117,13 @@ main {
 .tools-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 2rem;
+    gap: var(--space-lg);
 }
 
 .tool-card {
     background-color: var(--card-background);
     border: 1px solid #eaeaea;
-    padding: 1.5rem;
+    padding: var(--space-lg);
     transition: transform 0.3s, box-shadow 0.3s;
     display: flex;
     flex-direction: column;
@@ -104,8 +136,8 @@ main {
 }
 
 .tool-card h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-md);
     color: var(--primary-color);
 }
 
@@ -114,21 +146,21 @@ main {
     justify-content: center;
     align-items: center;
     height: 100px;
-    margin-bottom: 1rem;
+        margin-bottom: var(--space-md);
     font-size: 3rem;
     color: var(--accent-color);
 }
 
 .tool-card p {
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--space-lg);
     flex-grow: 1;
 }
 
 .view-button {
     display: inline-block;
     background-color: var(--accent-color);
-    color: white;
-    padding: 0.5rem 1rem;
+    color: var(--secondary-color);
+    padding: var(--space-xs) var(--space-md);
     text-decoration: none;
     text-align: center;
     transition: background-color 0.3s;
@@ -185,10 +217,10 @@ main {
 .back-button {
     display: inline-block;
     background-color: var(--primary-color);
-    color: white;
-    padding: 0.5rem 1rem;
+    color: var(--secondary-color);
+    padding: var(--space-xs) var(--space-md);
     text-decoration: none;
-    margin-top: 1rem;
+    margin-top: var(--space-md);
 }
 
 .back-button:hover {
@@ -200,8 +232,8 @@ footer {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     text-align: center;
-    padding: 1.5rem 0;
-    margin-top: 3rem;
+    padding: var(--space-md) var(--space-lg);
+    margin-top: var(--space-xxl);
 }
 
 /* Responsive design */
@@ -219,4 +251,150 @@ footer {
         margin-right: 0;
         margin-bottom: 1rem;
     }
+    .hero h1 {
+        font-size: var(--font-size-xl);
+    }
+}
+
+/* Migrated inline reader stylesheet */
+
+/* Responsive layout for hierarchy panels */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+  .left-panel, .right-panel {
+    flex: none;
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+  .left-panel {
+    border-bottom: 1px solid var(--border-color);
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+.left-panel {
+  flex: 4; /* Adjust ratio for nav sidebar */
+  background-color: var(--card-background);
+  padding: var(--space-xl);
+  box-sizing: border-box;
+  overflow-y: auto;
+  border-right: 1px solid var(--border-color);
+}
+
+.right-panel {
+  flex: 1; /* Content / inventory panel */
+  background-color: var(--card-background);
+  padding: var(--space-xl);
+  box-sizing: border-box;
+  overflow-y: auto;
+  border-left: 1px solid var(--border-color);
+}
+
+.button {
+  display: block;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.buttonLink {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: normal;
+  cursor: pointer;
+}
+.buttonLink:hover {
+  text-decoration: underline;
+}
+
+.saveLink {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-weight: bold;
+  cursor: move;
+  margin-left: 8px;
+}
+
+.dropper {
+  text-decoration: none;
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  padding: var(--space-xxs) var(--space-xs);
+  margin-left: var(--space-xs);
+  cursor: copy;
+}
+
+.category, .label {
+  text-decoration: none;
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  padding: var(--space-xxs) var(--space-xs);
+  margin-left: var(--space-xs);
+}
+
+.inventoryItem {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+.inventoryItem:hover {
+  background-color: #f0f0f0;
+}
+
+.draggable {
+  background-color: #ddd;
+  width: fit-content;
+  position: fixed;
+  pointer-events: none;
+  z-index: 999;
+  cursor: move;
+  padding: 5px;
+}
+
+/* Markdown block styling */
+.markdown {
+  margin: var(--space-lg) 0 var(--space-lg) var(--space-xl);
+  font-size: var(--font-size-base);
+  color: var(--text-color);
+}
+.markdown h1, .markdown h2, .markdown h3 {
+  margin: var(--space-xl) 0 var(--space-md);
+  font-family: var(--font-body);
+}
+.markdown p {
+  margin: var(--space-sm) 0;
+}
+.markdown ul, .markdown ol {
+  margin: var(--space-sm) 0 var(--space-sm) var(--space-xl);
+}
+.markdown code {
+  background-color: #eee;
+  padding: var(--space-xxs) var(--space-xs);
+  border-radius: var(--border-radius);
+  font-family: Courier New, monospace;
 }

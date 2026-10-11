@@ -12,7 +12,10 @@
     "test:manual": "npm run test:buttons && npm run test:inventory-drag"
   },
   "devDependencies": {
+    "@types/marked": "^6.0.0",
     "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "marked": "^18.1.0"
   }
 }
-

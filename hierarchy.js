@@ -20,6 +20,7 @@ class ButtonNode {
         this.expanded = expanded;
         this.childrenButtons = [];
         this.childrenButtonIds = [];
+        this.childrenDefs = [];
         this.childrenGenerated = false;
         this.display_name = type;
         this.div = undefined;
@@ -38,12 +39,20 @@ class ButtonNode {
 /** Lazily creates the child ButtonNodes for a node the first time it is expanded. */
 function generateChildren(button) {
     const definition = objectsDict[button.type];
-    const childTypes = definition ? definition.children : [];
+    const childDefs = definition ? definition.children : [];
     if (!definition) {
         console.warn('No entry found in objects 2 from llm.json for type "' + button.type + '"');
     }
-    button.childrenButtons = childTypes.map(childType => new ButtonNode(childType, false, button.id));
-    button.childrenButtonIds = button.childrenButtons.map(child => child.id);
+    button.childrenDefs = childDefs;
+    button.childrenButtons = [];
+    button.childrenButtonIds = [];
+    for (const childDef of childDefs) {
+        if (childDef.type === "tab") {
+            const childNode = new ButtonNode(childDef.content, false, button.id);
+            button.childrenButtons.push(childNode);
+            button.childrenButtonIds.push(childNode.id);
+        }
+    }
     button.childrenGenerated = true;
 }
 /** Creates the (empty) HTML element for a button, then fills it in. */
@@ -73,6 +82,15 @@ function fillButtonElement(button) {
         baseDiv.removeChild(baseDiv.firstChild);
     }
     baseDiv.classList.remove("leaf");
+    // indentation and alternating background colors
+    let depth = 0;
+    let parentId = button.fatherId;
+    while (parentId !== -1) {
+        depth++;
+        parentId = allButtons[parentId].fatherId;
+    }
+    baseDiv.style.marginLeft = 'var(--space-xl)';
+    baseDiv.style.backgroundColor = depth % 2 === 0 ? 'var(--card-background)' : 'var(--background-color)';
     // add click event so it can be expanded/collapsed via handleClick
     const link = document.createElement("a");
     link.className = "buttonLink";
@@ -81,6 +99,10 @@ function fillButtonElement(button) {
     if (DEBUG) {
         link.textContent = `[${button.id}] ${button.display_name} (${button.type})`;
     }
+    link.addEventListener("click", (event) => {
+        event.preventDefault();
+        ToggleButtonExpanded(button.id);
+    });
     baseDiv.appendChild(link);
     // add a save link to the inventory, if this button has a father
     // The root button has no father to return to, so it can't be saved.
@@ -97,10 +119,12 @@ function fillButtonElement(button) {
         baseDiv.appendChild(saveLink);
     }
     // add category
-    const categorySpan = document.createElement("span");
-    categorySpan.className = "category";
-    categorySpan.textContent = button.category;
-    baseDiv.appendChild(categorySpan);
+    if (button.category !== "Uncategorized") {
+        const categorySpan = document.createElement("span");
+        categorySpan.className = "category";
+        categorySpan.textContent = button.category;
+        baseDiv.appendChild(categorySpan);
+    }
     // add labels
     for (const label of button.labels) {
         const labelSpan = document.createElement("span");
@@ -124,12 +148,26 @@ function fillButtonElement(button) {
         if (!button.childrenGenerated) {
             generateChildren(button);
         }
-        if (button.childrenButtons.length === 0) {
+        if (button.childrenDefs.length === 0) {
             baseDiv.classList.add("leaf");
         }
         else {
-            for (const child of button.childrenButtons) {
-                baseDiv.appendChild(createButtonElement(child));
+            let tabIdx = 0;
+            for (const childDef of button.childrenDefs) {
+                if (childDef.type === "tab") {
+                    const childNode = button.childrenButtons[tabIdx++];
+                    baseDiv.appendChild(createButtonElement(childNode));
+                }
+                else if (childDef.type === "markdown") {
+                    // render markdown content inline
+                    const mdDiv = document.createElement("div");
+                    mdDiv.className = "markdown";
+                    mdDiv.innerHTML = marked.parse(childDef.content);
+                    baseDiv.appendChild(mdDiv);
+                }
+                else {
+                    console.warn(`Unknown child type: ${childDef.type}`);
+                }
             }
         }
     }
@@ -381,34 +419,37 @@ function drawFirst() {
 }
 /** Fetches Objects/objects 2 from llm.json and kicks off the initial render. */
 function initialize() {
-    fetch(encodeURI("objects/objects.json"))
-        .then(response => {
-        if (!response.ok) {
-            throw new Error("Failed to load Objects/objects.json: " + response.status);
+    Promise.all([
+        fetch(encodeURI("objects/objects.json"))
+            .then(response => {
+            if (!response.ok) {
+                throw new Error("Failed to load Objects/objects.json: " + response.status);
+            }
+            return response.json();
+        })
+            .then((data) => {
+            objectsDict = data;
+        }),
+        fetch(encodeURI("objects/categories.json"))
+            .then(response => {
+            if (!response.ok) {
+                throw new Error("Failed to load Objects/categories.json: " + response.status);
+            }
+            return response.json();
+        })
+            .then((data) => {
+            categoriesDict = data;
+        })
+    ])
+        .then(() => {
+        drawFirst();
+        if (DEBUG) {
+            addDEBUGClickEvents();
         }
-        return response.json();
     })
-        .then((data) => {
-        objectsDict = data;
-    })
-        .catch(error => console.error("Error loading hierarchy.json:", error));
-    fetch(encodeURI("objects/categories.json"))
-        .then(response => {
-        if (!response.ok) {
-            throw new Error("Failed to load Objects/categories.json: " + response.status);
-        }
-        return response.json();
-    })
-        .then((data) => {
-        categoriesDict = data;
-    })
-        .catch(error => console.error("Error loading Objects/categories.json:", error));
-    drawFirst();
-    if (DEBUG) {
-        addDEBUGClickEvents();
-    }
+        .catch(error => console.error("Error initializing hierarchy:", error));
 }
 let only_real_stuff = false;
 let DEBUG = false;
 window.onload = initialize;
-//# sourceMappingURL=Hierarchy.js.map
+//# sourceMappingURL=hierarchy.js.map

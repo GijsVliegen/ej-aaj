@@ -1,0 +1,9077 @@
+{
+    "office": [
+        "interior",
+        "structural",
+        "workplace",
+        "human-made"
+    ],
+    "aim": [
+        "intentional",
+        "goal",
+        "abstract"
+    ],
+    "model": [
+        "representational",
+        "miniature",
+        "artificial"
+    ],
+    "fruit": [
+        "plant_based",
+        "edible",
+        "organic"
+    ],
+    "people": [
+        "organic",
+        "sentient",
+        "mammalian",
+        "animate",
+        "social"
+    ],
+    "fish": [
+        "aquatic",
+        "mammalian",
+        "organic"
+    ],
+    "government building": [
+        "structural",
+        "workplace",
+        "human-made"
+    ],
+    "heading": [
+        "directional",
+        "textual",
+        "navigational"
+    ],
+    "label": [
+        "abstract"
+    ],
+    "self-awareness": [
+        "intentional"
+    ],
+    "desire": [
+        "goal"
+    ],
+    "surface": [
+        "structural",
+        "flat",
+        "topological"
+    ],
+    "tongue": [
+        "muscular",
+        "flexible",
+        "anatomical",
+        "organic"
+    ],
+    "string": [
+        "representational"
+    ],
+    "hat": [
+        "wearable",
+        "clothing"
+    ],
+    "plant": [
+        "plant_based"
+    ],
+    "computer": [
+        "computational",
+        "structural",
+        "electronic",
+        "human-made"
+    ],
+    "middle name": [
+        "naming",
+        "identity",
+        "social"
+    ],
+    "working memory": [
+        "computational"
+    ],
+    "sun": [
+        "hot",
+        "luminescent",
+        "celestial",
+        "stellar"
+    ],
+    "character": [
+        "identity",
+        "animate"
+    ],
+    "part": [
+        "representational",
+        "identity"
+    ],
+    "principles": [
+        "structural",
+        "abstract",
+        "identity"
+    ],
+    "solution": [
+        "representational",
+        "identity"
+    ],
+    "goal": [
+        "intentional",
+        "goal",
+        "abstract"
+    ],
+    "ocean": [
+        "aquatic",
+        "organic"
+    ],
+    "rule": [
+        "representational",
+        "naming",
+        "identity"
+    ],
+    "effect": [
+        "representational",
+        "intentional",
+        "identity"
+    ],
+    "principle": [
+        "representational",
+        "naming",
+        "abstract",
+        "identity"
+    ],
+    "battery": [
+        "flammable"
+    ],
+    "thread": [
+        "stringlike",
+        "flexible",
+        "fibrous"
+    ],
+    "meat": [
+        "mammalian",
+        "edible",
+        "organic"
+    ],
+    "possibility": [
+        "modal",
+        "epistemic",
+        "conceptual",
+        "abstract"
+    ],
+    "organization": [
+        "structural",
+        "workplace",
+        "human-made"
+    ],
+    "goals": [
+        "intentional",
+        "goal",
+        "abstract"
+    ],
+    "park": [
+        "recreational",
+        "public",
+        "outdoor",
+        "green_space"
+    ],
+    "future": [
+        "temporal",
+        "abstract",
+        "conceptual"
+    ],
+    "star": [
+        "hot",
+        "stellar",
+        "celestial",
+        "luminescent"
+    ],
+    "leader": [
+        "workplace",
+        "human-made"
+    ],
+    "hair": [
+        "keratin",
+        "anatomical",
+        "organic"
+    ],
+    "capital letter": [
+        "typographic",
+        "symbolic",
+        "abstract"
+    ],
+    "evidence": [
+        "abstract"
+    ],
+    "temperature": [
+        "hot"
+    ],
+    "tape": [
+        "adhesive",
+        "flexible",
+        "thin"
+    ],
+    "dust": [
+        "powdery",
+        "loose",
+        "particulate"
+    ],
+    "steel": [
+        "structural",
+        "metallic"
+    ],
+    "hole": [
+        "empty",
+        "void"
+    ],
+    "finger": [
+        "organic",
+        "appendage",
+        "anatomical",
+        "tactile",
+        "biological"
+    ],
+    "door": [
+        "interior",
+        "enclosed"
+    ],
+    "galaxy": [
+        "massive",
+        "celestial",
+        "material"
+    ],
+    "limit": [
+        "naming",
+        "identity"
+    ],
+    "road surface": [
+        "topological",
+        "structural",
+        "flat"
+    ],
+    "coat": [
+        "outerwear",
+        "wearable",
+        "clothing"
+    ],
+    "body": [
+        "mammalian",
+        "anatomical",
+        "biological"
+    ],
+    "skin": [
+        "organic",
+        "keratin",
+        "anatomical",
+        "biological",
+        "mammalian"
+    ],
+    "picture": [
+        "framed",
+        "visual",
+        "flat"
+    ],
+    "bottom": [
+        "directional",
+        "navigational"
+    ],
+    "finish line": [
+        "finish_line"
+    ],
+    "paper": [
+        "organic",
+        "flat",
+        "flammable",
+        "fragile"
+    ],
+    "attention": [
+        "sentient",
+        "animate"
+    ],
+    "air": [
+        "particulate"
+    ],
+    "cost": [],
+    "human": [
+        "organic",
+        "sentient",
+        "biological",
+        "mammalian",
+        "animate"
+    ],
+    "hope": [
+        "modal",
+        "abstract",
+        "conceptual"
+    ],
+    "person": [
+        "organic",
+        "sentient",
+        "biological",
+        "mammalian",
+        "animate"
+    ],
+    "inch": [],
+    "bridge": [
+        "structural",
+        "connective",
+        "architectural"
+    ],
+    "last name": [
+        "naming",
+        "identity",
+        "social"
+    ],
+    "cold": [
+        "outerwear",
+        "wearable",
+        "clothing"
+    ],
+    "engine": [
+        "industrial",
+        "mechanical",
+        "power_source",
+        "machine"
+    ],
+    "foot": [
+        "organic",
+        "anatomical",
+        "appendage"
+    ],
+    "shoulder": [
+        "body_part",
+        "jointed",
+        "anatomical"
+    ],
+    "sign": [
+        "structural",
+        "placard",
+        "informational"
+    ],
+    "mirror image": [
+        "visual",
+        "flat"
+    ],
+    "official": [
+        "representational",
+        "identity"
+    ],
+    "component": [
+        "structural",
+        "particulate"
+    ],
+    "question": [
+        "abstract",
+        "informational",
+        "linguistic"
+    ],
+    "volume": [
+        "abstract"
+    ],
+    "bench": [
+        "recreational",
+        "public",
+        "outdoor"
+    ],
+    "hot": [
+        "hot"
+    ],
+    "universe": [
+        "massive",
+        "celestial"
+    ],
+    "state": [
+        "representational",
+        "identity"
+    ],
+    "film strip": [
+        "flexible",
+        "thin"
+    ],
+    "background": [
+        "visual",
+        "flat"
+    ],
+    "atmosphere": [
+        "loose",
+        "particulate"
+    ],
+    "sand": [
+        "powdery",
+        "loose",
+        "particulate"
+    ],
+    "reaction": [
+        "intentional"
+    ],
+    "statement": [
+        "textual",
+        "symbolic",
+        "identity",
+        "conceptual"
+    ],
+    "government": [
+        "representational",
+        "structural",
+        "identity",
+        "human-made"
+    ],
+    "stand": [
+        "representational",
+        "naming",
+        "identity"
+    ],
+    "shore": [
+        "aquatic",
+        "particulate",
+        "organic"
+    ],
+    "seat": [
+        "recreational",
+        "public",
+        "outdoor"
+    ],
+    "noise": [
+        "intangible",
+        "auditory",
+        "ambient"
+    ],
+    "objective": [
+        "abstract",
+        "intentional",
+        "goal",
+        "conceptual"
+    ],
+    "family name": [
+        "naming",
+        "identity",
+        "social"
+    ],
+    "time": [
+        "abstract",
+        "temporal",
+        "conceptual"
+    ],
+    "matter": [
+        "massive",
+        "material",
+        "structural"
+    ],
+    "past": [
+        "abstract",
+        "temporal",
+        "conceptual"
+    ],
+    "energy": [
+        "power_source",
+        "abstract",
+        "celestial",
+        "conceptual"
+    ],
+    "period": [
+        "abstract",
+        "temporal",
+        "conceptual"
+    ],
+    "moment": [
+        "abstract",
+        "temporal",
+        "conceptual"
+    ],
+    "history": [
+        "abstract",
+        "temporal",
+        "conceptual"
+    ],
+    "record": [
+        "conceptual",
+        "temporal",
+        "abstract"
+    ],
+    "morning": [
+        "luminescent",
+        "sentient",
+        "temporal"
+    ],
+    "date": [
+        "temporal"
+    ],
+    "night": [
+        "conceptual",
+        "temporal",
+        "abstract"
+    ],
+    "day": [
+        "temporal"
+    ],
+    "head": [
+        "organic",
+        "biological",
+        "animate",
+        "mammalian",
+        "sentient"
+    ],
+    "week": [
+        "temporal"
+    ],
+    "month": [
+        "temporal"
+    ],
+    "year": [
+        "temporal"
+    ],
+    "present": [
+        "temporal",
+        "abstract",
+        "conceptual"
+    ],
+    "may": [
+        "temporal"
+    ],
+    "past event": [
+        "temporal",
+        "abstract",
+        "conceptual"
+    ],
+    "last year": [
+        "temporal",
+        "abstract",
+        "conceptual"
+    ],
+    "recent past": [
+        "temporal",
+        "abstract",
+        "conceptual"
+    ],
+    "current time": [
+        "temporal",
+        "abstract",
+        "conceptual"
+    ],
+    "eye": [
+        "mammalian",
+        "biological",
+        "organic",
+        "visual"
+    ],
+    "present moment": [
+        "temporal",
+        "abstract",
+        "conceptual"
+    ],
+    "now": [
+        "temporal",
+        "abstract",
+        "conceptual"
+    ],
+    "brain": [
+        "biological",
+        "organic",
+        "body_part",
+        "sentient"
+    ],
+    "speaker frame": [
+        "framed"
+    ],
+    "electrical leads": [
+        "directional",
+        "connective"
+    ],
+    "carbon dioxide": [
+        "gaseous"
+    ],
+    "ash": [
+        "loose",
+        "particulate",
+        "powdery"
+    ],
+    "motor shaft": [
+        "mechanical",
+        "rotational",
+        "metallic"
+    ],
+    "current": [
+        "electronic"
+    ],
+    "medieval period": [
+        "temporal",
+        "conceptual",
+        "abstract"
+    ],
+    "radiation": [
+        "hot"
+    ],
+    "price tag": [
+        "appendage",
+        "industrial",
+        "material",
+        "informational"
+    ],
+    "scroll": [
+        "naming",
+        "representational",
+        "identity"
+    ],
+    "core": [
+        "luminescent",
+        "stellar",
+        "celestial",
+        "hot"
+    ],
+    "repair": [
+        "representational",
+        "sentient"
+    ],
+    "power": [
+        "symbolic",
+        "conceptual",
+        "power_source",
+        "intangible",
+        "abstract"
+    ],
+    "wire": [
+        "electronic"
+    ],
+    "bronze": [
+        "metallic"
+    ],
+    "desktop": [
+        "naming",
+        "representational",
+        "identity"
+    ],
+    "twist": [
+        "event",
+        "abstract"
+    ],
+    "cut": [
+        "representational"
+    ],
+    "flight instrument": [
+        "navigational",
+        "mechanical",
+        "material"
+    ],
+    "competition": [
+        "event",
+        "competitive",
+        "social",
+        "abstract"
+    ],
+    "school": [
+        "public",
+        "architectural",
+        "educational",
+        "structural"
+    ],
+    "trough": [
+        "wooden",
+        "material",
+        "structural"
+    ],
+    "beginning": [
+        "temporal"
+    ],
+    "infrared band": [
+        "infrared",
+        "luminescent",
+        "electromagnetic"
+    ],
+    "heat": [
+        "hot"
+    ],
+    "cold side": [
+        "cold"
+    ],
+    "cloud": [
+        "loose",
+        "particulate",
+        "luminescent"
+    ],
+    "feast": [
+        "edible",
+        "organic"
+    ],
+    "settlement": [
+        "settlement"
+    ],
+    "gravel": [
+        "loose",
+        "structural",
+        "metallic",
+        "stone",
+        "granular"
+    ],
+    "card": [
+        "material",
+        "machine",
+        "flat",
+        "thin"
+    ],
+    "cushion": [
+        "clothing",
+        "modal",
+        "enclosed",
+        "thin"
+    ],
+    "emotion": [
+        "conceptual",
+        "sentient"
+    ],
+    "paint": [
+        "artificial",
+        "liquid",
+        "pigmented"
+    ],
+    "data": [
+        "conceptual",
+        "textual",
+        "informational"
+    ],
+    "helmet": [
+        "clothing",
+        "wearable"
+    ],
+    "joy": [
+        "conceptual",
+        "sentient"
+    ],
+    "core area": [
+        "cold"
+    ],
+    "last week": [
+        "temporal"
+    ],
+    "chain segment": [
+        "connective"
+    ],
+    "insulation": [
+        "enclosed"
+    ],
+    "command": [
+        "modal",
+        "linguistic"
+    ],
+    "chimney": [
+        "smoke_vent",
+        "structural",
+        "stone",
+        "vertical",
+        "industrial"
+    ],
+    "electromagnetic wave": [
+        "electromagnetic",
+        "radiative"
+    ],
+    "security camera": [
+        "public",
+        "electronic",
+        "mechanical",
+        "surveillance"
+    ],
+    "leaf tissue": [
+        "plant_based"
+    ],
+    "electrical energy": [
+        "electronic"
+    ],
+    "meaning": [
+        "symbolic",
+        "conceptual",
+        "intangible",
+        "abstract",
+        "informational"
+    ],
+    "sign panel": [
+        "placard",
+        "informational",
+        "structural"
+    ],
+    "power stage": [
+        "electronic",
+        "power_source",
+        "machine"
+    ],
+    "inlet opening": [
+        "vertical",
+        "structural"
+    ],
+    "starting light": [
+        "naming",
+        "luminescent"
+    ],
+    "letter": [
+        "symbolic",
+        "linguistic",
+        "typographic",
+        "naming",
+        "textual"
+    ],
+    "bank account": [
+        "financial",
+        "account_based",
+        "intangible",
+        "record_keeping"
+    ],
+    "north pole": [
+        "directional",
+        "polar",
+        "cold",
+        "arctic",
+        "ice"
+    ],
+    "segment membrane": [
+        "segmental",
+        "biological",
+        "structural"
+    ],
+    "electrical charge": [
+        "electronic"
+    ],
+    "capsule": [
+        "enclosed",
+        "machine",
+        "material"
+    ],
+    "curve": [
+        "topological",
+        "abstract"
+    ],
+    "claim": [
+        "symbolic",
+        "conceptual",
+        "identity",
+        "abstract",
+        "textual"
+    ],
+    "breath": [
+        "temporal",
+        "gaseous",
+        "biological"
+    ],
+    "hole barrel": [
+        "enclosed"
+    ],
+    "outer layer": [
+        "stellar",
+        "celestial",
+        "hot"
+    ],
+    "fireplace": [
+        "recreational",
+        "outdoor",
+        "public"
+    ],
+    "membrane protein": [
+        "connective"
+    ],
+    "injury": [
+        "wounded",
+        "material"
+    ],
+    "controller": [
+        "electronic",
+        "account_based",
+        "animate"
+    ],
+    "serving bowl": [
+        "tableware",
+        "material",
+        "ceramic"
+    ],
+    "cell membrane": [
+        "anatomical",
+        "organic"
+    ],
+    "control knob": [
+        "navigational",
+        "mechanical",
+        "sentient"
+    ],
+    "sensing area": [
+        "representational",
+        "directional"
+    ],
+    "explanation": [
+        "representational",
+        "conceptual",
+        "symbolic",
+        "textual"
+    ],
+    "anger": [
+        "conceptual",
+        "sentient"
+    ],
+    "cent": [
+        "record_keeping",
+        "financial",
+        "account_based",
+        "intangible"
+    ],
+    "color spectrum": [
+        "pigmented",
+        "visual",
+        "abstract"
+    ],
+    "peel": [
+        "material",
+        "biological",
+        "organic"
+    ],
+    "clock": [
+        "artificial",
+        "mechanical",
+        "timekeeping"
+    ],
+    "throne room": [
+        "ceremonial",
+        "architectural",
+        "structural",
+        "interior",
+        "royal"
+    ],
+    "rack": [
+        "wooden",
+        "material",
+        "structural"
+    ],
+    "mark": [
+        "naming",
+        "conceptual",
+        "symbolic"
+    ],
+    "minute": [
+        "temporal",
+        "timekeeping",
+        "duration"
+    ],
+    "wooden tool": [
+        "wooden",
+        "machine"
+    ],
+    "difficulty": [
+        "fragile"
+    ],
+    "system unit": [
+        "computational",
+        "human-made",
+        "electronic",
+        "structural"
+    ],
+    "house number": [
+        "numeric",
+        "identity",
+        "structural"
+    ],
+    "lightning bolt": [
+        "electronic",
+        "energy",
+        "dangerous",
+        "biological"
+    ],
+    "file cabinet": [
+        "representational",
+        "identity"
+    ],
+    "cold object": [
+        "cold"
+    ],
+    "numbers": [
+        "temporal"
+    ],
+    "street name": [
+        "identity"
+    ],
+    "public recognition": [
+        "public"
+    ],
+    "cross section": [],
+    "bag": [],
+    "chemical energy": [
+        "conceptual",
+        "power_source",
+        "abstract",
+        "organic"
+    ],
+    "monitor": [
+        "representational",
+        "visual"
+    ],
+    "electrical conductor": [
+        "electronic"
+    ],
+    "reputation": [
+        "public",
+        "identity",
+        "conceptual",
+        "social"
+    ],
+    "glass": [
+        "shiny",
+        "fragile",
+        "transparent",
+        "metallic",
+        "material"
+    ],
+    "buyer": [],
+    "guest": [
+        "public",
+        "recreational",
+        "organic"
+    ],
+    "ancient empires": [
+        "architectural",
+        "social"
+    ],
+    "via": [
+        "enclosed",
+        "electronic",
+        "structural"
+    ],
+    "stake": [
+        "ground_inserted",
+        "border_marker",
+        "stationary",
+        "structural"
+    ],
+    "backdrop": [
+        "naming"
+    ],
+    "iron blade": [
+        "sharp",
+        "cutting",
+        "metallic",
+        "iron"
+    ],
+    "harm": [
+        "dangerous",
+        "wounded"
+    ],
+    "happiness": [
+        "conceptual",
+        "sentient"
+    ],
+    "file": [
+        "abstract",
+        "conceptual",
+        "record_keeping"
+    ],
+    "wig": [
+        "wearable",
+        "clothing"
+    ],
+    "trunk": [
+        "wooden"
+    ],
+    "metal base": [
+        "metallic",
+        "directional"
+    ],
+    "vent": [
+        "vertical",
+        "industrial",
+        "smoke_vent",
+        "structural"
+    ],
+    "turn": [
+        "abstract",
+        "topological",
+        "directional"
+    ],
+    "water molecule": [
+        "gaseous"
+    ],
+    "motor mount": [
+        "interior",
+        "material",
+        "mounting",
+        "mechanical",
+        "structural"
+    ],
+    "hand prop": [
+        "thin",
+        "machine",
+        "representational"
+    ],
+    "inner surface": [
+        "interior",
+        "connective",
+        "material"
+    ],
+    "clock time": [
+        "temporal",
+        "timekeeping"
+    ],
+    "steps": [
+        "public",
+        "mechanical"
+    ],
+    "marrow": [
+        "organic",
+        "interior",
+        "anatomical",
+        "thin"
+    ],
+    "september": [
+        "temporal",
+        "conceptual",
+        "abstract"
+    ],
+    "bone marrow": [
+        "organic",
+        "interior",
+        "anatomical"
+    ],
+    "jar": [
+        "material",
+        "ceramic",
+        "liquid"
+    ],
+    "stem cell": [
+        "organic",
+        "interior",
+        "anatomical"
+    ],
+    "spring contact": [
+        "connective",
+        "flexible"
+    ],
+    "merchandise": [
+        "competitive",
+        "industrial",
+        "machine"
+    ],
+    "region": [
+        "temporal",
+        "regional"
+    ],
+    "starting time": [
+        "temporal"
+    ],
+    "counter": [
+        "tableware"
+    ],
+    "spoken statement": [
+        "linguistic",
+        "testimonial",
+        "oral"
+    ],
+    "spice": [
+        "material"
+    ],
+    "transition band": [
+        "transition",
+        "material",
+        "structural"
+    ],
+    "instruction": [
+        "modal",
+        "conceptual",
+        "linguistic"
+    ],
+    "october": [
+        "temporal",
+        "conceptual",
+        "abstract"
+    ],
+    "weight": [],
+    "kickoff action": [
+        "event"
+    ],
+    "bit": [
+        "miniature"
+    ],
+    "idea": [
+        "conceptual",
+        "intangible",
+        "informational",
+        "symbolic",
+        "abstract"
+    ],
+    "light wave": [
+        "luminescent",
+        "electromagnetic"
+    ],
+    "winter": [
+        "temporal"
+    ],
+    "juice": [
+        "organic",
+        "citrus",
+        "liquid"
+    ],
+    "hall": [
+        "public",
+        "interior"
+    ],
+    "decision circuit": [
+        "animate",
+        "electronic"
+    ],
+    "shop": [
+        "financial",
+        "social",
+        "industrial"
+    ],
+    "mount": [
+        "human-made",
+        "structural"
+    ],
+    "atom": [
+        "identity",
+        "miniature"
+    ],
+    "courtyard": [
+        "public",
+        "interior",
+        "enclosed"
+    ],
+    "pilot seat": [
+        "enclosed"
+    ],
+    "axis": [
+        "abstract",
+        "topological",
+        "rotational"
+    ],
+    "bud scale": [
+        "plant_based"
+    ],
+    "cylinder": [
+        "structural"
+    ],
+    "example": [
+        "abstract",
+        "informational",
+        "conceptual",
+        "symbolic"
+    ],
+    "money": [
+        "financial",
+        "social"
+    ],
+    "wave": [
+        "anatomical",
+        "sentient",
+        "gesture"
+    ],
+    "visible light": [
+        "luminescent",
+        "visual",
+        "radiative"
+    ],
+    "chair": [
+        "public",
+        "interior"
+    ],
+    "interval": [
+        "temporal",
+        "abstract",
+        "conceptual"
+    ],
+    "cold region": [
+        "cold"
+    ],
+    "field": [
+        "informational"
+    ],
+    "scalp": [
+        "topological",
+        "structural"
+    ],
+    "threat": [
+        "dangerous"
+    ],
+    "witness statement": [
+        "textual",
+        "oral",
+        "abstract",
+        "linguistic",
+        "testimonial"
+    ],
+    "packaging": [
+        "enclosed",
+        "material",
+        "flexible",
+        "thin"
+    ],
+    "battery fill": [
+        "indicator",
+        "visual",
+        "ui_element"
+    ],
+    "orange segment": [
+        "segmental",
+        "biological",
+        "enclosed",
+        "structural"
+    ],
+    "origin point": [
+        "temporal"
+    ],
+    "mortar": [
+        "adhesive",
+        "material",
+        "structural"
+    ],
+    "base surface": [
+        "flat",
+        "metallic",
+        "directional"
+    ],
+    "experience": [
+        "temporal",
+        "event"
+    ],
+    "cabinet": [
+        "identity",
+        "representational"
+    ],
+    "farm worker": [
+        "plant_based"
+    ],
+    "celebration": [
+        "organic"
+    ],
+    "alarm bell": [
+        "auditory"
+    ],
+    "silver vein": [
+        "ore_vein",
+        "geological",
+        "metallic"
+    ],
+    "performance": [
+        "public",
+        "animate",
+        "event",
+        "ceremonial"
+    ],
+    "electricity symbol": [
+        "electromagnetic",
+        "visual"
+    ],
+    "building": [
+        "architectural",
+        "structural"
+    ],
+    "sunset": [
+        "temporal",
+        "celestial"
+    ],
+    "archaeological artifacts": [
+        "symbolic",
+        "human-made",
+        "material"
+    ],
+    "interior": [
+        "ceramic",
+        "tableware",
+        "material"
+    ],
+    "controller board": [
+        "machine",
+        "sentient",
+        "account_based",
+        "electronic",
+        "structural"
+    ],
+    "gas": [
+        "loose"
+    ],
+    "sensing chamber": [
+        "representational"
+    ],
+    "ore": [
+        "stone",
+        "material"
+    ],
+    "box": [
+        "identity",
+        "representational"
+    ],
+    "key blank": [
+        "metallic",
+        "machine",
+        "structural",
+        "industrial",
+        "key"
+    ],
+    "damage": [
+        "dangerous",
+        "wounded"
+    ],
+    "rice": [
+        "material"
+    ],
+    "cargo": [
+        "material"
+    ],
+    "iron age": [
+        "settlement"
+    ],
+    "fabric cover": [
+        "enclosed",
+        "outerwear"
+    ],
+    "stage": [
+        "public",
+        "ceremonial"
+    ],
+    "rules": [
+        "abstract",
+        "competitive",
+        "event",
+        "social"
+    ],
+    "bone tissue": [
+        "organic",
+        "interior",
+        "anatomical"
+    ],
+    "insulation coating": [
+        "enclosed",
+        "dangerous"
+    ],
+    "pendant": [
+        "framed"
+    ],
+    "lake": [
+        "public",
+        "aquatic",
+        "outdoor",
+        "recreational"
+    ],
+    "curved segment": [
+        "vertical"
+    ],
+    "surround": [
+        "framed"
+    ],
+    "clock mechanism": [
+        "machine",
+        "mechanical"
+    ],
+    "roll": [
+        "flexible",
+        "adhesive",
+        "thin"
+    ],
+    "dawn": [
+        "temporal",
+        "luminescent"
+    ],
+    "daylight": [
+        "temporal",
+        "luminescent"
+    ],
+    "support structure": [
+        "interior",
+        "material",
+        "structural"
+    ],
+    "camera housing": [
+        "structural",
+        "mechanical",
+        "dangerous",
+        "electronic"
+    ],
+    "court": [
+        "judicial",
+        "public"
+    ],
+    "iron tool": [
+        "iron",
+        "metallic"
+    ],
+    "bone": [
+        "interior",
+        "organic",
+        "anatomical"
+    ],
+    "assignment": [
+        "workplace"
+    ],
+    "wrapping paper": [
+        "flexible",
+        "thin"
+    ],
+    "circular band": [
+        "structural",
+        "circular"
+    ],
+    "table leg": [
+        "representational",
+        "framed"
+    ],
+    "strawberry": [
+        "organic",
+        "plant_based",
+        "edible"
+    ],
+    "internal surface": [
+        "interior",
+        "structural",
+        "topological",
+        "flat"
+    ],
+    "residence": [
+        "interior",
+        "architectural"
+    ],
+    "light": [
+        "electromagnetic",
+        "indicator",
+        "visual",
+        "luminescent"
+    ],
+    "reference point": [
+        "temporal"
+    ],
+    "rock fragment": [
+        "loose",
+        "structural",
+        "geological",
+        "stone"
+    ],
+    "write element": [
+        "electromagnetic",
+        "thin",
+        "structural",
+        "mechanical",
+        "record_keeping"
+    ],
+    "aluminum wire": [
+        "electronic"
+    ],
+    "orbit": [
+        "rotational",
+        "structural"
+    ],
+    "archive": [
+        "record_keeping",
+        "conceptual",
+        "temporal",
+        "abstract"
+    ],
+    "control unit": [
+        "sentient"
+    ],
+    "silver-bearing mineral": [
+        "metallic",
+        "material",
+        "geological"
+    ],
+    "timing circuit": [
+        "timekeeping",
+        "temporal",
+        "electronic"
+    ],
+    "second": [
+        "timekeeping",
+        "temporal",
+        "abstract",
+        "duration"
+    ],
+    "heat transfer": [
+        "energy",
+        "hot"
+    ],
+    "castle": [
+        "military",
+        "structural",
+        "medieval",
+        "defensive",
+        "material"
+    ],
+    "mass": [
+        "material",
+        "miniature"
+    ],
+    "curtain": [
+        "enclosed"
+    ],
+    "laughter": [
+        "conceptual",
+        "biological",
+        "temporal",
+        "sentient"
+    ],
+    "ring band": [
+        "structural",
+        "circular"
+    ],
+    "native silver": [
+        "metallic",
+        "material",
+        "geological"
+    ],
+    "chain": [
+        "event",
+        "abstract"
+    ],
+    "treaty": [
+        "judicial",
+        "public"
+    ],
+    "electrical contact": [
+        "directional",
+        "connective"
+    ],
+    "design": [
+        "ceremonial",
+        "visual",
+        "surface_pattern"
+    ],
+    "skull": [
+        "anatomical",
+        "structural",
+        "body_part",
+        "organic",
+        "biological"
+    ],
+    "contact interface": [
+        "connective",
+        "infrared"
+    ],
+    "fusion region": [
+        "stellar",
+        "hot"
+    ],
+    "apartment building": [
+        "structural",
+        "architectural"
+    ],
+    "passage": [
+        "vertical",
+        "smoke_vent",
+        "structural"
+    ],
+    "start time": [
+        "temporal"
+    ],
+    "red": [
+        "infrared"
+    ],
+    "vase": [
+        "material",
+        "ceramic"
+    ],
+    "fiber": [
+        "enclosed"
+    ],
+    "glucose": [
+        "sugar",
+        "organic"
+    ],
+    "afternoon": [
+        "temporal"
+    ],
+    "crate": [
+        "material"
+    ],
+    "kick": [
+        "wounded"
+    ],
+    "covering": [
+        "electronic",
+        "enclosed"
+    ],
+    "owner": [
+        "account_based",
+        "identity"
+    ],
+    "teeth": [
+        "vertical"
+    ],
+    "classroom": [
+        "educational",
+        "structural",
+        "human-made",
+        "interior",
+        "architectural"
+    ],
+    "spiral": [
+        "rotational",
+        "structural",
+        "abstract"
+    ],
+    "smoke detector": [
+        "smoke_vent"
+    ],
+    "positive charge": [
+        "electromagnetic"
+    ],
+    "fort": [
+        "medieval",
+        "structural",
+        "military",
+        "defensive"
+    ],
+    "clock face": [
+        "temporal",
+        "timekeeping"
+    ],
+    "butter": [
+        "edible"
+    ],
+    "alarm clock": [
+        "mechanical",
+        "timekeeping",
+        "artificial"
+    ],
+    "balance": [
+        "financial",
+        "intangible",
+        "account_based",
+        "record_keeping"
+    ],
+    "food": [
+        "organic",
+        "edible"
+    ],
+    "time-setting knob": [
+        "timekeeping",
+        "temporal"
+    ],
+    "exterior layer": [
+        "structural",
+        "enclosed"
+    ],
+    "burn": [
+        "wounded",
+        "dangerous"
+    ],
+    "bend": [
+        "directional",
+        "topological",
+        "abstract"
+    ],
+    "membrane": [
+        "connective"
+    ],
+    "hub": [
+        "timekeeping"
+    ],
+    "limestone": [
+        "structural",
+        "material",
+        "geological",
+        "stone"
+    ],
+    "policy": [
+        "conceptual"
+    ],
+    "oxide layer": [
+        "structural",
+        "electronic"
+    ],
+    "banana": [
+        "organic",
+        "plant_based",
+        "edible",
+        "biological"
+    ],
+    "distant past": [
+        "conceptual",
+        "temporal",
+        "abstract"
+    ],
+    "pile": [
+        "flat"
+    ],
+    "cell wall": [
+        "anatomical",
+        "structural",
+        "body_part",
+        "organic",
+        "biological"
+    ],
+    "plastic": [
+        "material"
+    ],
+    "command bit": [
+        "electronic",
+        "sentient",
+        "account_based",
+        "material",
+        "abstract"
+    ],
+    "buzzer": [
+        "warning",
+        "auditory",
+        "alarm",
+        "electronic"
+    ],
+    "backing": [
+        "flexible",
+        "material",
+        "thin"
+    ],
+    "fill": [
+        "indicator",
+        "visual",
+        "ui_element"
+    ],
+    "pole tip": [
+        "structural",
+        "electromagnetic",
+        "mechanical",
+        "thin"
+    ],
+    "neighborhood": [
+        "structural",
+        "architectural",
+        "regional"
+    ],
+    "respect": [
+        "conceptual",
+        "public",
+        "identity",
+        "social"
+    ],
+    "eye socket": [
+        "anatomical",
+        "structural",
+        "body_part",
+        "organic",
+        "biological"
+    ],
+    "blade": [
+        "plant_based"
+    ],
+    "pole piece": [
+        "structural",
+        "electromagnetic",
+        "mechanical",
+        "thin"
+    ],
+    "root cap": [
+        "subterranean",
+        "organic",
+        "defensive"
+    ],
+    "crystal": [
+        "geological",
+        "stone"
+    ],
+    "yellow marrow": [
+        "power_source",
+        "organic",
+        "energy"
+    ],
+    "integrated circuit": [
+        "computational",
+        "electronic",
+        "human-made"
+    ],
+    "root hair": [
+        "subterranean",
+        "organic"
+    ],
+    "speed": [
+        "conceptual",
+        "temporal",
+        "abstract"
+    ],
+    "inner membrane": [
+        "segmental",
+        "biological",
+        "structural",
+        "enclosed",
+        "organic"
+    ],
+    "dial marking": [
+        "temporal",
+        "timekeeping"
+    ],
+    "siren": [
+        "warning",
+        "electronic",
+        "auditory",
+        "alarm"
+    ],
+    "format": [
+        "conceptual",
+        "informational"
+    ],
+    "storage drive": [
+        "record_keeping",
+        "representational"
+    ],
+    "cooler surface": [
+        "cold"
+    ],
+    "speaker cone": [
+        "auditory",
+        "electronic"
+    ],
+    "central body": [
+        "rotational",
+        "structural",
+        "central",
+        "celestial"
+    ],
+    "bearing surface": [
+        "rotational",
+        "metallic",
+        "mechanical",
+        "structural"
+    ],
+    "cake": [
+        "edible",
+        "organic"
+    ],
+    "middle section": [
+        "central"
+    ],
+    "bottom panel": [
+        "flat"
+    ],
+    "output": [
+        "electronic"
+    ],
+    "helium": [
+        "abstract"
+    ],
+    "seed": [
+        "citrus",
+        "biological",
+        "organic"
+    ],
+    "ink cartridge": [
+        "material",
+        "replaceable",
+        "ink_reservoir"
+    ],
+    "subject": [
+        "visual"
+    ],
+    "instant": [
+        "conceptual",
+        "abstract",
+        "temporal"
+    ],
+    "account number": [
+        "financial",
+        "intangible",
+        "identity"
+    ],
+    "filled section": [
+        "indicator",
+        "visual",
+        "ui_element"
+    ],
+    "infrared radiation": [
+        "infrared",
+        "electromagnetic",
+        "radiative"
+    ],
+    "june": [
+        "temporal"
+    ],
+    "gauge": [
+        "mechanical"
+    ],
+    "tension": [
+        "conceptual"
+    ],
+    "first move": [
+        "event",
+        "naming",
+        "goal"
+    ],
+    "soldier": [
+        "military"
+    ],
+    "group": [
+        "conceptual",
+        "social"
+    ],
+    "shaft": [
+        "timekeeping"
+    ],
+    "loss": [
+        "deprivation",
+        "dangerous"
+    ],
+    "shade": [
+        "visual"
+    ],
+    "end loop": [
+        "appendage",
+        "structural"
+    ],
+    "boots": [
+        "military"
+    ],
+    "logic gate": [
+        "electronic"
+    ],
+    "motor housing": [
+        "mechanical"
+    ],
+    "binding site": [
+        "connective"
+    ],
+    "carved surface": [
+        "surface_pattern"
+    ],
+    "hoop": [
+        "circular",
+        "structural"
+    ],
+    "smoke chamber": [
+        "smoke_vent",
+        "structural"
+    ],
+    "february": [
+        "temporal"
+    ],
+    "traffic light": [
+        "indicator",
+        "visual",
+        "luminescent"
+    ],
+    "file structure": [
+        "conceptual",
+        "informational"
+    ],
+    "writing": [
+        "informational",
+        "textual"
+    ],
+    "panic": [
+        "alarm"
+    ],
+    "anxiety": [
+        "conceptual",
+        "alarm"
+    ],
+    "front": [],
+    "lens mount": [
+        "connective",
+        "mechanical",
+        "structural"
+    ],
+    "material": [
+        "material"
+    ],
+    "recognition": [
+        "epistemic",
+        "conceptual",
+        "informational",
+        "identity"
+    ],
+    "charge": [
+        "electromagnetic"
+    ],
+    "fan blade": [
+        "rotational",
+        "mechanical",
+        "transition",
+        "airflow_functional"
+    ],
+    "molecular absorption": [
+        "particulate",
+        "infrared"
+    ],
+    "throne": [
+        "royal",
+        "ceremonial"
+    ],
+    "link": [
+        "connective"
+    ],
+    "human eye": [
+        "visual"
+    ],
+    "song": [
+        "musical",
+        "structural"
+    ],
+    "iron handle": [
+        "metallic",
+        "iron"
+    ],
+    "hour position": [
+        "timekeeping",
+        "temporal"
+    ],
+    "outer ear": [
+        "anatomical",
+        "organic",
+        "auditory",
+        "biological"
+    ],
+    "warning": [
+        "warning"
+    ],
+    "caption": [
+        "informational",
+        "textual"
+    ],
+    "snow": [
+        "ice",
+        "cold"
+    ],
+    "joint": [
+        "connective",
+        "anatomical",
+        "jointed",
+        "organic"
+    ],
+    "outer edge": [
+        "rim",
+        "enclosed",
+        "structural"
+    ],
+    "jurisdiction": [
+        "judicial",
+        "conceptual",
+        "identity",
+        "workplace"
+    ],
+    "problem": [
+        "abstract"
+    ],
+    "sensor element": [
+        "smoke_vent"
+    ],
+    "molecule": [
+        "organic"
+    ],
+    "last month": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "indicator": [
+        "visual",
+        "ui_element"
+    ],
+    "bell": [
+        "auditory"
+    ],
+    "wheat": [
+        "edible",
+        "milling_input",
+        "material"
+    ],
+    "start": [
+        "temporal"
+    ],
+    "stock": [
+        "firearm_component",
+        "shoulder_braced"
+    ],
+    "account": [
+        "financial",
+        "intangible",
+        "record_keeping",
+        "account_based"
+    ],
+    "infrared light": [
+        "infrared",
+        "electromagnetic",
+        "radiative"
+    ],
+    "airplane": [
+        "mechanical"
+    ],
+    "gap": [
+        "facial_opening",
+        "enclosed"
+    ],
+    "ear": [
+        "body_part",
+        "anatomical",
+        "auditory",
+        "biological"
+    ],
+    "milk fat": [
+        "edible"
+    ],
+    "card slot": [],
+    "positive indicator": [
+        "indicator",
+        "visual"
+    ],
+    "drink": [
+        "edible"
+    ],
+    "iron weapon": [
+        "metallic",
+        "iron"
+    ],
+    "writing tool": [
+        "typographic"
+    ],
+    "effort": [
+        "energy",
+        "material"
+    ],
+    "iris": [
+        "pigmented",
+        "visual"
+    ],
+    "occupied area": [
+        "indicator",
+        "visual",
+        "ui_element"
+    ],
+    "input": [
+        "conceptual",
+        "electronic"
+    ],
+    "charge level": [
+        "indicator",
+        "electronic",
+        "visual",
+        "ui_element"
+    ],
+    "spin": [
+        "rotational"
+    ],
+    "icon outline": [
+        "border_marker"
+    ],
+    "motor hub": [
+        "rotational",
+        "mechanical"
+    ],
+    "command register": [
+        "linguistic"
+    ],
+    "aluminum": [
+        "metallic",
+        "thin"
+    ],
+    "rotation": [
+        "rotational"
+    ],
+    "sunrise": [
+        "abstract",
+        "conceptual",
+        "temporal",
+        "luminescent"
+    ],
+    "bolt icon": [
+        "energy",
+        "electromagnetic",
+        "visual"
+    ],
+    "observation": [
+        "informational",
+        "epistemic",
+        "abstract",
+        "conceptual",
+        "representational"
+    ],
+    "document": [
+        "abstract",
+        "record_keeping"
+    ],
+    "number": [
+        "timekeeping",
+        "temporal"
+    ],
+    "glass element": [
+        "refractive",
+        "transparent"
+    ],
+    "word": [
+        "symbolic",
+        "linguistic",
+        "naming",
+        "abstract"
+    ],
+    "ring": [
+        "circular"
+    ],
+    "stone": [
+        "stone",
+        "material"
+    ],
+    "foam": [
+        "enclosed"
+    ],
+    "cash register": [
+        "financial",
+        "record_keeping"
+    ],
+    "decorative charm": [
+        "material"
+    ],
+    "work": [
+        "textual"
+    ],
+    "crater floor": [
+        "interior",
+        "surface_pattern",
+        "thin"
+    ],
+    "alarm": [
+        "auditory",
+        "warning"
+    ],
+    "copper trace": [
+        "metallic",
+        "electronic"
+    ],
+    "angular momentum": [
+        "rotational"
+    ],
+    "inner wall": [
+        "circular"
+    ],
+    "complaint": [
+        "conceptual",
+        "testimonial"
+    ],
+    "storage cell": [
+        "material"
+    ],
+    "strip": [
+        "regional"
+    ],
+    "authority": [
+        "conceptual"
+    ],
+    "control circuit": [
+        "electronic"
+    ],
+    "hour": [
+        "timekeeping",
+        "temporal"
+    ],
+    "identity card": [
+        "record_keeping",
+        "identity"
+    ],
+    "great hall": [
+        "public",
+        "interior"
+    ],
+    "trajectory": [
+        "directional"
+    ],
+    "wear": [
+        "deprivation"
+    ],
+    "bone tool": [
+        "material"
+    ],
+    "gold": [
+        "metallic",
+        "material",
+        "electronic",
+        "structural"
+    ],
+    "bit value": [
+        "abstract",
+        "electronic"
+    ],
+    "danger": [
+        "dangerous"
+    ],
+    "carrier film": [
+        "flexible",
+        "material",
+        "thin"
+    ],
+    "fact": [
+        "abstract",
+        "conceptual",
+        "informational"
+    ],
+    "contact terminal": [
+        "electronic"
+    ],
+    "connector": [
+        "electronic"
+    ],
+    "neutron": [
+        "electrically_neutral",
+        "material",
+        "nuclear",
+        "subatomic"
+    ],
+    "inner edge": [
+        "enclosed"
+    ],
+    "house": [
+        "architectural",
+        "structural"
+    ],
+    "strap": [],
+    "entry": [
+        "abstract",
+        "informational",
+        "record_keeping"
+    ],
+    "space": [
+        "structural"
+    ],
+    "set prop": [
+        "representational"
+    ],
+    "electric field": [
+        "electromagnetic"
+    ],
+    "frontal bone": [
+        "body_part",
+        "biological",
+        "organic",
+        "anatomical",
+        "structural"
+    ],
+    "january": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "controller chip": [
+        "machine",
+        "electronic"
+    ],
+    "solar spectrum": [
+        "visual",
+        "infrared",
+        "radiative"
+    ],
+    "switch": [
+        "electronic"
+    ],
+    "charm": [],
+    "steam": [
+        "industrial"
+    ],
+    "eye hole": [
+        "facial_opening"
+    ],
+    "citrus": [
+        "organic",
+        "citrus",
+        "biological"
+    ],
+    "control button": [
+        "timekeeping",
+        "mechanical"
+    ],
+    "term": [
+        "linguistic",
+        "informational",
+        "textual",
+        "abstract"
+    ],
+    "stars": [
+        "stellar",
+        "celestial",
+        "luminescent"
+    ],
+    "potential energy": [
+        "abstract",
+        "energy",
+        "intangible",
+        "conceptual"
+    ],
+    "signal icon": [
+        "symbolic",
+        "indicator",
+        "visual",
+        "biological"
+    ],
+    "balloon": [],
+    "grass": [
+        "plant_based"
+    ],
+    "sugar": [
+        "edible",
+        "organic",
+        "sugar"
+    ],
+    "central region": [],
+    "wing": [
+        "mechanical"
+    ],
+    "social pressure": [
+        "social"
+    ],
+    "lighting rig": [
+        "luminescent"
+    ],
+    "nod": [
+        "anatomical",
+        "gesture",
+        "directional"
+    ],
+    "cartridge body": [
+        "ink_reservoir",
+        "enclosed"
+    ],
+    "battery terminal": [
+        "border_marker"
+    ],
+    "music": [
+        "auditory"
+    ],
+    "intention": [
+        "abstract",
+        "conceptual",
+        "intangible",
+        "goal"
+    ],
+    "motion": [
+        "temporal",
+        "transition"
+    ],
+    "current instant": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "distance": [
+        "abstract",
+        "conceptual"
+    ],
+    "top layer": [
+        "dangerous",
+        "topological"
+    ],
+    "street": [
+        "architectural",
+        "structural"
+    ],
+    "case": [
+        "abstract",
+        "conceptual",
+        "informational"
+    ],
+    "notification icon": [
+        "symbolic",
+        "indicator",
+        "alarm",
+        "visual"
+    ],
+    "light fixture": [
+        "luminescent"
+    ],
+    "package": [
+        "enclosed"
+    ],
+    "evening": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "cold zone": [
+        "cold"
+    ],
+    "windshield": [
+        "enclosed"
+    ],
+    "well": [
+        "water_access"
+    ],
+    "opening": [
+        "aperture"
+    ],
+    "fire": [
+        "dangerous"
+    ],
+    "inner area": [
+        "enclosed"
+    ],
+    "duty": [
+        "conceptual"
+    ],
+    "orange light": [
+        "visual"
+    ],
+    "incident": [
+        "event",
+        "temporal"
+    ],
+    "base": [
+        "flat",
+        "surface_pattern"
+    ],
+    "working end": [],
+    "prize": [
+        "goal"
+    ],
+    "neck": [
+        "thin",
+        "structural"
+    ],
+    "point": [
+        "rim"
+    ],
+    "pollen": [
+        "particulate",
+        "powdery",
+        "loose"
+    ],
+    "arc": [
+        "abstract",
+        "topological",
+        "circular"
+    ],
+    "coin": [
+        "financial",
+        "metallic"
+    ],
+    "filled region": [
+        "indicator",
+        "visual",
+        "ui_element"
+    ],
+    "file folder": [
+        "material",
+        "record_keeping"
+    ],
+    "ribbon": [
+        "flexible",
+        "thin"
+    ],
+    "rage": [
+        "conceptual",
+        "dangerous"
+    ],
+    "electric charge": [
+        "energy",
+        "electromagnetic",
+        "electronic"
+    ],
+    "particle": [
+        "material",
+        "subatomic",
+        "miniature"
+    ],
+    "light housing": [
+        "casing",
+        "structural"
+    ],
+    "cool object": [
+        "cold"
+    ],
+    "direction": [
+        "abstract",
+        "conceptual",
+        "directional"
+    ],
+    "punch": [
+        "conceptual",
+        "dangerous"
+    ],
+    "read/write head": [
+        "human-made",
+        "machine",
+        "electronic",
+        "structural"
+    ],
+    "trophy": [],
+    "carrier protein": [
+        "connective"
+    ],
+    "ceramic": [
+        "ceramic"
+    ],
+    "water vapor": [
+        "gaseous"
+    ],
+    "end point": [
+        "temporal"
+    ],
+    "mid infrared": [
+        "infrared",
+        "electromagnetic",
+        "radiative"
+    ],
+    "host rock": [
+        "material",
+        "geological"
+    ],
+    "participants": [
+        "animate"
+    ],
+    "salt": [
+        "material"
+    ],
+    "flint": [
+        "stone"
+    ],
+    "stone tool": [
+        "stone",
+        "cutting"
+    ],
+    "band": [
+        "connective",
+        "circular",
+        "structural"
+    ],
+    "mask": [
+        "wearable",
+        "clothing"
+    ],
+    "sodium": [
+        "material"
+    ],
+    "marker": [
+        "stationary",
+        "informational",
+        "visual",
+        "border_marker"
+    ],
+    "holiday": [
+        "temporal"
+    ],
+    "fringe": [
+        "cutting",
+        "ceremonial"
+    ],
+    "near-infrared light": [
+        "infrared"
+    ],
+    "slice": [
+        "cutting",
+        "organic"
+    ],
+    "value": [
+        "conceptual",
+        "informational"
+    ],
+    "march": [
+        "temporal"
+    ],
+    "opening move": [
+        "event"
+    ],
+    "red light": [
+        "luminescent",
+        "visual",
+        "infrared",
+        "radiative"
+    ],
+    "pupil": [
+        "facial_opening",
+        "visual"
+    ],
+    "end": [
+        "terminal"
+    ],
+    "magnitude": [
+        "rotational"
+    ],
+    "sunlight": [
+        "luminescent"
+    ],
+    "necklace": [
+        "stringlike"
+    ],
+    "clip": [
+        "replaceable"
+    ],
+    "banner": [
+        "material"
+    ],
+    "control bit": [
+        "abstract"
+    ],
+    "instrument panel": [
+        "navigational",
+        "mechanical"
+    ],
+    "performer": [
+        "animate"
+    ],
+    "prehistoric era": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "exit edge": [
+        "circular"
+    ],
+    "name": [
+        "linguistic",
+        "abstract",
+        "naming",
+        "identity"
+    ],
+    "bronze tool": [
+        "bronze",
+        "material"
+    ],
+    "prop": [
+        "representational"
+    ],
+    "indicator icons": [
+        "symbolic",
+        "indicator",
+        "visual"
+    ],
+    "magnetic field": [
+        "electromagnetic",
+        "radiative"
+    ],
+    "servant": [
+        "royal"
+    ],
+    "points": [
+        "goal",
+        "numeric"
+    ],
+    "velocity": [
+        "abstract",
+        "conceptual",
+        "mechanical",
+        "directional"
+    ],
+    "control logic": [
+        "conceptual",
+        "electronic"
+    ],
+    "notification dot": [
+        "symbolic",
+        "indicator",
+        "visual"
+    ],
+    "cap": [
+        "enclosed",
+        "structural"
+    ],
+    "tick mark": [
+        "timekeeping",
+        "temporal"
+    ],
+    "reception desk": [
+        "public",
+        "interior",
+        "human-made",
+        "workplace"
+    ],
+    "proton": [
+        "nuclear",
+        "positive_charge",
+        "subatomic"
+    ],
+    "first moment": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "earth": [
+        "particulate",
+        "celestial",
+        "loose"
+    ],
+    "cast iron": [
+        "metallic",
+        "iron",
+        "structural"
+    ],
+    "plant material": [
+        "plant_based"
+    ],
+    "apple": [
+        "plant_based",
+        "organic",
+        "edible"
+    ],
+    "friday": [
+        "temporal"
+    ],
+    "cement": [
+        "powdery",
+        "adhesive",
+        "material"
+    ],
+    "thickness profile": [
+        "structural"
+    ],
+    "access door": [
+        "mechanical",
+        "structural"
+    ],
+    "crust": [
+        "organic"
+    ],
+    "status indicator": [
+        "connective",
+        "indicator",
+        "visual",
+        "ui_element"
+    ],
+    "answer": [
+        "abstract",
+        "representational",
+        "informational",
+        "linguistic"
+    ],
+    "boundary": [
+        "border_marker",
+        "rim"
+    ],
+    "task": [
+        "conceptual",
+        "goal"
+    ],
+    "far infrared": [
+        "infrared",
+        "electromagnetic",
+        "radiative"
+    ],
+    "metal panel": [],
+    "response": [
+        "abstract",
+        "representational"
+    ],
+    "smile": [
+        "conceptual",
+        "gesture",
+        "biological"
+    ],
+    "water": [
+        "liquid",
+        "material"
+    ],
+    "base plate": [
+        "metallic",
+        "hot"
+    ],
+    "polymer": [
+        "material"
+    ],
+    "flag": [
+        "ceremonial"
+    ],
+    "decorative element": [
+        "visual"
+    ],
+    "state change": [
+        "abstract",
+        "transition"
+    ],
+    "tin": [
+        "metallic",
+        "material"
+    ],
+    "orange": [
+        "plant_based",
+        "organic",
+        "edible",
+        "citrus"
+    ],
+    "hot side": [
+        "hot"
+    ],
+    "pressure": [
+        "mental_strain"
+    ],
+    "narrow strip": [
+        "transition"
+    ],
+    "kinetic energy": [
+        "energy",
+        "abstract",
+        "conceptual",
+        "mechanical",
+        "intangible"
+    ],
+    "fat": [
+        "edible",
+        "anatomical",
+        "organic"
+    ],
+    "cloth": [
+        "material"
+    ],
+    "core shell": [
+        "enclosed",
+        "structural"
+    ],
+    "regard": [
+        "conceptual",
+        "social"
+    ],
+    "hour hand": [
+        "timekeeping",
+        "temporal"
+    ],
+    "market": [
+        "financial",
+        "workplace",
+        "human-made",
+        "social"
+    ],
+    "capital city": [
+        "architectural",
+        "human-made",
+        "social"
+    ],
+    "battery outline": [
+        "border_marker"
+    ],
+    "eggs": [
+        "edible",
+        "organic"
+    ],
+    "solar flare": [
+        "stellar",
+        "celestial",
+        "energy",
+        "hot"
+    ],
+    "fabric": [
+        "material"
+    ],
+    "boulder": [
+        "stone",
+        "geological",
+        "loose"
+    ],
+    "speaker spider": [
+        "framed"
+    ],
+    "soil": [
+        "particulate",
+        "loose",
+        "granular"
+    ],
+    "definition": [
+        "informational",
+        "abstract",
+        "linguistic",
+        "representational",
+        "textual"
+    ],
+    "issue": [
+        "abstract",
+        "conceptual",
+        "informational"
+    ],
+    "start point": [
+        "temporal"
+    ],
+    "pottery": [
+        "ceramic"
+    ],
+    "staircase": [
+        "interior",
+        "enclosed"
+    ],
+    "temporal bone": [
+        "body_part",
+        "biological",
+        "organic",
+        "anatomical",
+        "structural"
+    ],
+    "starting signal": [
+        "abstract",
+        "competitive",
+        "temporal"
+    ],
+    "plan": [
+        "conceptual",
+        "goal"
+    ],
+    "ear canal": [
+        "body_part",
+        "biological",
+        "auditory",
+        "organic",
+        "anatomical"
+    ],
+    "pleasure": [
+        "conceptual"
+    ],
+    "keyboard": [
+        "structural",
+        "electronic",
+        "human-made"
+    ],
+    "tooth": [
+        "human-made",
+        "structural"
+    ],
+    "magnetic core": [
+        "electromagnetic"
+    ],
+    "housing": [
+        "defensive"
+    ],
+    "course": [
+        "navigational",
+        "directional"
+    ],
+    "august": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "conflict": [
+        "abstract"
+    ],
+    "read element": [
+        "electromagnetic"
+    ],
+    "teacher": [
+        "educational"
+    ],
+    "lace front": [
+        "material",
+        "lace",
+        "structural"
+    ],
+    "awareness": [
+        "public",
+        "epistemic"
+    ],
+    "gear": [
+        "mechanical"
+    ],
+    "blade surface": [
+        "mechanical",
+        "airflow_functional"
+    ],
+    "milk protein": [
+        "edible"
+    ],
+    "electric force": [
+        "energy",
+        "electromagnetic"
+    ],
+    "light ray": [
+        "radiative"
+    ],
+    "motor": [
+        "rotational",
+        "mechanical"
+    ],
+    "adjacent territory": [
+        "directional"
+    ],
+    "metal": [
+        "material",
+        "structural"
+    ],
+    "name tag": [
+        "record_keeping",
+        "identity"
+    ],
+    "sack": [
+        "material"
+    ],
+    "metal body": [
+        "metallic",
+        "structural"
+    ],
+    "uniform": [
+        "wearable",
+        "military",
+        "clothing"
+    ],
+    "shelf": [
+        "material"
+    ],
+    "magnetic material": [
+        "metallic",
+        "iron",
+        "electromagnetic"
+    ],
+    "register": [
+        "representational",
+        "machine",
+        "electronic",
+        "structural"
+    ],
+    "desk": [
+        "human-made",
+        "workplace"
+    ],
+    "inner material": [
+        "material",
+        "enclosed"
+    ],
+    "gift card": [
+        "flat",
+        "material",
+        "thin"
+    ],
+    "information": [
+        "abstract",
+        "conceptual",
+        "informational",
+        "intangible"
+    ],
+    "medal": [
+        "metallic",
+        "ceremonial"
+    ],
+    "crest": [
+        "abstract",
+        "conceptual",
+        "electromagnetic"
+    ],
+    "cause": [
+        "abstract",
+        "conceptual",
+        "intangible"
+    ],
+    "dust cap": [
+        "structural",
+        "thin"
+    ],
+    "electronics": [
+        "material",
+        "electronic"
+    ],
+    "logic": [
+        "electronic"
+    ],
+    "sensor": [
+        "warning"
+    ],
+    "keep": [
+        "defensive",
+        "medieval",
+        "military",
+        "structural"
+    ],
+    "graphic mark": [
+        "symbolic",
+        "indicator",
+        "visual"
+    ],
+    "hour mark": [
+        "timekeeping",
+        "temporal"
+    ],
+    "finger-contacting area": [
+        "connective",
+        "interior",
+        "material"
+    ],
+    "challenge": [
+        "abstract",
+        "mental_strain"
+    ],
+    "blue": [
+        "spectral_region",
+        "pigmented",
+        "visible_light"
+    ],
+    "lens": [
+        "refractive",
+        "visual",
+        "transparent"
+    ],
+    "crop field": [
+        "plant_based"
+    ],
+    "lowest temperatures": [
+        "cold"
+    ],
+    "thermal emission": [
+        "energy",
+        "infrared",
+        "electromagnetic",
+        "radiative"
+    ],
+    "thermal energy": [
+        "energy",
+        "mechanical",
+        "intangible"
+    ],
+    "fan housing": [
+        "mechanical",
+        "structural"
+    ],
+    "terminal block": [
+        "electronic",
+        "enclosed"
+    ],
+    "responsibility": [
+        "conceptual"
+    ],
+    "keys": [
+        "key"
+    ],
+    "sediment": [
+        "geological",
+        "loose"
+    ],
+    "suspension chain": [
+        "human-made",
+        "structural"
+    ],
+    "accident": [
+        "event",
+        "dangerous",
+        "temporal",
+        "empty"
+    ],
+    "identification": [
+        "informational",
+        "identity",
+        "epistemic",
+        "conceptual",
+        "abstract"
+    ],
+    "shock": [
+        "conceptual"
+    ],
+    "frost": [
+        "ice",
+        "cold"
+    ],
+    "icon": [
+        "symbolic",
+        "visual"
+    ],
+    "hut": [
+        "architectural",
+        "structural"
+    ],
+    "length": [
+        "material",
+        "structural"
+    ],
+    "book": [
+        "linguistic",
+        "textual"
+    ],
+    "crown": [
+        "human-made",
+        "structural",
+        "mounting"
+    ],
+    "sky": [
+        "celestial"
+    ],
+    "conductor": [
+        "electromagnetic"
+    ],
+    "copper wire": [
+        "electromagnetic",
+        "material",
+        "structural"
+    ],
+    "given name": [
+        "naming",
+        "identity",
+        "social",
+        "abstract",
+        "linguistic"
+    ],
+    "far-infrared light": [
+        "infrared",
+        "electromagnetic",
+        "radiative"
+    ],
+    "action": [
+        "event"
+    ],
+    "weapon": [
+        "representational"
+    ],
+    "heated metal": [
+        "metallic",
+        "hot"
+    ],
+    "july": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "fingers": [
+        "anatomical"
+    ],
+    "rifle": [
+        "firearm_component",
+        "shoulder_braced",
+        "military"
+    ],
+    "december": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "lace": [
+        "material",
+        "structural",
+        "lace"
+    ],
+    "primary root": [
+        "anatomical",
+        "subterranean",
+        "organic"
+    ],
+    "orientation": [
+        "directional"
+    ],
+    "rod": [
+        "material"
+    ],
+    "silver crystal": [
+        "metallic",
+        "material",
+        "geological"
+    ],
+    "goods": [
+        "financial"
+    ],
+    "wavelength": [
+        "electromagnetic",
+        "radiative"
+    ],
+    "finger bone": [
+        "connective",
+        "anatomical",
+        "jointed",
+        "organic"
+    ],
+    "power struggle": [
+        "abstract"
+    ],
+    "red marrow": [
+        "anatomical",
+        "organic"
+    ],
+    "strand": [
+        "material"
+    ],
+    "control": [
+        "abstract",
+        "conceptual",
+        "intangible",
+        "intentional"
+    ],
+    "ink": [
+        "artificial",
+        "liquid",
+        "pigmented",
+        "material"
+    ],
+    "rotor": [
+        "rotational",
+        "mechanical"
+    ],
+    "output driver": [
+        "electronic"
+    ],
+    "visible side": [],
+    "customer area": [
+        "public"
+    ],
+    "speaker surround": [
+        "structural"
+    ],
+    "indicator mark": [
+        "indicator",
+        "visual"
+    ],
+    "bottle": [
+        "fragile",
+        "transparent"
+    ],
+    "detector": [
+        "warning"
+    ],
+    "ancient history": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "front section": [
+        "topological",
+        "lace",
+        "structural"
+    ],
+    "bronze weapon": [
+        "metallic",
+        "military",
+        "bronze"
+    ],
+    "battery icon": [
+        "symbolic",
+        "indicator",
+        "visual"
+    ],
+    "jewelry": [
+        "material"
+    ],
+    "near infrared": [
+        "infrared",
+        "electromagnetic"
+    ],
+    "power supply": [
+        "power_source",
+        "machine",
+        "electronic"
+    ],
+    "filled area": [
+        "indicator",
+        "visual",
+        "ui_element"
+    ],
+    "customer": [
+        "social"
+    ],
+    "central peak": [
+        "stone",
+        "geological",
+        "structural"
+    ],
+    "student": [
+        "educational"
+    ],
+    "november": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "grain": [
+        "material"
+    ],
+    "hook": [
+        "appendage",
+        "structural"
+    ],
+    "impact crater": [
+        "surface_pattern",
+        "geological",
+        "structural"
+    ],
+    "paragraph": [
+        "informational",
+        "textual"
+    ],
+    "fossil fragment": [
+        "stone"
+    ],
+    "tree": [
+        "plant_based",
+        "wooden"
+    ],
+    "magnet": [
+        "electromagnetic"
+    ],
+    "inscription": [
+        "symbolic",
+        "surface_pattern",
+        "typographic",
+        "linguistic",
+        "textual"
+    ],
+    "plug icon": [
+        "power_source",
+        "electromagnetic",
+        "visual"
+    ],
+    "cool region": [
+        "cold"
+    ],
+    "table": [
+        "public"
+    ],
+    "doubt": [
+        "conceptual"
+    ],
+    "bow": [
+        "flexible",
+        "stringlike",
+        "thin"
+    ],
+    "magnetic head": [
+        "electromagnetic",
+        "structural",
+        "record_keeping"
+    ],
+    "plated hole": [
+        "electronic",
+        "circular",
+        "structural"
+    ],
+    "shaft hole": [],
+    "force": [
+        "dangerous",
+        "energy",
+        "power_source"
+    ],
+    "surprise": [
+        "conceptual",
+        "emotional"
+    ],
+    "egg white": [
+        "edible",
+        "organic",
+        "enclosed",
+        "biological"
+    ],
+    "moon": [
+        "celestial",
+        "luminescent"
+    ],
+    "outer coating": [
+        "sentient",
+        "enclosed"
+    ],
+    "initiative": [
+        "event",
+        "intentional"
+    ],
+    "address": [],
+    "camera lens": [
+        "refractive",
+        "visual",
+        "transparent"
+    ],
+    "boiling water": [
+        "liquid",
+        "dangerous",
+        "gaseous",
+        "hot"
+    ],
+    "pencil": [
+        "linguistic",
+        "representational"
+    ],
+    "post": [
+        "vertical",
+        "human-made",
+        "structural"
+    ],
+    "contact": [
+        "electronic"
+    ],
+    "physical trace": [
+        "indicator",
+        "material"
+    ],
+    "venue": [
+        "informational"
+    ],
+    "carbon": [
+        "structural"
+    ],
+    "mineral grain": [
+        "stone",
+        "material",
+        "geological"
+    ],
+    "plank": [
+        "wooden"
+    ],
+    "power symbol": [
+        "indicator",
+        "electronic",
+        "visual"
+    ],
+    "minute hand": [
+        "timekeeping",
+        "temporal"
+    ],
+    "city wall": [
+        "defensive",
+        "human-made",
+        "structural"
+    ],
+    "district": [
+        "regional",
+        "architectural"
+    ],
+    "screen symbol": [
+        "symbolic",
+        "indicator",
+        "visual"
+    ],
+    "branch": [
+        "plant_based",
+        "wooden"
+    ],
+    "attraction": [
+        "abstract",
+        "conceptual",
+        "intangible"
+    ],
+    "alignment": [
+        "abstract",
+        "conceptual",
+        "directional"
+    ],
+    "load": [
+        "mental_strain",
+        "mechanical"
+    ],
+    "building entrance": [
+        "defensive",
+        "human-made",
+        "structural"
+    ],
+    "board substrate": [
+        "structural"
+    ],
+    "racing heart": [
+        "accelerated",
+        "alarm",
+        "biological"
+    ],
+    "charging symbol": [
+        "symbolic",
+        "indicator",
+        "visual"
+    ],
+    "metal ring": [
+        "connective",
+        "metallic",
+        "circular"
+    ],
+    "initial action": [
+        "event",
+        "intentional"
+    ],
+    "visible spectrum": [
+        "radiative",
+        "electromagnetic",
+        "visual"
+    ],
+    "cable": [
+        "connective",
+        "electromagnetic"
+    ],
+    "land": [
+        "regional"
+    ],
+    "iron": [
+        "metallic",
+        "industrial",
+        "material",
+        "structural"
+    ],
+    "gravity": [
+        "abstract",
+        "conceptual",
+        "intangible",
+        "directional"
+    ],
+    "hands": [
+        "timekeeping",
+        "temporal"
+    ],
+    "ice": [
+        "ice",
+        "cold"
+    ],
+    "green light": [
+        "visual",
+        "radiative"
+    ],
+    "fight": [
+        "abstract",
+        "conceptual"
+    ],
+    "juice sac": [
+        "liquid",
+        "organic",
+        "citrus",
+        "biological"
+    ],
+    "alarm icon": [
+        "symbolic",
+        "timekeeping",
+        "alarm",
+        "indicator",
+        "artificial"
+    ],
+    "inner boundary": [
+        "circular",
+        "enclosed"
+    ],
+    "standing": [
+        "indicator",
+        "abstract",
+        "conceptual",
+        "social"
+    ],
+    "line": [
+        "topological",
+        "surface_pattern"
+    ],
+    "blades": [
+        "rotational",
+        "mechanical",
+        "airflow_functional"
+    ],
+    "storage room": [
+        "interior",
+        "material",
+        "enclosed"
+    ],
+    "costume": [
+        "wearable",
+        "clothing"
+    ],
+    "circuit board": [
+        "mechanical",
+        "electronic",
+        "structural"
+    ],
+    "lock": [
+        "enclosed"
+    ],
+    "ceramic body": [
+        "ceramic",
+        "material",
+        "enclosed"
+    ],
+    "bread": [
+        "organic",
+        "edible"
+    ],
+    "text label": [
+        "informational",
+        "textual",
+        "naming"
+    ],
+    "south pole": [
+        "polar",
+        "electromagnetic",
+        "directional"
+    ],
+    "cup": [
+        "material"
+    ],
+    "screen": [
+        "representational",
+        "visual"
+    ],
+    "hour marker": [
+        "timekeeping"
+    ],
+    "influence": [
+        "social",
+        "abstract",
+        "conceptual",
+        "intentional",
+        "intangible"
+    ],
+    "magnetic wave": [
+        "electromagnetic",
+        "radiative"
+    ],
+    "interior area": [
+        "central"
+    ],
+    "insert": [
+        "printed",
+        "informational",
+        "visual"
+    ],
+    "plate": [
+        "ceramic",
+        "tableware"
+    ],
+    "cord": [
+        "stringlike"
+    ],
+    "chimney pot": [
+        "human-made",
+        "ceramic",
+        "material",
+        "mounting",
+        "structural"
+    ],
+    "heart": [
+        "body_part",
+        "biological",
+        "organic",
+        "power_source",
+        "anatomical"
+    ],
+    "citrus flesh": [
+        "biological",
+        "citrus",
+        "organic",
+        "enclosed",
+        "structural"
+    ],
+    "room": [
+        "interior",
+        "enclosed"
+    ],
+    "written records": [
+        "textual",
+        "record_keeping"
+    ],
+    "leaf impression": [
+        "plant_based",
+        "indicator",
+        "material"
+    ],
+    "optical glass": [
+        "refractive",
+        "transparent"
+    ],
+    "carpet": [
+        "floor_covering"
+    ],
+    "charge carrier": [
+        "electromagnetic"
+    ],
+    "bracelet": [
+        "circular"
+    ],
+    "panic response": [
+        "conceptual",
+        "alarm",
+        "biological"
+    ],
+    "command interface": [
+        "computational",
+        "electronic"
+    ],
+    "april": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "can": [
+        "metallic",
+        "material",
+        "structural"
+    ],
+    "unexpected event": [
+        "event",
+        "temporal"
+    ],
+    "lever": [
+        "mechanical"
+    ],
+    "support": [
+        "material",
+        "human-made",
+        "structural"
+    ],
+    "support arm": [
+        "structural"
+    ],
+    "identification number": [
+        "intangible",
+        "identity",
+        "record_keeping"
+    ],
+    "law": [
+        "judicial",
+        "conceptual"
+    ],
+    "border area": [
+        "regional"
+    ],
+    "infrared wave": [
+        "infrared",
+        "electromagnetic",
+        "radiative"
+    ],
+    "wooden body": [
+        "material",
+        "enclosed",
+        "wooden"
+    ],
+    "crater": [
+        "geological",
+        "structural"
+    ],
+    "grape": [
+        "plant_based",
+        "organic",
+        "edible",
+        "biological"
+    ],
+    "muscle fiber": [],
+    "display screen": [
+        "artificial",
+        "timekeeping"
+    ],
+    "board": [
+        "flat",
+        "structural"
+    ],
+    "deadline": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "emblem": [
+        "symbolic",
+        "visual"
+    ],
+    "knot": [
+        "stringlike"
+    ],
+    "stone wall": [
+        "defensive",
+        "material",
+        "structural",
+        "architectural"
+    ],
+    "pen": [
+        "artificial",
+        "ink_reservoir",
+        "pigmented"
+    ],
+    "stone age": [
+        "stone"
+    ],
+    "side": [
+        "topological",
+        "border_marker"
+    ],
+    "kernel": [
+        "plant_based",
+        "biological",
+        "milling_input",
+        "organic",
+        "edible"
+    ],
+    "shadows": [
+        "abstract"
+    ],
+    "concern": [
+        "conceptual",
+        "emotional",
+        "warning"
+    ],
+    "display table": [
+        "industrial"
+    ],
+    "electron": [
+        "material",
+        "subatomic"
+    ],
+    "charged particle": [
+        "energy",
+        "electromagnetic",
+        "electronic"
+    ],
+    "time digits": [
+        "artificial",
+        "timekeeping",
+        "temporal"
+    ],
+    "logic board": [
+        "human-made",
+        "electronic",
+        "structural"
+    ],
+    "score": [
+        "competitive",
+        "goal",
+        "numeric"
+    ],
+    "decorations": [
+        "ceremonial"
+    ],
+    "iron grip": [
+        "metallic",
+        "iron"
+    ],
+    "orange flesh": [
+        "plant_based",
+        "biological",
+        "citrus",
+        "edible",
+        "organic"
+    ],
+    "paper notice": [
+        "informational",
+        "textual"
+    ],
+    "horizon": [
+        "abstract",
+        "celestial",
+        "conceptual"
+    ],
+    "fame": [
+        "public",
+        "epistemic",
+        "conceptual",
+        "social"
+    ],
+    "output terminal": [
+        "connective",
+        "electronic"
+    ],
+    "headline": [
+        "informational",
+        "textual"
+    ],
+    "terminal": [
+        "indicator",
+        "border_marker"
+    ],
+    "product": [
+        "financial",
+        "material",
+        "human-made"
+    ],
+    "iron head": [
+        "metallic",
+        "iron",
+        "sharp",
+        "cutting"
+    ],
+    "fruit flesh": [
+        "plant_based",
+        "organic",
+        "edible",
+        "biological"
+    ],
+    "guard": [
+        "defensive",
+        "surveillance"
+    ],
+    "rope": [
+        "human-made",
+        "structural"
+    ],
+    "rim": [
+        "appendage"
+    ],
+    "service opening": [
+        "interior",
+        "human-made",
+        "workplace"
+    ],
+    "cockpit": [
+        "enclosed"
+    ],
+    "cream": [
+        "edible",
+        "organic"
+    ],
+    "control signal": [
+        "indicator"
+    ],
+    "circuit": [
+        "connective",
+        "electronic"
+    ],
+    "count indicator": [
+        "symbolic",
+        "indicator",
+        "artificial",
+        "visual"
+    ],
+    "weave": [
+        "abstract",
+        "structural"
+    ],
+    "control field": [
+        "abstract",
+        "informational",
+        "electronic"
+    ],
+    "surface rock": [
+        "stone",
+        "geological",
+        "structural"
+    ],
+    "channel protein": [
+        "connective"
+    ],
+    "cash": [
+        "financial"
+    ],
+    "entry edge": [
+        "structural"
+    ],
+    "satisfaction": [
+        "sentient",
+        "conceptual"
+    ],
+    "bottle neck": [
+        "structural",
+        "thin"
+    ],
+    "opening ceremony": [
+        "event",
+        "ceremonial"
+    ],
+    "zone": [
+        "regional",
+        "transition"
+    ],
+    "forehead": [
+        "body_part",
+        "biological",
+        "organic",
+        "anatomical",
+        "structural"
+    ],
+    "nose": [
+        "anatomical",
+        "body_part",
+        "organic",
+        "biological"
+    ],
+    "peak": [
+        "abstract",
+        "conceptual"
+    ],
+    "boot": [
+        "defensive",
+        "organic"
+    ],
+    "signal contact": [
+        "connective",
+        "electronic"
+    ],
+    "clock signal": [
+        "timekeeping",
+        "temporal",
+        "electronic"
+    ],
+    "detection surface": [
+        "interior",
+        "surface_pattern"
+    ],
+    "city": [
+        "regional"
+    ],
+    "clock hand": [
+        "timekeeping",
+        "temporal"
+    ],
+    "connector pin": [
+        "connective"
+    ],
+    "stage prop": [
+        "representational"
+    ],
+    "street sign": [
+        "symbolic",
+        "stationary",
+        "informational",
+        "visual"
+    ],
+    "apartment": [
+        "interior",
+        "architectural",
+        "enclosed"
+    ],
+    "ion": [
+        "electromagnetic",
+        "electronic"
+    ],
+    "gift": [
+        "ceremonial"
+    ],
+    "regulation": [
+        "abstract",
+        "conceptual",
+        "intangible",
+        "intentional"
+    ],
+    "notice board": [
+        "public",
+        "informational",
+        "textual"
+    ],
+    "former": [
+        "human-made",
+        "structural"
+    ],
+    "green": [
+        "visual",
+        "electromagnetic",
+        "radiative"
+    ],
+    "yellow": [
+        "radiative",
+        "electromagnetic",
+        "visual"
+    ],
+    "first step": [
+        "event"
+    ],
+    "cape": [
+        "wearable",
+        "clothing"
+    ],
+    "voice coil": [
+        "electromagnetic",
+        "electronic"
+    ],
+    "gift wrap": [
+        "thin"
+    ],
+    "hydrogen atom": [
+        "nuclear",
+        "material",
+        "subatomic"
+    ],
+    "hydrogen nucleus": [
+        "nuclear",
+        "material",
+        "positive_charge",
+        "subatomic"
+    ],
+    "yellow light": [
+        "luminescent",
+        "radiative",
+        "electromagnetic",
+        "visual"
+    ],
+    "silver ore": [
+        "stone",
+        "metallic",
+        "geological"
+    ],
+    "announcement": [
+        "event",
+        "informational",
+        "textual"
+    ],
+    "temperature difference": [
+        "energy"
+    ],
+    "mineral": [
+        "particulate",
+        "material",
+        "geological"
+    ],
+    "bark": [
+        "plant_based",
+        "wooden"
+    ],
+    "seat belt": [
+        "thin"
+    ],
+    "yesterday": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "cooling fan": [
+        "rotational",
+        "mechanical"
+    ],
+    "flour": [
+        "edible",
+        "organic"
+    ],
+    "iron ore": [
+        "stone",
+        "ore_vein",
+        "material",
+        "geological",
+        "iron"
+    ],
+    "heat radiation": [
+        "energy",
+        "infrared",
+        "electromagnetic",
+        "radiative"
+    ],
+    "green wavelength": [
+        "visual",
+        "electromagnetic",
+        "radiative"
+    ],
+    "scene": [
+        "representational",
+        "informational",
+        "visual"
+    ],
+    "fear": [
+        "emotional",
+        "alarm",
+        "warning"
+    ],
+    "blue light": [
+        "visible_light",
+        "electromagnetic",
+        "radiative",
+        "spectral_region",
+        "visual"
+    ],
+    "butt": [
+        "firearm_component",
+        "shoulder_braced",
+        "human-made",
+        "structural"
+    ],
+    "boundary zone": [
+        "transition"
+    ],
+    "heat sink": [
+        "material"
+    ],
+    "palace": [
+        "royal",
+        "social",
+        "ceremonial",
+        "architectural",
+        "workplace"
+    ],
+    "worry": [
+        "conceptual",
+        "emotional",
+        "warning"
+    ],
+    "radius": [
+        "abstract",
+        "topological",
+        "circular"
+    ],
+    "clock tick": [
+        "timekeeping",
+        "temporal"
+    ],
+    "thought": [
+        "abstract",
+        "conceptual",
+        "informational",
+        "intangible"
+    ],
+    "flap": [
+        "mechanical",
+        "structural"
+    ],
+    "spring": [
+        "mechanical"
+    ],
+    "lamp": [
+        "visual",
+        "luminescent"
+    ],
+    "blade arm": [
+        "mechanical",
+        "mounting",
+        "structural"
+    ],
+    "ceiling": [
+        "interior",
+        "structural"
+    ],
+    "written statement": [
+        "informational",
+        "abstract",
+        "testimonial",
+        "account_based",
+        "linguistic"
+    ],
+    "strain": [
+        "mental_strain",
+        "emotional",
+        "conceptual"
+    ],
+    "charging bolt": [
+        "energy",
+        "ui_element",
+        "electromagnetic",
+        "indicator",
+        "visual"
+    ],
+    "badge": [
+        "symbolic",
+        "indicator",
+        "alarm",
+        "visual"
+    ],
+    "loaf": [
+        "organic",
+        "edible"
+    ],
+    "card reader": [
+        "financial"
+    ],
+    "wifi icon": [
+        "symbolic",
+        "indicator",
+        "visual"
+    ],
+    "mind": [
+        "informational",
+        "abstract",
+        "conceptual",
+        "sentient",
+        "intangible"
+    ],
+    "barrel": [
+        "material"
+    ],
+    "nitrogen": [
+        "gaseous"
+    ],
+    "shell": [
+        "defensive",
+        "structural"
+    ],
+    "motor seat": [
+        "interior",
+        "mechanical",
+        "structural",
+        "mounting"
+    ],
+    "microphone": [
+        "auditory",
+        "electronic"
+    ],
+    "vascular tissue": [
+        "anatomical",
+        "organic"
+    ],
+    "radio": [
+        "connective",
+        "electronic",
+        "human-made"
+    ],
+    "bronze age": [
+        "metallic",
+        "bronze",
+        "prehistoric",
+        "temporal",
+        "military"
+    ],
+    "move": [
+        "event",
+        "conceptual"
+    ],
+    "release coating": [
+        "material"
+    ],
+    "second hand": [
+        "timekeeping",
+        "temporal"
+    ],
+    "oxygen atom": [
+        "material"
+    ],
+    "time limit": [
+        "duration",
+        "temporal"
+    ],
+    "hand raise": [
+        "gesture"
+    ],
+    "sense": [
+        "informational",
+        "abstract",
+        "conceptual",
+        "linguistic",
+        "representational"
+    ],
+    "calendar": [
+        "temporal"
+    ],
+    "burden": [
+        "abstract",
+        "mental_strain",
+        "intangible",
+        "conceptual"
+    ],
+    "chimney breast": [
+        "structural",
+        "architectural",
+        "human-made",
+        "mounting"
+    ],
+    "hand": [
+        "body_part",
+        "anatomical",
+        "muscular"
+    ],
+    "tower": [
+        "defensive",
+        "medieval",
+        "military",
+        "architectural",
+        "structural"
+    ],
+    "cardboard": [
+        "material"
+    ],
+    "wiring": [
+        "connective",
+        "electronic"
+    ],
+    "pulp": [
+        "plant_based",
+        "biological",
+        "citrus",
+        "organic",
+        "edible"
+    ],
+    "reason": [
+        "abstract",
+        "conceptual",
+        "informational",
+        "intangible"
+    ],
+    "army": [
+        "defensive",
+        "military",
+        "social"
+    ],
+    "starting gesture": [
+        "event",
+        "gesture",
+        "intentional"
+    ],
+    "face opening": [
+        "facial_opening",
+        "structural"
+    ],
+    "road": [
+        "stationary",
+        "navigational",
+        "directional",
+        "structural"
+    ],
+    "root": [
+        "plant_based",
+        "subterranean",
+        "organic"
+    ],
+    "filing cabinet": [
+        "record_keeping"
+    ],
+    "position": [
+        "conceptual",
+        "temporal",
+        "directional"
+    ],
+    "wood": [
+        "plant_based",
+        "fibrous",
+        "wooden"
+    ],
+    "risk": [
+        "dangerous",
+        "warning"
+    ],
+    "outer surface": [],
+    "interior region": [
+        "central"
+    ],
+    "envelope": [
+        "material"
+    ],
+    "pointer": [
+        "indicator",
+        "mechanical",
+        "visual"
+    ],
+    "fix": [
+        "abstract",
+        "corrective"
+    ],
+    "silver": [
+        "metallic",
+        "material",
+        "electronic"
+    ],
+    "crop": [
+        "plant_based"
+    ],
+    "ceiling fan": [
+        "rotational",
+        "mechanical",
+        "airflow_functional"
+    ],
+    "face": [
+        "body_part",
+        "anatomical",
+        "visual",
+        "biological"
+    ],
+    "tablet": [
+        "stone",
+        "flat",
+        "textual",
+        "ceramic"
+    ],
+    "seller": [
+        "financial",
+        "social"
+    ],
+    "corona": [
+        "stellar",
+        "energy",
+        "luminescent",
+        "celestial",
+        "hot"
+    ],
+    "first name": [
+        "naming",
+        "identity",
+        "social",
+        "abstract",
+        "linguistic"
+    ],
+    "bud": [
+        "plant_based"
+    ],
+    "focus": [
+        "abstract",
+        "mental_strain",
+        "conceptual",
+        "intentional"
+    ],
+    "territory": [
+        "social"
+    ],
+    "center": [
+        "central"
+    ],
+    "bucket": [
+        "water_access",
+        "human-made"
+    ],
+    "diamond": [
+        "stone",
+        "material",
+        "geological"
+    ],
+    "payment terminal": [
+        "financial",
+        "account_based"
+    ],
+    "iron-bearing mineral": [
+        "iron",
+        "material",
+        "geological"
+    ],
+    "action command": [
+        "abstract",
+        "representational",
+        "event"
+    ],
+    "mid-infrared light": [
+        "infrared",
+        "electromagnetic",
+        "radiative"
+    ],
+    "hot object": [
+        "hot"
+    ],
+    "lateral root": [
+        "anatomical",
+        "subterranean",
+        "organic"
+    ],
+    "sign face": [
+        "informational",
+        "visual",
+        "structural"
+    ],
+    "management representative": [
+        "workplace"
+    ],
+    "assessment": [
+        "educational",
+        "indicator"
+    ],
+    "opening statement": [
+        "campaign",
+        "material",
+        "representational",
+        "press_conference",
+        "linguistic"
+    ],
+    "decision authority": [
+        "conceptual",
+        "identity"
+    ],
+    "official communication": [
+        "electronic",
+        "public",
+        "decision_notice",
+        "printed",
+        "sentient"
+    ],
+    "response time": [
+        "latency",
+        "duration",
+        "response_measurement",
+        "temporal"
+    ],
+    "key": [
+        "conceptual",
+        "informational"
+    ],
+    "purpose": [
+        "abstract",
+        "intentional",
+        "goal"
+    ],
+    "wheel": [
+        "rotational",
+        "structural",
+        "circular"
+    ],
+    "problem description": [],
+    "upper arm": [
+        "organic",
+        "structural",
+        "biological",
+        "anatomical",
+        "body_part"
+    ],
+    "waiting time": [
+        "latency",
+        "duration",
+        "temporal"
+    ],
+    "closing question": [
+        "finish_line",
+        "interview",
+        "conceptual"
+    ],
+    "housing estate": [
+        "planned_development",
+        "social",
+        "multi_building",
+        "architectural",
+        "sentient"
+    ],
+    "benefit amount": [
+        "financial"
+    ],
+    "police service": [
+        "warning",
+        "defensive",
+        "public",
+        "law_enforcement"
+    ],
+    "digital video": [
+        "multimedia",
+        "electronic",
+        "auditory",
+        "printed"
+    ],
+    "loan service": [
+        "financial"
+    ],
+    "color": [
+        "visible_light",
+        "visual"
+    ],
+    "word form": [
+        "textual",
+        "linguistic"
+    ],
+    "human error": [
+        "error",
+        "human-made",
+        "empty"
+    ],
+    "recorded value": [
+        "record_keeping",
+        "conceptual",
+        "informational"
+    ],
+    "command authority": [
+        "conceptual",
+        "military"
+    ],
+    "communication direction": [
+        "structural",
+        "directional",
+        "educational",
+        "informational"
+    ],
+    "cash payment": [
+        "transition",
+        "financial"
+    ],
+    "organization description": [
+        "workplace",
+        "textual",
+        "printed"
+    ],
+    "legal system": [
+        "structural",
+        "judicial",
+        "human-made"
+    ],
+    "natural person": [
+        "judicial",
+        "human-made",
+        "identity"
+    ],
+    "opposition leader": [],
+    "quote": [
+        "textual",
+        "linguistic",
+        "testimonial"
+    ],
+    "personality": [
+        "abstract",
+        "intangible",
+        "emotional"
+    ],
+    "health insurance": [
+        "workplace",
+        "insurance",
+        "employee_benefit"
+    ],
+    "loan": [
+        "financial",
+        "public",
+        "international_aid",
+        "repayable"
+    ],
+    "defense budget": [
+        "military"
+    ],
+    "audio record": [
+        "record_keeping",
+        "auditory"
+    ],
+    "system architecture": [
+        "structural",
+        "computational"
+    ],
+    "base course": [
+        "structural",
+        "stone",
+        "ground_inserted"
+    ],
+    "finding": [
+        "event",
+        "research_derived",
+        "conceptual",
+        "printed"
+    ],
+    "map entry": [
+        "record_keeping",
+        "conceptual",
+        "informational"
+    ],
+    "distribution": [
+        "financial"
+    ],
+    "flight": [
+        "campaign",
+        "material",
+        "scheduled",
+        "temporal"
+    ],
+    "strength training": [
+        "muscular",
+        "resistance_based"
+    ],
+    "working hours": [
+        "timekeeping",
+        "duration",
+        "temporal"
+    ],
+    "government program": [
+        "public",
+        "in_kind_benefit"
+    ],
+    "exercise": [
+        "practice_activity",
+        "animate",
+        "educational"
+    ],
+    "follow-up": [
+        "event",
+        "post_assistance",
+        "research_derived"
+    ],
+    "rent record": [
+        "financial",
+        "record_keeping",
+        "account_based"
+    ],
+    "left leg": [
+        "left_sided",
+        "limb",
+        "anatomical",
+        "lower_body"
+    ],
+    "project method": [
+        "planned_development",
+        "conceptual"
+    ],
+    "agency": [
+        "workplace",
+        "public"
+    ],
+    "water feature": [
+        "aquatic",
+        "liquid"
+    ],
+    "records": [],
+    "written content": [
+        "informational"
+    ],
+    "legal research": [
+        "judicial",
+        "conceptual",
+        "research_derived"
+    ],
+    "energy cost": [
+        "energy"
+    ],
+    "legal rule": [
+        "judicial",
+        "conceptual"
+    ],
+    "industry growth": [
+        "growth_measure",
+        "industrial",
+        "indicator",
+        "temporal"
+    ],
+    "supply chain": [
+        "industrial"
+    ],
+    "practice": [
+        "accelerated"
+    ],
+    "political position": [
+        "campaign",
+        "error",
+        "conceptual"
+    ],
+    "data label": [
+        "symbolic",
+        "naming",
+        "informational",
+        "representational"
+    ],
+    "concept statement": [
+        "conceptual"
+    ],
+    "project manager": [
+        "delivery_management",
+        "project_coordination"
+    ],
+    "campaign name": [
+        "campaign",
+        "identity"
+    ],
+    "medicine": [
+        "biological",
+        "government_supplied",
+        "pharmaceutical"
+    ],
+    "emergency care": [
+        "emergency",
+        "diagnostic",
+        "medical",
+        "government_supplied",
+        "sentient"
+    ],
+    "engine block": [
+        "structural",
+        "industrial",
+        "mechanical"
+    ],
+    "test equipment": [
+        "machine",
+        "material",
+        "testimonial"
+    ],
+    "campaign strategy": [
+        "planned_development",
+        "goal"
+    ],
+    "healthcare professional": [
+        "qualified_provider",
+        "medical"
+    ],
+    "system health": [
+        "indicator"
+    ],
+    "approval": [
+        "printed",
+        "endorsement",
+        "authorization"
+    ],
+    "exchange": [
+        "financial"
+    ],
+    "grant funding": [
+        "financial",
+        "sentient",
+        "educational"
+    ],
+    "suggested action": [
+        "abstract",
+        "intentional",
+        "conceptual"
+    ],
+    "bed leg": [
+        "structural",
+        "material",
+        "vertical"
+    ],
+    "international trade": [
+        "financial"
+    ],
+    "construction plan": [
+        "planned_development",
+        "scheduled",
+        "informational",
+        "architectural",
+        "authorization"
+    ],
+    "reference frame": [],
+    "office supply": [
+        "workplace",
+        "material"
+    ],
+    "physical environment": [],
+    "group identity": [
+        "social",
+        "identity"
+    ],
+    "judge": [
+        "judicial"
+    ],
+    "mission condition": [
+        "representational",
+        "conditional",
+        "goal"
+    ],
+    "coal": [
+        "carbon_rich",
+        "fuel",
+        "material",
+        "flammable"
+    ],
+    "progress review": [
+        "post_assistance",
+        "indicator"
+    ],
+    "revenue": [
+        "workplace",
+        "financial",
+        "gross_income"
+    ],
+    "heading word": [
+        "textual",
+        "naming",
+        "informational",
+        "linguistic"
+    ],
+    "drawing": [
+        "surface_pattern",
+        "visual"
+    ],
+    "role responsibility": [
+        "social",
+        "conceptual"
+    ],
+    "proposal": [
+        "endorsement",
+        "authorization"
+    ],
+    "wage policy": [
+        "wage_policy",
+        "government_supplied"
+    ],
+    "target-date fund": [
+        "retirement",
+        "timekeeping",
+        "conservative",
+        "financial",
+        "diversified"
+    ],
+    "offer": [
+        "financial",
+        "conceptual",
+        "goal"
+    ],
+    "food distribution": [
+        "qualified_provider",
+        "food_distribution",
+        "representational"
+    ],
+    "office equipment": [
+        "workplace",
+        "material"
+    ],
+    "achievement": [
+        "event",
+        "intentional"
+    ],
+    "material cost": [
+        "architectural",
+        "financial",
+        "sentient",
+        "material"
+    ],
+    "channel": [
+        "auditory"
+    ],
+    "required action": [
+        "informational"
+    ],
+    "source code": [
+        "machine",
+        "electronic",
+        "human_readable",
+        "educational"
+    ],
+    "project budget": [
+        "project_coordination",
+        "estimate",
+        "resource_allocation",
+        "financial",
+        "authorization"
+    ],
+    "voting unit": [
+        "numeric"
+    ],
+    "leather": [
+        "biological",
+        "organic",
+        "mammalian"
+    ],
+    "recording": [
+        "auditory",
+        "indicator",
+        "printed"
+    ],
+    "political conflict": [
+        "abstract",
+        "material"
+    ],
+    "insurance service": [
+        "financial"
+    ],
+    "argument value": [
+        "computational",
+        "conceptual"
+    ],
+    "common area": [
+        "architectural",
+        "public"
+    ],
+    "description": [
+        "linguistic",
+        "textual",
+        "informational",
+        "representational"
+    ],
+    "fuel": [
+        "fuel",
+        "flammable"
+    ],
+    "office building": [
+        "architectural",
+        "workplace"
+    ],
+    "transportation cost": [
+        "financial",
+        "transportation"
+    ],
+    "mobile device": [
+        "electronic"
+    ],
+    "test medium": [
+        "material"
+    ],
+    "office records": [
+        "workplace",
+        "tax_related",
+        "documentary",
+        "material",
+        "record_keeping"
+    ],
+    "living room": [
+        "architectural",
+        "social",
+        "interior",
+        "seating"
+    ],
+    "regional manager": [
+        "workplace"
+    ],
+    "creative direction": [
+        "conceptual",
+        "intentional",
+        "visual",
+        "representational"
+    ],
+    "campaign finance": [
+        "campaign",
+        "financial",
+        "diagnostic"
+    ],
+    "property right": [
+        "judicial"
+    ],
+    "wage": [
+        "workplace",
+        "repayable",
+        "financial"
+    ],
+    "hospital care": [
+        "diagnostic",
+        "medical",
+        "government_supplied"
+    ],
+    "employee support": [
+        "workplace"
+    ],
+    "software": [
+        "computer_program",
+        "electronic",
+        "informational"
+    ],
+    "style": [
+        "textual",
+        "linguistic",
+        "representational"
+    ],
+    "production cost": [
+        "industrial"
+    ],
+    "medical treatment": [
+        "dangerous",
+        "diagnostic",
+        "biological",
+        "medical"
+    ],
+    "executive department": [
+        "workplace",
+        "public",
+        "wage_policy",
+        "authorization"
+    ],
+    "door frame": [],
+    "jury": [
+        "judicial"
+    ],
+    "research notes": [
+        "informational",
+        "surveillance",
+        "record_keeping",
+        "printed"
+    ],
+    "food item": [
+        "edible"
+    ],
+    "campaign platform": [
+        "electoral",
+        "campaign",
+        "wage_policy",
+        "representational"
+    ],
+    "category name": [
+        "textual",
+        "naming",
+        "informational",
+        "representational"
+    ],
+    "social context": [
+        "social",
+        "conceptual"
+    ],
+    "situation map": [
+        "machine",
+        "cartographic",
+        "informational"
+    ],
+    "religious leader": [
+        "structural",
+        "ceremonial",
+        "conceptual",
+        "religious"
+    ],
+    "missing record": [
+        "void",
+        "empty",
+        "informational"
+    ],
+    "character reaction": [
+        "abstract",
+        "representational"
+    ],
+    "working tool": [
+        "machine",
+        "mechanical"
+    ],
+    "network address": [
+        "symbolic",
+        "naming",
+        "informational",
+        "representational"
+    ],
+    "decision problem": [
+        "conceptual"
+    ],
+    "maintenance support": [
+        "machine",
+        "material",
+        "maintenance"
+    ],
+    "due date": [
+        "scheduled",
+        "temporal"
+    ],
+    "native plant": [
+        "plant_based",
+        "structural"
+    ],
+    "target": [
+        "abstract",
+        "goal"
+    ],
+    "service lift": [
+        "power_source",
+        "industrial",
+        "machine",
+        "mechanical"
+    ],
+    "operating load": [
+        "workload"
+    ],
+    "communication schedule": [
+        "planned_development",
+        "sentient",
+        "scheduled",
+        "temporal"
+    ],
+    "setting description": [
+        "visual",
+        "conceptual"
+    ],
+    "social role": [
+        "social",
+        "conceptual"
+    ],
+    "operations officer": [
+        "workplace",
+        "project_coordination",
+        "planned_development",
+        "military",
+        "machine"
+    ],
+    "regional director": [
+        "workplace",
+        "regional_leadership",
+        "senior_official"
+    ],
+    "military truck": [
+        "motor_vehicle",
+        "military",
+        "transportation"
+    ],
+    "regional revenue": [
+        "financial",
+        "regional",
+        "resource_allocation"
+    ],
+    "housing authority": [
+        "public"
+    ],
+    "military": [
+        "defensive",
+        "social",
+        "military"
+    ],
+    "system performance": [
+        "indicator"
+    ],
+    "fashion taste": [
+        "identity",
+        "abstract",
+        "intangible",
+        "visual",
+        "conceptual"
+    ],
+    "country": [
+        "public"
+    ],
+    "payment network": [
+        "electronic"
+    ],
+    "business ownership": [
+        "financial"
+    ],
+    "manager": [
+        "workplace",
+        "project_coordination",
+        "identity",
+        "authorization"
+    ],
+    "application status": [
+        "workplace",
+        "printed",
+        "identity",
+        "representational"
+    ],
+    "command center": [
+        "shipboard",
+        "regional_leadership",
+        "machine",
+        "command_center"
+    ],
+    "needs assessment": [
+        "event"
+    ],
+    "main idea": [
+        "conceptual"
+    ],
+    "service goal": [
+        "qualified_provider",
+        "planned_development",
+        "goal"
+    ],
+    "communications strategy": [
+        "planned_development",
+        "project_coordination",
+        "conceptual",
+        "goal"
+    ],
+    "economic condition": [
+        "industrial",
+        "financial"
+    ],
+    "foreign aid": [
+        "financial",
+        "public",
+        "international_aid",
+        "material"
+    ],
+    "campaign schedule": [
+        "planned_development",
+        "conceptual",
+        "scheduled",
+        "temporal"
+    ],
+    "working day": [
+        "timekeeping",
+        "duration",
+        "temporal"
+    ],
+    "ticket": [
+        "record_keeping",
+        "material",
+        "transportation",
+        "authorization"
+    ],
+    "appointment order": [
+        "documentary",
+        "law_enforcement",
+        "authorization"
+    ],
+    "planning document": [
+        "planned_development",
+        "informational"
+    ],
+    "strike committee": [
+        "workplace"
+    ],
+    "training material": [
+        "educational"
+    ],
+    "interest rate": [
+        "financial",
+        "percentage",
+        "temporal"
+    ],
+    "requirements": [
+        "structural",
+        "representational"
+    ],
+    "evidence room": [
+        "surveillance",
+        "enclosed",
+        "material",
+        "public"
+    ],
+    "authority structure": [
+        "workplace",
+        "account_based"
+    ],
+    "grant condition": [
+        "financial",
+        "restriction",
+        "authorization"
+    ],
+    "feet": [
+        "directional"
+    ],
+    "infrastructure": [
+        "structural",
+        "material",
+        "dangerous"
+    ],
+    "corporation": [
+        "workplace",
+        "tax_related",
+        "law_enforcement"
+    ],
+    "political institution": [
+        "structural",
+        "human-made",
+        "identity",
+        "representational"
+    ],
+    "media budget": [
+        "financial",
+        "resource_allocation",
+        "planned_development"
+    ],
+    "party leader": [
+        "electoral",
+        "regional_leadership",
+        "representational",
+        "goal"
+    ],
+    "support plate": [
+        "structural",
+        "flexible"
+    ],
+    "family role": [
+        "social"
+    ],
+    "military strategy": [
+        "defensive",
+        "military",
+        "goal"
+    ],
+    "spoken form": [
+        "linguistic",
+        "auditory",
+        "oral"
+    ],
+    "wind": [
+        "airflow_functional"
+    ],
+    "author": [
+        "representational"
+    ],
+    "activity name": [
+        "naming",
+        "conceptual",
+        "identity"
+    ],
+    "military intelligence": [
+        "identity",
+        "military"
+    ],
+    "recent development": [
+        "workload",
+        "recent_change",
+        "report_section",
+        "progress_update"
+    ],
+    "data source": [
+        "informational"
+    ],
+    "painting": [
+        "artificial",
+        "pigmented",
+        "visual"
+    ],
+    "material resources": [
+        "industrial",
+        "material",
+        "human-made"
+    ],
+    "email message": [
+        "electronic"
+    ],
+    "review record": [
+        "record_keeping"
+    ],
+    "market analysis": [
+        "industrial",
+        "financial"
+    ],
+    "video advertising": [
+        "campaign",
+        "repayable",
+        "multimedia",
+        "electronic"
+    ],
+    "item": [
+        "representational"
+    ],
+    "special forces": [
+        "military"
+    ],
+    "research finding": [
+        "surveillance",
+        "representational"
+    ],
+    "shipping": [],
+    "air pressure": [
+        "airflow_functional"
+    ],
+    "front cover": [
+        "defensive",
+        "outer_panel",
+        "body_part"
+    ],
+    "message content": [
+        "textual",
+        "informational"
+    ],
+    "office desk": [
+        "workplace",
+        "human-made"
+    ],
+    "public gallery": [
+        "public",
+        "seating",
+        "interior"
+    ],
+    "mobile advertising": [
+        "electronic",
+        "mobile"
+    ],
+    "delivery period": [
+        "duration",
+        "delivery_management",
+        "scheduled",
+        "temporal"
+    ],
+    "operation": [],
+    "health service": [
+        "medical"
+    ],
+    "central opening": [
+        "structural",
+        "water_access"
+    ],
+    "medical insurance": [
+        "insurance",
+        "medical"
+    ],
+    "employment": [
+        "workplace"
+    ],
+    "network": [
+        "connective",
+        "sentient",
+        "electronic"
+    ],
+    "support worker": [
+        "record_keeping"
+    ],
+    "payment schedule": [
+        "financial",
+        "scheduled",
+        "repayable"
+    ],
+    "construction schedule": [
+        "scheduled",
+        "informational",
+        "temporal"
+    ],
+    "emotional appeal": [
+        "abstract",
+        "conceptual",
+        "emotional"
+    ],
+    "stress": [
+        "conceptual"
+    ],
+    "public service": [
+        "public"
+    ],
+    "source file": [
+        "structural",
+        "electronic",
+        "human-made",
+        "human_readable"
+    ],
+    "organization user": [],
+    "work description": [
+        "task_specification",
+        "maintenance"
+    ],
+    "consumer service": [
+        "workplace",
+        "intangible",
+        "personal_needs",
+        "machine",
+        "consumer_facing"
+    ],
+    "council chair": [
+        "regional_leadership",
+        "project_coordination",
+        "presiding"
+    ],
+    "code comment": [
+        "textual",
+        "educational",
+        "linguistic",
+        "human_readable"
+    ],
+    "religious festival": [
+        "event",
+        "ceremonial"
+    ],
+    "staff budget": [
+        "financial",
+        "employee_benefit"
+    ],
+    "financial assistance": [
+        "financial"
+    ],
+    "military unit": [
+        "military"
+    ],
+    "create": [
+        "resource_allocation"
+    ],
+    "demand schedule": [
+        "financial",
+        "tableware"
+    ],
+    "cultural movement": [
+        "conceptual"
+    ],
+    "healthcare": [
+        "diagnostic",
+        "medical",
+        "government_supplied"
+    ],
+    "class type": [
+        "abstract"
+    ],
+    "research question": [
+        "conceptual",
+        "research_derived"
+    ],
+    "legislation": [
+        "electoral",
+        "public",
+        "judicial",
+        "authorization"
+    ],
+    "contact name": [
+        "media_contact",
+        "connective",
+        "journalist_resource",
+        "identity"
+    ],
+    "commission document": [
+        "documentary",
+        "authorization"
+    ],
+    "program funding": [
+        "financial"
+    ],
+    "political environment": [
+        "electoral",
+        "structural",
+        "public",
+        "judicial"
+    ],
+    "knowledge work": [
+        "conceptual",
+        "informational"
+    ],
+    "activity requirements": [
+        "conceptual"
+    ],
+    "tax payment": [
+        "tax_related",
+        "financial",
+        "sentient",
+        "repayable"
+    ],
+    "mission purpose": [
+        "abstract",
+        "intentional",
+        "goal"
+    ],
+    "series name": [
+        "textual",
+        "naming",
+        "informational",
+        "representational"
+    ],
+    "responsible person": [
+        "goal"
+    ],
+    "data analysis": [
+        "computer_program",
+        "conceptual"
+    ],
+    "communications channel": [
+        "audience_oriented",
+        "communication_medium"
+    ],
+    "route": [
+        "directional",
+        "conceptual",
+        "abstract",
+        "navigational"
+    ],
+    "collection": [],
+    "historical period": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "policy measure": [
+        "public"
+    ],
+    "grant funds": [
+        "financial",
+        "resource_allocation"
+    ],
+    "map frame": [
+        "border_marker"
+    ],
+    "crew": [
+        "shipboard",
+        "military"
+    ],
+    "market demand": [
+        "financial",
+        "aggregate",
+        "consumer_facing"
+    ],
+    "service facility": [
+        "architectural",
+        "public",
+        "delivery_management"
+    ],
+    "loan interest": [
+        "financial"
+    ],
+    "repair service": [
+        "particulate",
+        "machine",
+        "maintenance"
+    ],
+    "investment research": [
+        "financial",
+        "conceptual",
+        "research_derived",
+        "representational"
+    ],
+    "agency head": [
+        "workplace",
+        "regional_leadership",
+        "public",
+        "law_enforcement"
+    ],
+    "cleaning": [
+        "decontamination",
+        "maintenance"
+    ],
+    "remote control": [
+        "electronic"
+    ],
+    "ray": [],
+    "office paper": [
+        "record_keeping",
+        "material",
+        "printed"
+    ],
+    "expected format": [
+        "framed",
+        "structural"
+    ],
+    "platform access": [
+        "interior"
+    ],
+    "research method": [
+        "conceptual"
+    ],
+    "test sample": [
+        "material"
+    ],
+    "funding amount": [
+        "financial",
+        "resource_allocation"
+    ],
+    "scheduled time": [
+        "scheduled",
+        "temporal"
+    ],
+    "rock": [
+        "geological",
+        "stone",
+        "material",
+        "structural"
+    ],
+    "written language": [
+        "linguistic",
+        "textual"
+    ],
+    "service staff": [
+        "workplace",
+        "service_staff",
+        "delivery_management"
+    ],
+    "project description": [
+        "textual",
+        "project_coordination",
+        "grant_related"
+    ],
+    "brand": [
+        "identity"
+    ],
+    "program facility": [
+        "architectural",
+        "public"
+    ],
+    "care plan": [
+        "planned_development",
+        "scheduled",
+        "informational",
+        "goal",
+        "authorization"
+    ],
+    "term list": [
+        "textual",
+        "naming",
+        "record_keeping",
+        "informational"
+    ],
+    "fire engine": [
+        "firefighting",
+        "transportation"
+    ],
+    "position statement": [
+        "electoral",
+        "conceptual"
+    ],
+    "corporate profit": [
+        "tax_related",
+        "financial"
+    ],
+    "cash assistance": [
+        "financial",
+        "social",
+        "direct_payment"
+    ],
+    "field value": [
+        "record_keeping"
+    ],
+    "waste collection": [
+        "waste_management",
+        "service_staff",
+        "material",
+        "organized_removal"
+    ],
+    "ticket status": [
+        "workload",
+        "identity"
+    ],
+    "benefit account": [
+        "intangible",
+        "financial",
+        "record_keeping",
+        "account_based"
+    ],
+    "communications system": [
+        "connective",
+        "electronic",
+        "human-made"
+    ],
+    "television": [
+        "electronic",
+        "auditory",
+        "visual"
+    ],
+    "production process": [],
+    "glass wall": [
+        "refractive",
+        "transparent",
+        "glass"
+    ],
+    "human user": [
+        "human-made"
+    ],
+    "action proposal": [
+        "abstract",
+        "intentional",
+        "conceptual"
+    ],
+    "human agent": [
+        "human-made"
+    ],
+    "foundation grant": [
+        "financial"
+    ],
+    "campaign position": [
+        "campaign",
+        "conceptual",
+        "representational"
+    ],
+    "in-kind benefit": [
+        "noncash_benefit",
+        "government_supplied"
+    ],
+    "executive branch": [
+        "electoral",
+        "workplace",
+        "public",
+        "law_enforcement"
+    ],
+    "chart": [
+        "quantitative",
+        "visual",
+        "informational",
+        "representational"
+    ],
+    "interview date": [
+        "printed",
+        "scheduled",
+        "temporal"
+    ],
+    "self-employment income": [
+        "financial"
+    ],
+    "support ticket": [
+        "material",
+        "tracked",
+        "printed",
+        "goal"
+    ],
+    "policy analysis": [
+        "conceptual",
+        "representational"
+    ],
+    "basic pay": [
+        "corrective",
+        "financial",
+        "wage_policy",
+        "employee_benefit"
+    ],
+    "request status": [
+        "service_staff",
+        "identity"
+    ],
+    "central executive": [
+        "abstract",
+        "intentional",
+        "conceptual",
+        "informational"
+    ],
+    "approval amount": [
+        "quantitative",
+        "financial",
+        "restriction"
+    ],
+    "program service": [
+        "service_staff"
+    ],
+    "personal weapon": [
+        "firearm_component",
+        "military"
+    ],
+    "production activity": [
+        "event"
+    ],
+    "social practices": [
+        "social",
+        "conceptual"
+    ],
+    "trade policy": [
+        "financial"
+    ],
+    "social assistance": [
+        "financial",
+        "social",
+        "government_supplied"
+    ],
+    "travel costs": [
+        "transportation",
+        "lodging",
+        "grant_related",
+        "travel_expense",
+        "resource_allocation"
+    ],
+    "audience": [
+        "public",
+        "animate"
+    ],
+    "assigned person": [
+        "goal"
+    ],
+    "opposition party": [
+        "electoral",
+        "oppositional"
+    ],
+    "chemical solution": [
+        "liquid",
+        "material"
+    ],
+    "chest": [
+        "body_part",
+        "biological",
+        "anatomical",
+        "organic"
+    ],
+    "medical procedure": [
+        "diagnostic",
+        "medical"
+    ],
+    "contact surface": [
+        "connective",
+        "structural"
+    ],
+    "service decision": [
+        "workplace",
+        "service_staff",
+        "decision_notice",
+        "printed"
+    ],
+    "concept": [
+        "abstract",
+        "representational",
+        "informational",
+        "intangible",
+        "conceptual"
+    ],
+    "handle": [],
+    "service operation": [
+        "event",
+        "workplace",
+        "conceptual",
+        "delivery_management"
+    ],
+    "skills": [
+        "educational",
+        "conceptual"
+    ],
+    "police officer": [
+        "surveillance"
+    ],
+    "performance improvement": [
+        "event",
+        "optimization"
+    ],
+    "committee chair": [
+        "electoral",
+        "regional_leadership",
+        "identity",
+        "presiding"
+    ],
+    "food bank": [
+        "qualified_provider",
+        "food_distribution"
+    ],
+    "cost advantage": [
+        "industrial",
+        "indicator"
+    ],
+    "share capital": [
+        "financial"
+    ],
+    "user message": [
+        "communication_medium"
+    ],
+    "activity purpose": [
+        "abstract",
+        "conceptual",
+        "goal"
+    ],
+    "executive": [
+        "public",
+        "law_enforcement"
+    ],
+    "selection control": [
+        "input_control",
+        "animate",
+        "appendage",
+        "selection_control"
+    ],
+    "vote total": [
+        "electoral",
+        "numeric"
+    ],
+    "systems engineer": [
+        "structural",
+        "computational"
+    ],
+    "result": [
+        "event"
+    ],
+    "field organization": [
+        "campaign",
+        "electoral",
+        "representational",
+        "mobilization",
+        "endorsement"
+    ],
+    "public funding": [
+        "financial"
+    ],
+    "job": [
+        "workplace"
+    ],
+    "case shell": [
+        "enclosed"
+    ],
+    "supporting argument": [
+        "conceptual"
+    ],
+    "data mark": [
+        "quantitative",
+        "visual",
+        "informational",
+        "representational"
+    ],
+    "battle": [
+        "military"
+    ],
+    "decision statement": [
+        "workplace",
+        "documentary",
+        "decision_notice"
+    ],
+    "art direction": [
+        "intentional",
+        "visual"
+    ],
+    "private message": [
+        "audience_oriented",
+        "communication_medium"
+    ],
+    "operating conditions": [
+        "workload"
+    ],
+    "shape": [
+        "visual",
+        "topological"
+    ],
+    "grant purpose": [
+        "educational"
+    ],
+    "risk limit": [
+        "quantitative",
+        "restriction"
+    ],
+    "break": [
+        "timekeeping",
+        "duration",
+        "temporal"
+    ],
+    "safety lock": [
+        "structural",
+        "industrial",
+        "mechanical",
+        "human-made"
+    ],
+    "pay step": [
+        "repayable",
+        "incremental",
+        "wage_policy",
+        "scheduled"
+    ],
+    "teaching": [
+        "educational",
+        "conceptual"
+    ],
+    "rest": [
+        "auditory",
+        "musical"
+    ],
+    "argument": [
+        "computational",
+        "conceptual"
+    ],
+    "campaign organization": [
+        "workplace",
+        "volunteer_based",
+        "electoral",
+        "project_coordination"
+    ],
+    "service location": [
+        "service_staff",
+        "scheduled",
+        "ground_inserted"
+    ],
+    "day off": [
+        "timekeeping",
+        "duration",
+        "temporal"
+    ],
+    "equal rights": [
+        "public",
+        "judicial"
+    ],
+    "drawing subject": [
+        "naming",
+        "conceptual"
+    ],
+    "distribution system": [
+        "workplace",
+        "financial",
+        "representational"
+    ],
+    "legend": [
+        "key",
+        "symbolic",
+        "informational"
+    ],
+    "thursday": [
+        "temporal"
+    ],
+    "digital data": [
+        "abstract",
+        "electronic"
+    ],
+    "media relations": [
+        "media_contact"
+    ],
+    "landing": [
+        "directional"
+    ],
+    "national language": [
+        "linguistic",
+        "identity"
+    ],
+    "command post": [
+        "military"
+    ],
+    "function": [
+        "intentional",
+        "conceptual",
+        "goal"
+    ],
+    "contact point": [
+        "connective",
+        "structural"
+    ],
+    "tax assessment": [
+        "tax_related",
+        "financial"
+    ],
+    "street address": [
+        "numeric",
+        "naming",
+        "identity"
+    ],
+    "pressure-control unit": [
+        "environmental_control",
+        "body_part",
+        "pressure_control"
+    ],
+    "transfer station": [
+        "waste_management",
+        "temporary_storage",
+        "transportation"
+    ],
+    "policy option": [
+        "abstract",
+        "intentional",
+        "conceptual",
+        "representational"
+    ],
+    "industry revenue": [
+        "industrial",
+        "financial"
+    ],
+    "field director": [
+        "campaign",
+        "mobilization"
+    ],
+    "work period": [
+        "timekeeping",
+        "duration",
+        "temporal"
+    ],
+    "office chair": [
+        "workplace",
+        "human-made"
+    ],
+    "platform edge": [
+        "structural",
+        "tracked",
+        "transportation"
+    ],
+    "legal procedure": [
+        "structural",
+        "conceptual",
+        "judicial",
+        "human-made"
+    ],
+    "error code": [
+        "error",
+        "numeric",
+        "human-made"
+    ],
+    "resident": [
+        "sentient"
+    ],
+    "political context": [
+        "electoral",
+        "structural"
+    ],
+    "expected value": [
+        "event",
+        "informational",
+        "representational"
+    ],
+    "read": [
+        "practice_activity",
+        "read_only",
+        "resource_retrieval"
+    ],
+    "service area": [
+        "service_staff"
+    ],
+    "tip": [
+        "miniature",
+        "cutting",
+        "metallic",
+        "sharp"
+    ],
+    "data type": [
+        "textual",
+        "numeric",
+        "representational"
+    ],
+    "project name": [
+        "textual",
+        "planned_development",
+        "naming",
+        "identity"
+    ],
+    "media channel": [
+        "communication_medium",
+        "planned_development"
+    ],
+    "personnel information": [
+        "informational"
+    ],
+    "social justice": [
+        "public",
+        "judicial"
+    ],
+    "interview notes": [
+        "record_keeping",
+        "informational"
+    ],
+    "quality assessment": [
+        "abstract",
+        "indicator"
+    ],
+    "intelligence analysis": [
+        "conceptual",
+        "informational"
+    ],
+    "file content": [
+        "informational"
+    ],
+    "power failure": [
+        "power_source",
+        "system_disruption",
+        "electronic"
+    ],
+    "map light": [
+        "visible_light",
+        "luminescent"
+    ],
+    "plot": [
+        "artificial",
+        "sequential",
+        "conceptual"
+    ],
+    "transfer": [
+        "judicial"
+    ],
+    "replacement part": [
+        "corrective"
+    ],
+    "project requirements": [
+        "documentary",
+        "representational",
+        "restriction",
+        "visual",
+        "conceptual"
+    ],
+    "training program": [
+        "workplace",
+        "educational"
+    ],
+    "family decision-making": [
+        "familial",
+        "social",
+        "representational"
+    ],
+    "waste management": [
+        "public",
+        "government_supplied"
+    ],
+    "manufacturing equipment": [
+        "industrial",
+        "machine"
+    ],
+    "project activity": [
+        "planned_development"
+    ],
+    "settlement account": [
+        "intangible",
+        "financial",
+        "record_keeping",
+        "account_based"
+    ],
+    "tone": [
+        "linguistic",
+        "emotional"
+    ],
+    "skill": [
+        "educational",
+        "conceptual"
+    ],
+    "service contract": [
+        "service_staff",
+        "settlement",
+        "industrial",
+        "financial",
+        "direct_payment"
+    ],
+    "test chamber": [
+        "environmental_control",
+        "pressure_control"
+    ],
+    "income policy": [
+        "wage_policy",
+        "government_supplied"
+    ],
+    "seat frame": [
+        "framed",
+        "structural"
+    ],
+    "physical therapy": [
+        "muscular",
+        "anatomical"
+    ],
+    "environmental protection": [
+        "defensive",
+        "environmental_control",
+        "maintenance"
+    ],
+    "mirror": [
+        "visual"
+    ],
+    "medical facility": [
+        "architectural",
+        "public"
+    ],
+    "operating period": [
+        "temporal"
+    ],
+    "reporting relationship": [
+        "workplace",
+        "connective"
+    ],
+    "research conclusion": [
+        "conceptual",
+        "representational"
+    ],
+    "main text": [
+        "informational",
+        "public",
+        "conceptual",
+        "printed"
+    ],
+    "core thought": [
+        "conceptual"
+    ],
+    "push-up": [
+        "structural"
+    ],
+    "customer service": [
+        "service_staff",
+        "financial",
+        "material"
+    ],
+    "regional budget": [
+        "financial",
+        "regional",
+        "resource_allocation"
+    ],
+    "bottle mouth": [
+        "appendage"
+    ],
+    "color model": [
+        "visual"
+    ],
+    "protein": [
+        "connective"
+    ],
+    "chamber": [
+        "organic",
+        "interior",
+        "biological",
+        "anatomical",
+        "body_part"
+    ],
+    "act": [
+        "sequential",
+        "conceptual"
+    ],
+    "software application": [
+        "computer_program",
+        "electronic",
+        "representational"
+    ],
+    "network switch": [
+        "service_staff",
+        "connective",
+        "local_network",
+        "electronic"
+    ],
+    "service regulation": [
+        "service_staff",
+        "transition",
+        "law_enforcement",
+        "maintenance",
+        "authorization"
+    ],
+    "valuable equipment": [
+        "artificial",
+        "material",
+        "human-made"
+    ],
+    "transportation": [
+        "transportation",
+        "grant_related",
+        "travel_expense",
+        "educational",
+        "resource_allocation"
+    ],
+    "origin-form": [
+        "resource_retrieval",
+        "body_part",
+        "path_based",
+        "goal"
+    ],
+    "social institution": [
+        "public",
+        "social"
+    ],
+    "political reform": [
+        "transition"
+    ],
+    "food benefit": [
+        "financial"
+    ],
+    "regional staff": [
+        "workplace"
+    ],
+    "bond": [
+        "financial"
+    ],
+    "case law": [
+        "judicial",
+        "conceptual",
+        "research_derived"
+    ],
+    "material sample": [
+        "artificial",
+        "visual"
+    ],
+    "dance movement": [
+        "intentional",
+        "gesture"
+    ],
+    "surgery": [
+        "medical"
+    ],
+    "interview recording": [
+        "auditory"
+    ],
+    "piece rate": [
+        "financial",
+        "repayable"
+    ],
+    "storage volume": [
+        "record_keeping"
+    ],
+    "tax quarter": [
+        "tax_related",
+        "financial"
+    ],
+    "service performance": [
+        "indicator"
+    ],
+    "wearing course": [
+        "floor_covering",
+        "structural",
+        "ground_inserted"
+    ],
+    "process time": [
+        "temporal"
+    ],
+    "family support": [
+        "post_assistance",
+        "social",
+        "family_support",
+        "wage_policy",
+        "financial"
+    ],
+    "cutting edge": [
+        "sharp",
+        "cutting"
+    ],
+    "team member": [
+        "workplace"
+    ],
+    "candidate": [
+        "electoral",
+        "identity"
+    ],
+    "public space": [
+        "architectural",
+        "recreational",
+        "public"
+    ],
+    "drive motor": [
+        "power_source",
+        "industrial",
+        "machine",
+        "mechanical"
+    ],
+    "testing": [
+        "event",
+        "response_measurement",
+        "indicator",
+        "verification"
+    ],
+    "in-kind transfer": [
+        "noncash_benefit",
+        "government_supplied"
+    ],
+    "production machine": [
+        "industrial",
+        "machine"
+    ],
+    "actual behavior": [
+        "conceptual"
+    ],
+    "wall assembly": [
+        "architectural",
+        "structural"
+    ],
+    "key-value pair": [
+        "key",
+        "record_keeping",
+        "conceptual",
+        "informational"
+    ],
+    "fund balance": [
+        "reserve",
+        "financial",
+        "strike_support"
+    ],
+    "service office": [
+        "workplace",
+        "service_staff",
+        "delivery_management",
+        "human-made"
+    ],
+    "summary": [
+        "finish_line"
+    ],
+    "purpose statement": [
+        "textual"
+    ],
+    "rent charge": [
+        "financial",
+        "record_keeping",
+        "account_based"
+    ],
+    "vehicle bay": [
+        "enclosed",
+        "interior"
+    ],
+    "function call": [
+        "computational",
+        "conceptual"
+    ],
+    "dollar": [
+        "financial"
+    ],
+    "leave request": [
+        "formal_request",
+        "sick_leave"
+    ],
+    "question-and-answer session": [
+        "linguistic",
+        "journalist_resource",
+        "animate"
+    ],
+    "target audience": [
+        "conceptual"
+    ],
+    "health status": [
+        "health_status"
+    ],
+    "political change": [
+        "transition",
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "division": [
+        "workplace"
+    ],
+    "mental labor": [
+        "conceptual",
+        "mental_strain"
+    ],
+    "jump": [
+        "muscular",
+        "intentional",
+        "gesture",
+        "anatomical",
+        "directional"
+    ],
+    "communications room": [
+        "communication_medium",
+        "machine",
+        "interior"
+    ],
+    "transfer payment": [
+        "government_supplied"
+    ],
+    "air force": [
+        "defensive",
+        "social",
+        "military"
+    ],
+    "assistance record": [
+        "service_staff",
+        "textual",
+        "printed"
+    ],
+    "benefit administration": [
+        "financial",
+        "resource_allocation"
+    ],
+    "pride": [
+        "identity",
+        "emotional"
+    ],
+    "leadership council": [
+        "human-made"
+    ],
+    "file path": [
+        "conceptual",
+        "informational"
+    ],
+    "drinking glass": [
+        "transparent",
+        "material",
+        "fragile"
+    ],
+    "record copy": [
+        "record_keeping"
+    ],
+    "mission statement": [
+        "task_specification",
+        "military"
+    ],
+    "mission facility": [
+        "architectural",
+        "structural",
+        "mission_support"
+    ],
+    "personnel": [],
+    "opening question": [
+        "interview",
+        "conceptual",
+        "rapport_building"
+    ],
+    "operations area": [
+        "mission_support"
+    ],
+    "floor": [
+        "structural",
+        "interior"
+    ],
+    "travel date": [
+        "scheduled",
+        "temporal"
+    ],
+    "public institution": [
+        "community_serving",
+        "public"
+    ],
+    "plate waste": [
+        "edible"
+    ],
+    "service revenue": [
+        "financial"
+    ],
+    "service": [
+        "tax_related",
+        "intangible"
+    ],
+    "test condition": [
+        "environmental_control"
+    ],
+    "decision text": [
+        "tax_related",
+        "financial"
+    ],
+    "research report": [
+        "informational",
+        "material",
+        "research_derived",
+        "printed"
+    ],
+    "research study": [
+        "surveillance"
+    ],
+    "publication date": [
+        "informational",
+        "scheduled",
+        "temporal"
+    ],
+    "training": [
+        "educational"
+    ],
+    "mental health": [
+        "mental_strain",
+        "conceptual",
+        "emotional"
+    ],
+    "social relationship": [
+        "connective",
+        "social",
+        "conceptual"
+    ],
+    "management office": [
+        "workplace",
+        "public"
+    ],
+    "list": [
+        "directional",
+        "scheduled",
+        "representational"
+    ],
+    "online support": [
+        "post_assistance",
+        "service_staff",
+        "computer_program",
+        "electronic"
+    ],
+    "origin": [
+        "directional",
+        "navigational"
+    ],
+    "base ring": [
+        "structural",
+        "circular",
+        "rim"
+    ],
+    "political opposition": [
+        "abstract",
+        "competitive",
+        "social"
+    ],
+    "video camera": [
+        "recording_device",
+        "surveillance",
+        "multimedia",
+        "fixed_installation"
+    ],
+    "identity": [
+        "identity",
+        "abstract",
+        "informational",
+        "intangible",
+        "conceptual"
+    ],
+    "cultural context": [
+        "symbolic",
+        "social",
+        "conceptual"
+    ],
+    "cash transfer": [
+        "financial",
+        "government_supplied"
+    ],
+    "tool": [
+        "goal"
+    ],
+    "knowledge": [
+        "symbolic",
+        "educational",
+        "conceptual",
+        "informational"
+    ],
+    "importance": [
+        "indicator",
+        "abstract",
+        "conceptual",
+        "goal"
+    ],
+    "civil right": [
+        "public"
+    ],
+    "service administration": [
+        "delivery_management",
+        "conceptual"
+    ],
+    "platform": [
+        "structural",
+        "flat",
+        "mounting"
+    ],
+    "executive management": [
+        "presiding"
+    ],
+    "activity": [
+        "event",
+        "planned_development",
+        "goal"
+    ],
+    "ownership": [
+        "structural",
+        "social"
+    ],
+    "family discussion": [
+        "familial",
+        "social"
+    ],
+    "learning": [
+        "educational",
+        "conceptual"
+    ],
+    "percentage rate": [
+        "percentage",
+        "fee_calculation",
+        "proportional"
+    ],
+    "profit-sharing right": [
+        "financial"
+    ],
+    "situation": [
+        "abstract",
+        "conceptual",
+        "temporal"
+    ],
+    "error location": [
+        "error"
+    ],
+    "education budget": [
+        "financial",
+        "public",
+        "educational"
+    ],
+    "element": [
+        "representational"
+    ],
+    "public park": [
+        "recreational",
+        "public",
+        "outdoor"
+    ],
+    "report": [
+        "structural",
+        "material",
+        "conceptual"
+    ],
+    "corporation tax": [
+        "tax_related"
+    ],
+    "text content": [
+        "textual",
+        "linguistic"
+    ],
+    "cross-reference": [
+        "indexical",
+        "educational",
+        "appendage",
+        "navigational"
+    ],
+    "department": [
+        "public"
+    ],
+    "design plan": [
+        "documentary",
+        "conceptual"
+    ],
+    "corporate tax": [
+        "tax_related",
+        "financial"
+    ],
+    "sequence": [
+        "scheduled",
+        "representational"
+    ],
+    "digital image": [
+        "visual"
+    ],
+    "category": [
+        "structural",
+        "abstract",
+        "conceptual",
+        "informational"
+    ],
+    "price policy": [
+        "government_supplied"
+    ],
+    "construction material": [
+        "material"
+    ],
+    "system state": [
+        "conceptual"
+    ],
+    "production equipment": [
+        "industrial",
+        "machine",
+        "mechanical",
+        "human-made"
+    ],
+    "work package": [
+        "workplace",
+        "task_specification",
+        "conceptual",
+        "deliverable_group"
+    ],
+    "print": [
+        "textual",
+        "material",
+        "artificial",
+        "human-made",
+        "printed"
+    ],
+    "leadership": [
+        "workplace",
+        "presiding"
+    ],
+    "short-term memory": [
+        "temporary_storage",
+        "record_keeping",
+        "limited_capacity",
+        "representational"
+    ],
+    "file name": [
+        "conceptual",
+        "informational"
+    ],
+    "water quality": [
+        "aquatic",
+        "liquid",
+        "biological",
+        "water_access"
+    ],
+    "index": [
+        "indexical",
+        "informational",
+        "navigational"
+    ],
+    "cancer": [
+        "organic",
+        "anatomical"
+    ],
+    "previous report": [
+        "progress_update"
+    ],
+    "labor organization": [
+        "workplace"
+    ],
+    "media spend": [
+        "financial",
+        "resource_allocation"
+    ],
+    "object": [
+        "visual",
+        "representational"
+    ],
+    "project proposal": [
+        "textual",
+        "educational",
+        "grant_related"
+    ],
+    "digital advertising": [
+        "electronic"
+    ],
+    "professional advice": [
+        "qualified_provider",
+        "service_staff",
+        "endorsement",
+        "representational"
+    ],
+    "display": [
+        "weight",
+        "read_only",
+        "visual",
+        "response_measurement"
+    ],
+    "search system": [
+        "informational"
+    ],
+    "telephone": [
+        "connective",
+        "electronic",
+        "human-made"
+    ],
+    "community organization": [
+        "social"
+    ],
+    "communication equipment": [
+        "electronic"
+    ],
+    "fire-control display": [
+        "informational",
+        "visual",
+        "appendage"
+    ],
+    "belief": [
+        "conceptual"
+    ],
+    "housing need": [
+        "structural",
+        "housing_need"
+    ],
+    "landscape": [
+        "plant_based",
+        "outdoor"
+    ],
+    "operations map": [
+        "cartographic",
+        "informational"
+    ],
+    "technical assistance": [
+        "public",
+        "international_aid"
+    ],
+    "property record": [
+        "housing_need",
+        "material",
+        "informational"
+    ],
+    "request body": [],
+    "division manager": [
+        "workplace"
+    ],
+    "press conference": [
+        "campaign",
+        "linguistic",
+        "representational"
+    ],
+    "campaign introduction": [
+        "campaign",
+        "identity"
+    ],
+    "forest floor": [
+        "plant_based"
+    ],
+    "legal fact": [
+        "conceptual"
+    ],
+    "understanding": [
+        "intangible",
+        "conceptual",
+        "informational"
+    ],
+    "original-language text": [
+        "textual"
+    ],
+    "supporting reason": [
+        "abstract",
+        "intangible",
+        "conceptual",
+        "informational"
+    ],
+    "target value": [
+        "abstract",
+        "intentional",
+        "goal"
+    ],
+    "religious practice": [
+        "ceremonial",
+        "social",
+        "conceptual",
+        "religious"
+    ],
+    "political actor": [
+        "electoral"
+    ],
+    "pay-step schedule": [
+        "incremental",
+        "wage_policy",
+        "scheduled"
+    ],
+    "secretary": [
+        "workplace"
+    ],
+    "construction activity": [
+        "planned_development",
+        "scheduled",
+        "informational",
+        "temporal"
+    ],
+    "legal document": [
+        "documentary",
+        "judicial"
+    ],
+    "commander": [
+        "military"
+    ],
+    "ocean water": [
+        "aquatic"
+    ],
+    "glass waste": [
+        "waste_management",
+        "glass",
+        "recyclable"
+    ],
+    "food aid": [
+        "food_distribution"
+    ],
+    "spoken words": [
+        "linguistic",
+        "auditory",
+        "oral"
+    ],
+    "party official": [
+        "identity"
+    ],
+    "server": [
+        "machine",
+        "electronic"
+    ],
+    "waiting room": [
+        "interior"
+    ],
+    "speed limit": [
+        "environmental_control",
+        "speed_regulation",
+        "law_enforcement"
+    ],
+    "social rank": [
+        "social",
+        "conceptual"
+    ],
+    "work organization": [
+        "workplace"
+    ],
+    "employment terms": [
+        "workplace",
+        "financial",
+        "sick_leave",
+        "repayable"
+    ],
+    "service delivery": [
+        "service_staff"
+    ],
+    "failure condition": [
+        "error",
+        "system_disruption"
+    ],
+    "physical self-care": [
+        "health_status",
+        "self_care",
+        "material",
+        "body_part"
+    ],
+    "economic policy": [
+        "financial",
+        "government_supplied"
+    ],
+    "message body": [
+        "textual",
+        "informational"
+    ],
+    "profit": [
+        "financial",
+        "gross_income"
+    ],
+    "answer space": [
+        "informational"
+    ],
+    "expected status": [
+        "informational",
+        "representational"
+    ],
+    "public healthcare": [
+        "medical",
+        "government_supplied"
+    ],
+    "cover material": [
+        "organic",
+        "adhesive"
+    ],
+    "service-level agreement": [
+        "service_staff",
+        "sentient",
+        "conceptual",
+        "informational"
+    ],
+    "railway station": [
+        "interior"
+    ],
+    "election result": [
+        "electoral"
+    ],
+    "salary": [
+        "financial",
+        "resource_allocation"
+    ],
+    "social variety": [
+        "linguistic",
+        "social"
+    ],
+    "arrival time": [
+        "transportation",
+        "scheduled",
+        "temporal"
+    ],
+    "client interview": [
+        "event",
+        "conceptual"
+    ],
+    "color space": [
+        "visual"
+    ],
+    "insurance claim": [
+        "post_assistance",
+        "insurance",
+        "formal_request",
+        "employee_benefit"
+    ],
+    "background information": [
+        "textual",
+        "conceptual",
+        "informational",
+        "temporal"
+    ],
+    "journalist": [
+        "linguistic",
+        "journalist_resource",
+        "animate",
+        "representational"
+    ],
+    "comment": [
+        "textual",
+        "educational",
+        "human-made",
+        "human_readable"
+    ],
+    "condition change": [
+        "transition",
+        "abstract",
+        "intangible",
+        "conceptual"
+    ],
+    "social class": [
+        "social",
+        "conceptual"
+    ],
+    "text message": [
+        "communication_medium"
+    ],
+    "port": [
+        "informational",
+        "representational"
+    ],
+    "benefit balance": [
+        "financial"
+    ],
+    "production": [
+        "financial"
+    ],
+    "tool head": [
+        "goal"
+    ],
+    "retirement account": [
+        "financial",
+        "retirement",
+        "account_based"
+    ],
+    "office manager": [
+        "workplace"
+    ],
+    "housing record": [
+        "informational"
+    ],
+    "service distribution": [
+        "delivery_management",
+        "resource_allocation"
+    ],
+    "knowledge gap": [
+        "surveillance",
+        "knowledge_deficiency",
+        "uncertainty",
+        "empty"
+    ],
+    "relevant law": [
+        "judicial",
+        "conceptual",
+        "research_derived"
+    ],
+    "speech": [
+        "linguistic",
+        "auditory",
+        "oral"
+    ],
+    "command staff": [
+        "project_coordination",
+        "military"
+    ],
+    "administrative information": [
+        "textual",
+        "record_keeping",
+        "informational"
+    ],
+    "public library": [
+        "community_serving",
+        "public"
+    ],
+    "fire-control system": [
+        "informational",
+        "goal"
+    ],
+    "sample": [
+        "record_keeping",
+        "material",
+        "research_derived"
+    ],
+    "nurse": [
+        "qualified_provider",
+        "medical"
+    ],
+    "job description": [
+        "textual",
+        "conceptual"
+    ],
+    "government ministry": [
+        "public",
+        "authorization"
+    ],
+    "public administration": [
+        "public"
+    ],
+    "council table": [
+        "interior"
+    ],
+    "direct mail": [
+        "audience_oriented",
+        "communication_medium"
+    ],
+    "credit analysis": [
+        "financial",
+        "conceptual",
+        "research_derived"
+    ],
+    "follow-up action": [
+        "post_assistance",
+        "event",
+        "process_completion",
+        "informational",
+        "dangerous"
+    ],
+    "communication event": [
+        "sentient",
+        "scheduled",
+        "temporal"
+    ],
+    "campaign budget": [
+        "campaign",
+        "financial"
+    ],
+    "resolution note": [
+        "resolution_document"
+    ],
+    "captain": [
+        "shipboard",
+        "military"
+    ],
+    "housing assistance": [
+        "noncash_benefit",
+        "government_supplied"
+    ],
+    "national culture": [
+        "identity",
+        "ceremonial"
+    ],
+    "management": [
+        "workplace"
+    ],
+    "income": [
+        "financial"
+    ],
+    "piece": [
+        "particulate"
+    ],
+    "election": [
+        "electoral",
+        "public"
+    ],
+    "executive secretary": [
+        "workplace",
+        "regional_leadership",
+        "public"
+    ],
+    "representative": [
+        "linguistic",
+        "animate",
+        "representational"
+    ],
+    "service manager": [
+        "workplace",
+        "service_staff",
+        "delivery_management"
+    ],
+    "emotional well-being": [
+        "conceptual",
+        "emotional"
+    ],
+    "record keeping": [
+        "record_keeping"
+    ],
+    "program": [
+        "planned_development"
+    ],
+    "work standard": [
+        "conceptual",
+        "informational",
+        "goal"
+    ],
+    "principal": [
+        "financial",
+        "numeric"
+    ],
+    "electronic money": [
+        "financial",
+        "intangible",
+        "account_based"
+    ],
+    "historical condition": [
+        "temporal"
+    ],
+    "foundation": [
+        "structural",
+        "human-made",
+        "ground_inserted"
+    ],
+    "public official": [
+        "workplace",
+        "public",
+        "government_supplied"
+    ],
+    "break room": [
+        "workplace",
+        "break_area",
+        "interior"
+    ],
+    "muscle": [
+        "organic",
+        "structural",
+        "biological",
+        "anatomical",
+        "body_part"
+    ],
+    "exchange system": [
+        "financial"
+    ],
+    "audio track": [
+        "recording_device",
+        "auditory"
+    ],
+    "emergency response": [
+        "defensive",
+        "emergency",
+        "response_measurement",
+        "intentional",
+        "jointed"
+    ],
+    "communications director": [
+        "communication_medium"
+    ],
+    "car": [
+        "motor_vehicle",
+        "transportation"
+    ],
+    "national forest": [
+        "recreational",
+        "public",
+        "outdoor"
+    ],
+    "approval year": [
+        "calendar_year",
+        "authorization",
+        "temporal"
+    ],
+    "trading profit": [
+        "financial",
+        "trade_related"
+    ],
+    "door panel": [
+        "structural",
+        "flexible"
+    ],
+    "trade agreement": [
+        "public"
+    ],
+    "field supplies": [
+        "material"
+    ],
+    "client information": [
+        "demographic",
+        "conceptual",
+        "indicator",
+        "record_keeping"
+    ],
+    "primary care": [
+        "diagnostic",
+        "government_supplied",
+        "medical"
+    ],
+    "review data": [
+        "structural",
+        "record_keeping",
+        "material",
+        "conceptual"
+    ],
+    "industrial machine": [
+        "industrial",
+        "machine",
+        "mechanical",
+        "human-made"
+    ],
+    "arm": [
+        "body_part",
+        "biological",
+        "organic",
+        "anatomical"
+    ],
+    "entrance": [],
+    "circumstances": [
+        "representational"
+    ],
+    "review evidence": [
+        "record_keeping"
+    ],
+    "blue channel": [
+        "visible_light",
+        "radiative",
+        "electromagnetic",
+        "spectral_region",
+        "visual"
+    ],
+    "cancer cell": [
+        "organic",
+        "anatomical"
+    ],
+    "grant program": [
+        "financial",
+        "educational"
+    ],
+    "prior research": [],
+    "construction task": [
+        "planned_development"
+    ],
+    "production facility": [
+        "workplace",
+        "industrial"
+    ],
+    "vote": [
+        "electoral",
+        "numeric"
+    ],
+    "office worker": [
+        "workplace"
+    ],
+    "upper": [
+        "organic"
+    ],
+    "cover image": [
+        "surface_pattern",
+        "visual",
+        "representational"
+    ],
+    "tax office": [
+        "workplace",
+        "tax_related"
+    ],
+    "work output": [
+        "workload"
+    ],
+    "index term": [
+        "indexical",
+        "informational",
+        "naming",
+        "conceptual",
+        "navigational"
+    ],
+    "work equipment": [
+        "workplace",
+        "mechanical",
+        "industrial",
+        "human-made",
+        "machine"
+    ],
+    "political organization": [
+        "human-made"
+    ],
+    "navy": [
+        "defensive",
+        "military"
+    ],
+    "procedure": [
+        "abstract",
+        "intangible",
+        "intentional",
+        "conceptual"
+    ],
+    "service user": [
+        "animate",
+        "educational"
+    ],
+    "choice selection": [
+        "decision_notice",
+        "selection_control"
+    ],
+    "price floor": [
+        "minimum_price",
+        "fee_calculation",
+        "government_supplied"
+    ],
+    "bureau": [
+        "workplace",
+        "public",
+        "authorization"
+    ],
+    "return spring": [
+        "structural"
+    ],
+    "military ship": [
+        "military"
+    ],
+    "cultural condition": [
+        "symbolic",
+        "social",
+        "conceptual",
+        "identity"
+    ],
+    "communications plan": [
+        "informational"
+    ],
+    "board space": [
+        "gameplay",
+        "regional",
+        "printed"
+    ],
+    "emergency management": [
+        "defensive",
+        "emergency",
+        "intentional"
+    ],
+    "learned behavior": [
+        "settlement",
+        "conceptual"
+    ],
+    "design change": [
+        "abstract",
+        "conceptual",
+        "informational"
+    ],
+    "information translation": [
+        "informational",
+        "representational"
+    ],
+    "stock share": [
+        "financial"
+    ],
+    "plate body": [
+        "structural"
+    ],
+    "water body": [
+        "aquatic",
+        "liquid"
+    ],
+    "work break": [
+        "timekeeping",
+        "duration",
+        "temporal"
+    ],
+    "button": [
+        "mechanical"
+    ],
+    "communication device": [
+        "connective",
+        "electronic",
+        "human-made"
+    ],
+    "ground transportation": [
+        "grant_related",
+        "travel_expense",
+        "educational",
+        "transportation"
+    ],
+    "construction drawing": [
+        "architectural"
+    ],
+    "angle": [
+        "topological"
+    ],
+    "action owner": [
+        "responsible_party"
+    ],
+    "community": [
+        "social"
+    ],
+    "party secretary": [
+        "workplace",
+        "goal"
+    ],
+    "workers' strike": [
+        "workplace"
+    ],
+    "food waste": [
+        "waste_management",
+        "material",
+        "organized_removal"
+    ],
+    "disease": [
+        "biological",
+        "dangerous"
+    ],
+    "parking area": [
+        "temporary_storage",
+        "transportation"
+    ],
+    "service capacity": [
+        "service_staff",
+        "duration",
+        "machine",
+        "limited_capacity"
+    ],
+    "main point": [
+        "conceptual"
+    ],
+    "native species": [
+        "structural"
+    ],
+    "political party": [
+        "electoral"
+    ],
+    "human body": [
+        "organic",
+        "structural",
+        "biological",
+        "mammalian",
+        "anatomical"
+    ],
+    "empty set": [
+        "empty"
+    ],
+    "housing unit": [
+        "architectural",
+        "structural",
+        "enclosed"
+    ],
+    "distribution center": [
+        "food_distribution"
+    ],
+    "property system": [
+        "structural",
+        "financial",
+        "social"
+    ],
+    "map surface": [
+        "cartographic",
+        "informational"
+    ],
+    "field office": [
+        "electoral",
+        "campaign",
+        "mobilization"
+    ],
+    "decision-making power": [
+        "conceptual"
+    ],
+    "government record": [
+        "record_keeping"
+    ],
+    "impact": [
+        "conceptual"
+    ],
+    "bowl": [
+        "waste_management",
+        "liquid",
+        "temporary_storage",
+        "human-made"
+    ],
+    "command structure": [
+        "military"
+    ],
+    "contact spring": [
+        "structural",
+        "mechanical",
+        "flexible"
+    ],
+    "problem definition": [
+        "conceptual",
+        "selection_control"
+    ],
+    "discovery": [
+        "event",
+        "conceptual"
+    ],
+    "research result": [
+        "conceptual",
+        "indicator",
+        "research_derived"
+    ],
+    "denied": [],
+    "role": [
+        "conceptual"
+    ],
+    "approval date": [
+        "temporal"
+    ],
+    "communication link": [
+        "connective",
+        "electronic",
+        "local_network"
+    ],
+    "unknown fact": [
+        "knowledge_deficiency",
+        "uncertainty"
+    ],
+    "message": [
+        "informational"
+    ],
+    "rail": [
+        "structural",
+        "tracked",
+        "transportation"
+    ],
+    "social protection": [
+        "financial",
+        "social",
+        "government_supplied"
+    ],
+    "support request": [
+        "in_progress",
+        "enclosed",
+        "awaiting_action"
+    ],
+    "work-in-progress": [
+        "industrial"
+    ],
+    "waiting area": [
+        "scheduled"
+    ],
+    "community facility": [
+        "architectural",
+        "structural",
+        "public"
+    ],
+    "trade": [
+        "financial"
+    ],
+    "mission concept": [
+        "military"
+    ],
+    "findings": [
+        "conceptual"
+    ],
+    "environmental condition": [
+        "error",
+        "system_disruption"
+    ],
+    "competitive advantage": [
+        "industrial",
+        "goal"
+    ],
+    "falling action": [
+        "directional"
+    ],
+    "party membership": [
+        "electoral",
+        "volunteer_based"
+    ],
+    "fire service": [
+        "public",
+        "firefighting"
+    ],
+    "efficiency": [
+        "industrial",
+        "indicator"
+    ],
+    "production line": [
+        "industrial",
+        "mechanical",
+        "human-made"
+    ],
+    "community hall": [
+        "architectural",
+        "public",
+        "interior"
+    ],
+    "penalty": [
+        "conceptual"
+    ],
+    "put": [
+        "formal_request",
+        "create_or_replace",
+        "resource_allocation"
+    ],
+    "property address": [
+        "informational",
+        "naming",
+        "regional",
+        "identity"
+    ],
+    "investment income": [
+        "financial",
+        "account_based"
+    ],
+    "operations room": [
+        "workplace",
+        "project_coordination",
+        "military"
+    ],
+    "risk analysis": [
+        "warning"
+    ],
+    "fault description": [
+        "conceptual"
+    ],
+    "family member": [
+        "social"
+    ],
+    "fire-control computer": [
+        "informational",
+        "goal"
+    ],
+    "approval decision": [
+        "mobilization",
+        "law_enforcement",
+        "estimate"
+    ],
+    "office supplies": [
+        "workplace",
+        "material"
+    ],
+    "professional opinion": [
+        "qualified_provider",
+        "conceptual",
+        "informational"
+    ],
+    "search result": [
+        "informational"
+    ],
+    "goal review": [
+        "intentional",
+        "goal"
+    ],
+    "tax law": [
+        "tax_related",
+        "workplace",
+        "law_enforcement"
+    ],
+    "written response": [
+        "informational"
+    ],
+    "medical assistance": [
+        "social"
+    ],
+    "change": [
+        "conceptual",
+        "recent_change"
+    ],
+    "service activity": [
+        "event",
+        "conceptual"
+    ],
+    "risk entry": [
+        "record_keeping"
+    ],
+    "reference work": [
+        "informational"
+    ],
+    "affected party": [
+        "social",
+        "identity"
+    ],
+    "executive office": [
+        "workplace",
+        "structural",
+        "human-made",
+        "interior"
+    ],
+    "shared-life matter": [
+        "familial",
+        "social"
+    ],
+    "action step": [
+        "goal"
+    ],
+    "legal question": [
+        "judicial"
+    ],
+    "service demand": [
+        "representational"
+    ],
+    "subject role": [
+        "conceptual",
+        "identity"
+    ],
+    "subject heading": [
+        "textual",
+        "indexical",
+        "informational",
+        "linguistic",
+        "naming"
+    ],
+    "smoke": [
+        "material",
+        "gaseous"
+    ],
+    "service sales": [
+        "financial"
+    ],
+    "personnel manager": [
+        "workplace",
+        "authorization"
+    ],
+    "station building": [
+        "interior"
+    ],
+    "translation": [
+        "textual",
+        "informational",
+        "representational"
+    ],
+    "area code": [
+        "numeric",
+        "identity"
+    ],
+    "active listening": [
+        "abstract",
+        "social",
+        "intentional",
+        "informational",
+        "sentient"
+    ],
+    "assessment response": [
+        "informational"
+    ],
+    "lock case": [
+        "structural",
+        "enclosed"
+    ],
+    "military vehicle": [
+        "motor_vehicle",
+        "military",
+        "transportation"
+    ],
+    "decision owner": [
+        "conceptual",
+        "identity"
+    ],
+    "selected option": [
+        "familial"
+    ],
+    "end date": [
+        "financial",
+        "temporal"
+    ],
+    "delivery method": [
+        "delivery_management"
+    ],
+    "work step": [
+        "task_specification",
+        "conceptual"
+    ],
+    "poetry": [
+        "textual"
+    ],
+    "government grant": [
+        "financial",
+        "public"
+    ],
+    "evidence safe": [
+        "reserve",
+        "enclosed",
+        "restriction"
+    ],
+    "storage unit": [
+        "workplace",
+        "human-made"
+    ],
+    "facility": [
+        "workplace"
+    ],
+    "written form": [
+        "textual",
+        "typographic",
+        "linguistic"
+    ],
+    "language variety": [
+        "linguistic",
+        "social",
+        "regional",
+        "identity"
+    ],
+    "field telephone": [
+        "connective",
+        "electronic",
+        "human-made"
+    ],
+    "evidence assessment": [
+        "abstract",
+        "conceptual"
+    ],
+    "public housing": [
+        "noncash_benefit",
+        "structural",
+        "public",
+        "government_supplied",
+        "enclosed"
+    ],
+    "health program": [
+        "planned_development"
+    ],
+    "results": [
+        "research_derived",
+        "conceptual",
+        "informational"
+    ],
+    "interest payment": [
+        "financial"
+    ],
+    "voice": [
+        "auditory"
+    ],
+    "political right": [
+        "electoral",
+        "public"
+    ],
+    "client need": [
+        "abstract",
+        "intentional"
+    ],
+    "literature review": [
+        "research_derived",
+        "conceptual",
+        "informational"
+    ],
+    "public employee": [
+        "public"
+    ],
+    "child": [
+        "familial",
+        "social"
+    ],
+    "chair leg": [
+        "structural"
+    ],
+    "principal amount": [
+        "authorization"
+    ],
+    "available funds": [
+        "financial",
+        "intangible",
+        "account_based"
+    ],
+    "decision right": [
+        "conceptual",
+        "authorization"
+    ],
+    "job title": [
+        "naming"
+    ],
+    "national arts": [
+        "musical",
+        "visual",
+        "identity",
+        "ceremonial"
+    ],
+    "fee": [
+        "financial",
+        "fixed_amount"
+    ],
+    "access route": [],
+    "response option": [
+        "selection_control"
+    ],
+    "shift": [
+        "event",
+        "transition",
+        "abstract"
+    ],
+    "contact tip": [
+        "structural",
+        "connective"
+    ],
+    "investment option": [
+        "financial",
+        "retirement"
+    ],
+    "construction site": [
+        "workplace",
+        "planned_development"
+    ],
+    "political goal": [
+        "electoral",
+        "public",
+        "wage_policy",
+        "goal"
+    ],
+    "exposure": [
+        "dangerous"
+    ],
+    "civil defense": [
+        "defensive",
+        "military"
+    ],
+    "shirt": [
+        "clothing",
+        "wearable"
+    ],
+    "client response": [
+        "conceptual"
+    ],
+    "professional service": [
+        "qualified_provider",
+        "conceptual",
+        "informational"
+    ],
+    "absolute-form": [
+        "resource_retrieval"
+    ],
+    "investment return": [
+        "financial"
+    ],
+    "project task": [
+        "task_specification"
+    ],
+    "speed value": [
+        "speed_regulation"
+    ],
+    "relationship": [
+        "connective",
+        "conceptual"
+    ],
+    "committee meeting": [
+        "conceptual",
+        "decision_notice",
+        "representational"
+    ],
+    "base name": [
+        "identity",
+        "abstract",
+        "informational",
+        "linguistic",
+        "naming"
+    ],
+    "standard language": [
+        "textual",
+        "social",
+        "linguistic"
+    ],
+    "mission staff": [
+        "project_coordination",
+        "military"
+    ],
+    "government benefit": [
+        "financial",
+        "social",
+        "direct_payment"
+    ],
+    "panel body": [
+        "structural"
+    ],
+    "door lock": [
+        "enclosed"
+    ],
+    "administrative officer": [
+        "workplace"
+    ],
+    "review decision": [
+        "decision_notice"
+    ],
+    "service window": [
+        "human-made",
+        "interior"
+    ],
+    "art supply": [
+        "material"
+    ],
+    "tuesday": [
+        "temporal"
+    ],
+    "headquarters": [
+        "workplace",
+        "central"
+    ],
+    "floor panel": [
+        "structural",
+        "interior"
+    ],
+    "community program": [
+        "social",
+        "human-made"
+    ],
+    "egg": [
+        "biological",
+        "organic",
+        "enclosed"
+    ],
+    "time period": [
+        "abstract",
+        "duration",
+        "temporal"
+    ],
+    "human voice": [
+        "auditory",
+        "oral"
+    ],
+    "death benefit": [
+        "insurance",
+        "employee_benefit"
+    ],
+    "ultimate fact": [
+        "representational"
+    ],
+    "tradition": [
+        "social",
+        "conceptual",
+        "ceremonial"
+    ],
+    "activity description": [
+        "textual",
+        "abstract",
+        "informational",
+        "representational"
+    ],
+    "status record": [
+        "record_keeping"
+    ],
+    "interest income": [
+        "financial",
+        "account_based"
+    ],
+    "court order": [
+        "documentary",
+        "judicial"
+    ],
+    "design style": [
+        "intentional",
+        "abstract",
+        "visual"
+    ],
+    "state property": [
+        "public"
+    ],
+    "interest amount": [
+        "temporal",
+        "financial",
+        "authorization"
+    ],
+    "work schedule": [
+        "duration",
+        "temporal"
+    ],
+    "source information": [
+        "linguistic",
+        "informational",
+        "representational"
+    ],
+    "candidate action": [
+        "abstract",
+        "conceptual",
+        "representational"
+    ],
+    "concrete": [
+        "structural",
+        "material"
+    ],
+    "coverage limit": [
+        "insurance"
+    ],
+    "forward index": [
+        "textual",
+        "record_keeping",
+        "informational"
+    ],
+    "approval day": [
+        "temporal",
+        "authorization"
+    ],
+    "fixed contact": [
+        "connective",
+        "structural"
+    ],
+    "care goal": [
+        "goal"
+    ],
+    "pay rate": [
+        "wage_policy"
+    ],
+    "scale": [
+        "structural"
+    ],
+    "payment account": [
+        "financial",
+        "intangible",
+        "account_based"
+    ],
+    "council member": [
+        "regional_leadership"
+    ],
+    "voting power": [
+        "conceptual"
+    ],
+    "request target": [
+        "resource_retrieval"
+    ],
+    "professional assessment": [
+        "qualified_provider",
+        "conceptual",
+        "informational"
+    ],
+    "plan view": [
+        "architectural",
+        "visual"
+    ],
+    "vision insurance": [
+        "insurance",
+        "medical"
+    ],
+    "political leadership": [
+        "presiding"
+    ],
+    "firm": [
+        "resource_allocation"
+    ],
+    "physical labor": [
+        "mechanical"
+    ],
+    "approval statement": [
+        "endorsement",
+        "authorization"
+    ],
+    "paper waste": [
+        "recyclable",
+        "waste_management",
+        "material",
+        "organized_removal"
+    ],
+    "wednesday": [
+        "temporal"
+    ],
+    "advertising copy": [
+        "textual",
+        "linguistic",
+        "representational"
+    ],
+    "class method": [
+        "class_associated",
+        "executable"
+    ],
+    "deck": [
+        "structural",
+        "transportation"
+    ],
+    "memory": [
+        "abstract",
+        "intangible",
+        "conceptual",
+        "informational"
+    ],
+    "test result": [
+        "conceptual",
+        "research_derived"
+    ],
+    "goal setting": [
+        "abstract",
+        "intentional",
+        "goal"
+    ],
+    "cell window": [
+        "structural"
+    ],
+    "campaign event": [
+        "planned_development",
+        "conceptual",
+        "scheduled",
+        "temporal"
+    ],
+    "application review": [
+        "grant_related"
+    ],
+    "interview record": [
+        "record_keeping",
+        "informational"
+    ],
+    "game equipment": [
+        "human-made"
+    ],
+    "counter opening": [],
+    "software agent": [
+        "identity"
+    ],
+    "original work": [
+        "textual"
+    ],
+    "hospital": [
+        "diagnostic",
+        "medical"
+    ],
+    "animal": [
+        "representational"
+    ],
+    "capital income": [
+        "financial"
+    ],
+    "test device": [
+        "machine"
+    ],
+    "trade union": [
+        "workplace"
+    ],
+    "advertising campaign": [
+        "communication_medium",
+        "planned_development",
+        "linguistic",
+        "representational"
+    ],
+    "exception": [
+        "conceptual"
+    ],
+    "missing knowledge": [
+        "knowledge_deficiency",
+        "uncertainty"
+    ],
+    "review interview": [
+        "record_keeping",
+        "auditory",
+        "informational"
+    ],
+    "vacation day": [
+        "direct_payment",
+        "vacation",
+        "authorization",
+        "temporal"
+    ],
+    "schedule": [
+        "scheduled",
+        "informational",
+        "temporal"
+    ],
+    "action plan": [
+        "planned_development",
+        "conceptual"
+    ],
+    "source request": [
+        "material",
+        "formal_request",
+        "verification",
+        "testimonial"
+    ],
+    "digital good": [
+        "electronic"
+    ],
+    "school board": [
+        "public",
+        "educational",
+        "authorization"
+    ],
+    "working conditions": [
+        "workplace",
+        "workload",
+        "timekeeping"
+    ],
+    "phone": [
+        "connective",
+        "electronic",
+        "human-made"
+    ],
+    "defense attorney": [
+        "judicial"
+    ],
+    "sale price": [
+        "financial"
+    ],
+    "public beach": [
+        "recreational",
+        "public",
+        "outdoor"
+    ],
+    "sleep": [
+        "duration",
+        "anatomical"
+    ],
+    "research data": [
+        "recording_device",
+        "indicator",
+        "informational"
+    ],
+    "section": [
+        "segmental"
+    ],
+    "school building": [
+        "architectural",
+        "structural",
+        "public",
+        "educational"
+    ],
+    "amount": [
+        "numeric",
+        "financial",
+        "fee_calculation"
+    ],
+    "fact request": [
+        "formal_request",
+        "verification"
+    ],
+    "sound recording": [
+        "record_keeping",
+        "auditory"
+    ],
+    "server room": [
+        "machine",
+        "electronic",
+        "local_network",
+        "interior"
+    ],
+    "fire escape": [
+        "structural",
+        "vertical"
+    ],
+    "policy document": [
+        "structural",
+        "conceptual"
+    ],
+    "strike benefit": [
+        "financial",
+        "strike_support"
+    ],
+    "division office": [
+        "workplace"
+    ],
+    "executive agency": [
+        "public",
+        "authorization"
+    ],
+    "railway": [
+        "service_staff",
+        "rail_based",
+        "transportation"
+    ],
+    "administrative department": [
+        "public"
+    ],
+    "offer terms": [
+        "abstract",
+        "intentional",
+        "restriction",
+        "conceptual",
+        "authorization"
+    ],
+    "power relationship": [
+        "structural"
+    ],
+    "religious text": [
+        "ceremonial",
+        "conceptual",
+        "religious"
+    ],
+    "public hospital": [
+        "diagnostic",
+        "government_supplied",
+        "medical"
+    ],
+    "research source": [
+        "informational",
+        "research_derived"
+    ],
+    "method body": [
+        "class_associated",
+        "executable"
+    ],
+    "maintenance building": [
+        "architectural",
+        "reserve",
+        "enclosed",
+        "maintenance"
+    ],
+    "communication": [
+        "linguistic",
+        "symbolic",
+        "informational",
+        "representational"
+    ],
+    "client": [
+        "animate"
+    ],
+    "heat source": [
+        "hot",
+        "fuel"
+    ],
+    "research gap": [
+        "knowledge_deficiency",
+        "uncertainty"
+    ],
+    "error cause": [
+        "error"
+    ],
+    "housing office": [
+        "government_supplied",
+        "workplace",
+        "public",
+        "service_staff"
+    ],
+    "prayer": [
+        "conceptual",
+        "religious",
+        "symbolic",
+        "intangible"
+    ],
+    "reported fault": [
+        "conceptual",
+        "system_disruption",
+        "error"
+    ],
+    "bottle base": [
+        "structural"
+    ],
+    "blood sample": [
+        "material",
+        "research_derived"
+    ],
+    "delivery point": [
+        "delivery_management"
+    ],
+    "flower": [
+        "plant_based",
+        "biological",
+        "organic"
+    ],
+    "walking path": [
+        "path_based"
+    ],
+    "one percent": [
+        "proportional",
+        "percentage"
+    ],
+    "style guide": [
+        "conceptual",
+        "visual",
+        "representational",
+        "textual",
+        "typographic"
+    ],
+    "network cable": [
+        "electronic",
+        "local_network",
+        "connective"
+    ],
+    "local part": [
+        "identity"
+    ],
+    "speed unit": []
+}

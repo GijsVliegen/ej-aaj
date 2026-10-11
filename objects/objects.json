@@ -5,6 +5,11 @@
             { "type": "tab", "content": "about" }
         ]
     },
+    "games": {
+        "children": [
+            { "type": "game", "content": "<a href=\"/ej-aaj/games/Objective 2/index.html\" target=\"_blank\">Objective 2</a>"}
+        ]
+    },
     "blog": {
         "children": [
             { "type": "tab", "content": "13-09-2026" },

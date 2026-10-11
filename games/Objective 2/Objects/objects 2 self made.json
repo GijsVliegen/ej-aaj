@@ -1,0 +1,309 @@
+{
+  "universe": {
+    "children": [
+      "earth"
+    ]
+  },
+  "void": {
+    "children": []
+  },
+  "earth": {
+    "children": [
+      "ocean",
+      "ocean",
+      "metropole",
+      "city",
+      "city",
+      "village"
+    ]
+  },
+  "village": {
+    "children": [
+      "house",
+      "bar",
+      "human"
+    ]
+  },
+  "city": {
+    "children": [
+      "park",
+      "village",
+      "pool",
+      "flat_building",
+      "human",
+      "police_station",
+      "supermarket"
+    ]
+  },
+  "metropole": {
+    "children": [
+      "city",
+      "skyscraper",
+      "flat_building",
+      "lake",
+      "police_headquarters"
+    ]
+  },
+  "park": {
+    "children": [
+      "lake",
+      "tree",
+      "bush",
+      "walking_path",
+      "bench"
+    ]
+  },
+  "tree": {
+    "children": [
+      "stick",
+      "leaf",
+      "insect"
+    ]
+  },
+  "stick": {
+    "children": []
+  },
+  "wooden_planks": {
+    "children": []
+  },
+  "wood": {
+    "children": []
+  },
+  "stone": {
+    "children": []
+  },
+  "wooden_pickaxe": {
+    "children": []
+  },
+  "stone_pickaxe": {
+    "children": []
+  },
+  "flat_building": {
+    "children": [
+      "flat",
+      "staircase"
+    ]
+  },
+  "flat": {
+    "children": [
+      "human",
+      "wall",
+      "window",
+      "chair"
+    ]
+  },
+  "chair": {
+    "children": [
+      "wooden_plank",
+      "nail"
+    ]
+  },
+  "skyscraper": {
+    "children": [
+      "flat",
+      "elevator",
+      "staircase",
+      "indoor_pool"
+    ]
+  },
+  "house": {
+    "children": [
+      "flat",
+      "staircase"
+    ]
+  },
+  "police_station": {
+    "children": [
+      "evidence_room",
+      "gun",
+      "desk",
+      "prison_cell"
+    ]
+  },
+  "police_headquarters": {
+    "children": [
+      "police_station",
+      "office",
+      "office",
+      "office",
+      "armory"
+    ]
+  },
+  "evidence_room": {
+    "children": [
+      "explosives",
+      "paper",
+      "drugs",
+      "car"
+    ]
+  },
+  "supermarket": {
+    "children": [
+      "cash_register",
+      "freezer",
+      "fridge",
+      "beer",
+      "human"
+    ]
+  },
+  "freezer": {
+    "children": [
+      "fish"
+    ]
+  },
+  "explosive": {
+    "children": [
+      "chemicals"
+    ]
+  },
+  "debris": {
+    "children": [
+      "debris",
+      "plant",
+      "stone"
+    ]
+  },
+  "indoor_pool": {
+    "children": [
+      "pool"
+    ]
+  },
+  "pool": {
+    "children": [
+      "water",
+      "human"
+    ]
+  },
+  "ocean": {
+    "children": [
+      "sea",
+      "whale"
+    ]
+  },
+  "sea": {
+    "children": [
+      "lake",
+      "shark"
+    ]
+  },
+  "lake": {
+    "children": [
+      "water",
+      "fish"
+    ]
+  },
+  "water": {
+    "children": [
+      "water_molecule"
+    ]
+  },
+  "water_molecule": {
+    "children": [
+      "oxygen",
+      "hydrogen"
+    ]
+  },
+  "chemicals": {
+    "children": [
+      "atom"
+    ]
+  },
+  "hydrogen": {
+    "children": [
+      "atom"
+    ]
+  },
+  "oxygen": {
+    "children": [
+      "atom"
+    ]
+  },
+  "electron": {
+    "children": []
+  },
+  "nucleus": {
+    "children": []
+  },
+  "energy": {
+    "children": []
+  },
+  "atom": {
+    "children": [
+      "electron",
+      "nucleus"
+    ]
+  },
+  "electricity": {
+    "children": [
+      "electron",
+      "energy"
+    ]
+  },
+  "human": {
+    "children": [
+      "tattoo",
+      "mammal"
+    ]
+  },
+  "fish": {
+    "children": []
+  },
+  "mammal": {
+    "children": [
+      "leg",
+      "leg",
+      "head",
+      "arm",
+      "arm",
+      "reproductive_organs"
+    ]
+  },
+  "leg": {
+    "children": [
+      "foot",
+      "knee",
+      "muscle",
+      "bone"
+    ]
+  },
+  "foot": {
+    "children": []
+  },
+  "knee": {
+    "children": []
+  },
+  "muscle": {
+    "children": []
+  },
+  "bone": {
+    "children": []
+  },
+  "head": {
+    "children": [
+      "thoughts",
+      "brains"
+    ]
+  },
+  "arm": {
+    "children": []
+  },
+  "male_reproductive_organs": {
+    "children": [
+      "penis"
+    ]
+  },
+  "penis": {
+    "children": [
+      "penis"
+    ]
+  },
+  "female_reproductive_organs": {
+    "children": []
+  },
+  "brains": {
+    "children": []
+  },
+  "thoughts": {
+    "children": []
+  }
+}

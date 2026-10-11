@@ -48,9 +48,7 @@ function generateChildren(button) {
     button.childrenButtonIds = [];
     for (const childDef of childDefs) {
         if (childDef.type === "tab") {
-            const childNode = new ButtonNode(childDef.content, false, button.id);
-            button.childrenButtons.push(childNode);
-            button.childrenButtonIds.push(childNode.id);
+            new ButtonNode(childDef.content, false, button.id);
         }
     }
     button.childrenGenerated = true;
@@ -89,8 +87,7 @@ function fillButtonElement(button) {
         depth++;
         parentId = allButtons[parentId].fatherId;
     }
-    baseDiv.style.marginLeft = 'var(--space-xl)';
-    baseDiv.style.backgroundColor = depth % 2 === 0 ? 'var(--card-background)' : 'var(--background-color)';
+    baseDiv.style.backgroundColor = depth % 2 === 0 ? '#aa782dff' : '#866f21ff';
     // add click event so it can be expanded/collapsed via handleClick
     const link = document.createElement("a");
     link.className = "buttonLink";
@@ -423,9 +420,19 @@ function initialize() {
         fetch(encodeURI("objects/objects.json"))
             .then(response => {
             if (!response.ok) {
-                throw new Error("Failed to load Objects/objects.json: " + response.status);
+                throw new Error("Failed to load objects/objects.json: " + response.status);
             }
-            return response.json();
+            return response.text().then(text => {
+                if (!text) {
+                    throw new Error("Empty JSON response for objects/objects.json");
+                }
+                try {
+                    return JSON.parse(text);
+                }
+                catch (e) {
+                    throw new Error("Failed to parse JSON from objects/objects.json: " + e.message);
+                }
+            });
         })
             .then((data) => {
             objectsDict = data;
@@ -433,9 +440,19 @@ function initialize() {
         fetch(encodeURI("objects/categories.json"))
             .then(response => {
             if (!response.ok) {
-                throw new Error("Failed to load Objects/categories.json: " + response.status);
+                throw new Error("Failed to load objects/categories.json: " + response.status);
             }
-            return response.json();
+            return response.text().then(text => {
+                if (!text) {
+                    throw new Error("Empty JSON response for objects/categories.json");
+                }
+                try {
+                    return JSON.parse(text);
+                }
+                catch (e) {
+                    throw new Error("Failed to parse JSON from objects/categories.json: " + e.message);
+                }
+            });
         })
             .then((data) => {
             categoriesDict = data;

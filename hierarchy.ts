@@ -77,16 +77,14 @@ function generateChildren(button: ButtonNode): void {
     console.warn('No entry found in objects 2 from llm.json for type "' + button.type + '"');
   }
   button.childrenDefs = childDefs;
-  button.childrenButtons = [];
-  button.childrenButtonIds = [];
-  for (const childDef of childDefs) {
-    if (childDef.type === "tab") {
-      const childNode = new ButtonNode(childDef.content, false, button.id);
-      button.childrenButtons.push(childNode);
-      button.childrenButtonIds.push(childNode.id);
+    button.childrenButtons = [];
+    button.childrenButtonIds = [];
+    for (const childDef of childDefs) {
+      if (childDef.type === "tab") {
+        new ButtonNode(childDef.content, false, button.id);
+      }
     }
-  }
-  button.childrenGenerated = true;
+    button.childrenGenerated = true;
 }
 
 /** Creates the (empty) HTML element for a button, then fills it in. */
@@ -127,9 +125,7 @@ function fillButtonElement(button: ButtonNode): void {
   while (parentId !== -1) {
     depth++;
     parentId = allButtons[parentId].fatherId;
-  }
-  baseDiv.style.marginLeft = 'var(--space-xl)';
-    baseDiv.style.backgroundColor = depth % 2 === 0 ? 'var(--card-background)' : 'var(--background-color)';
+  }baseDiv.style.backgroundColor = depth % 2 === 0 ? '#aa782dff' : '#866f21ff';
 
   // add click event so it can be expanded/collapsed via handleClick
   const link = document.createElement("a");
@@ -503,9 +499,18 @@ function initialize(): void {
     fetch(encodeURI("objects/objects.json"))
       .then(response => {
         if (!response.ok) {
-          throw new Error("Failed to load Objects/objects.json: " + response.status);
+          throw new Error("Failed to load objects/objects.json: " + response.status);
         }
-        return response.json();
+        return response.text().then(text => {
+          if (!text) {
+            throw new Error("Empty JSON response for objects/objects.json");
+          }
+          try {
+            return JSON.parse(text) as ObjectsDict;
+          } catch (e) {
+            throw new Error("Failed to parse JSON from objects/objects.json: " + (e as Error).message);
+          }
+        });
       })
       .then((data: ObjectsDict) => {
         objectsDict = data;
@@ -513,11 +518,20 @@ function initialize(): void {
     fetch(encodeURI("objects/categories.json"))
       .then(response => {
         if (!response.ok) {
-          throw new Error("Failed to load Objects/categories.json: " + response.status);
+          throw new Error("Failed to load objects/categories.json: " + response.status);
         }
-        return response.json();
+        return response.text().then(text => {
+          if (!text) {
+            throw new Error("Empty JSON response for objects/categories.json");
+          }
+          try {
+            return JSON.parse(text) as Record<string, string>;
+          } catch (e) {
+            throw new Error("Failed to parse JSON from objects/categories.json: " + (e as Error).message);
+          }
+        });
       })
-      .then((data) => {
+      .then((data: Record<string, string>) => {
         categoriesDict = data;
       })
   ])

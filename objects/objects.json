@@ -45,5 +45,16 @@
             { "type": "tab", "content": "button A.A" },
             { "type": "markdown", "content": "text B.B" }
         ]
+    },
+    "about": {
+        "children": [
+            { "type": "markdown", "content": "Design by Gijs Vliegen" },
+            {"type": "tab", "content": "references"}
+        ]
+    },
+    "references": {
+        "children": [
+            { "type": "markdown", "content": "Inspiration of design from https://orteil.dashnet.org/nested" }
+        ]
     }
 }

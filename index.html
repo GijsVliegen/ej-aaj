@@ -18,8 +18,8 @@
 
 	.left-panel {
 		flex: 4; /* Adjust the ratio for the left side width */
-		background-color: black;
-		padding: 20px;
+		background-color: #8C7B70;
+		padding: 21px;
 		box-sizing: border-box;
 		overflow-y: scroll;
 	}
@@ -27,44 +27,67 @@
 	.right-panel {
 		flex: 1; /* Adjust the ratio for the right side width */
 		background-color: #ddd;
-		padding: 20px;
+		padding: 21px;
 		box-sizing: border-box;
 		overflow-y: scroll;
 		z-index: 25;
 	}
     .first {
-	  display: block;
-	  border: 1px solid white;
-	  background-color: white;
+      display: block;
       position: absolute;
-	  left: 5px;
-	  top: 25px;
-	  color: purple;
-	}
-	.button {
-	  display: block;
-	  border: 1px solid black;
-	  background-color: lightgray;
-      position: relative;
-	  width:100%;
-	  left: 20px;
-	  margin-top: 2px;
-	  margin-bottom: 0px;
-	  color: purple;
-	  z-index: 5;
+      left: 5px;
+      top: 25px;
     }
-    .buttonLink {	  
+    .button {
+      display: block;
+      border: 1px solid black;
+	  border-radius: 13px;
+      position: relative;
+      width:100%;
+      left: 21px;
+      top: 8px;
+      margin-bottom: 5px;
+      z-index: 5;
+	}
+	.game {
+	  margin-top: 8px;
+      margin-bottom: 5px;
+	  margin-left: 21px;
+
+	  color: #6CA2CC;
+		
+	}
+	.markdown {
+		font-family: "Source Serif 4", serif;
+	  margin-top: 8px;
+      margin-bottom: 5px;
+	  margin-left: 21px;
+		
+	}
+	
+
+	.markdown h1,
+	.markdown h2,
+	.markdown h3 {
+		font-family: "Inter", sans-serif;
+		font-weight: 600;
+	}
+
+	.markdown code,
+	.markdown pre {
+		font-family: monospace;
+	}
+    .buttonLink {  
 	  text-decoration: None;
 	  vertical-align: top;
       width: 200px;
-	  margin-top: 3px;
-	  margin-left: 3px;	
-	  color: purple;
+	  margin-top: 6px;
+	  margin-left: 6px;	
 	  font-weight: bold;
     }
 	.saveLink {
 	  text-decoration: None;	
-	  color: green;
+	  color: rgb(247, 209, 107);
 	  font-weight: bold;
 	  cursor: pointer;
 	}
@@ -78,58 +101,6 @@
 	  padding: 1px 6px;
 	  margin-left: 4px;
 	  cursor: copy;
-	}
-	.category {
-	  text-decoration: None;
-	  color: white;
-	  background-color: rgb(133, 74, 40);
-	  border-radius: 4px;
-	  font-size: 0.8em;
-	  font-weight: bold;
-	  padding: 1px 6px;
-	  margin-left: 4px;
-	  cursor: copy;
-	}
-	.label {
-	  text-decoration: None;
-	  color: white;
-	  background-color: rgb(22, 88, 44);
-	  border-radius: 4px;
-	  font-size: 0.8em;
-	  font-weight: bold;
-	  padding: 1px 6px;
-	  margin-left: 4px;
-	  cursor: copy;
-	}
-	.white {
-	  background-color: white;
-	}
-	.yellow {
-	  background-color: yellow;
-	}
-	.orange {
-	  background-color: orange;
-	}
-	.green {
-	  background-color: green;
-	}
-	.blue {
-	  background-color: blue;
-	}
-	.purple {
-	  background-color: purple;
-	}
-	.brown {
-	  background-color: brown; 
-	}
-	.black {
-	  background-color: black; 
-	}
-	.rainbow {
-	  background-color: red;
-	}
-	.leaf {
-	  background-color: white;
 	}
 	.inventoryItem {
 		display: block;

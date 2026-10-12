@@ -1,4 +1,5 @@
 
+
 // Use global 'marked' loaded via CDN
 declare const marked: { parse: (md: string) => string; };
 
@@ -119,18 +120,12 @@ function fillButtonElement(button: ButtonNode): void {
   }
   baseDiv.classList.remove("leaf");
 
-  // indentation and alternating background colors
-  let depth = 0;
-  let parentId = button.fatherId;
-  while (parentId !== -1) {
-    depth++;
-    parentId = allButtons[parentId].fatherId;
-  }baseDiv.style.backgroundColor = depth % 2 === 0 ? '#aa782dff' : '#866f21ff';
 
   // add click event so it can be expanded/collapsed via handleClick
   const link = document.createElement("a");
   link.className = "buttonLink";
   link.href = "#";
+  link.style.color = "white";
   link.textContent = button.display_name;
   if (DEBUG) {
     link.textContent = `[${button.id}] ${button.display_name} (${button.type})`;
@@ -197,19 +192,29 @@ function fillButtonElement(button: ButtonNode): void {
       for (const childDef of button.childrenDefs) {
         if (childDef.type === "tab") {
           const childNode = button.childrenButtons[tabIdx++];
-          baseDiv.appendChild(createButtonElement(childNode));
-                } else if (childDef.type === "markdown") {
+                  const childEl = createButtonElement(childNode);
+                  childEl.style.backgroundColor = "#968168";
+                  childEl.style.color = "white";
+                  baseDiv.appendChild(childEl);
+                } 
+        else if (childDef.type === "markdown") {
           // render markdown content inline
           const mdDiv = document.createElement("div");
           mdDiv.className = "markdown";
           mdDiv.innerHTML = marked.parse(childDef.content);
-          baseDiv.appendChild(mdDiv);
+                          mdDiv.style.backgroundColor = "#D7CEC8";
+                          mdDiv.style.color = "black";
+                          baseDiv.appendChild(mdDiv);
                 } else if (childDef.type === "game") {
                   // render game link inline
                   const gameDiv = document.createElement("div");
                   gameDiv.className = "game";
                   gameDiv.innerHTML = childDef.content;
-                  baseDiv.appendChild(gameDiv);
+                                  gameDiv.style.backgroundColor = "#6CA2CC";
+                                  gameDiv.style.color = "white";
+                  const innerLink = gameDiv.querySelector("a");
+                  if (innerLink) innerLink.style.color = "white";
+                                  baseDiv.appendChild(gameDiv);
                 } else {
                   console.warn(`Unknown child type: ${childDef.type}`);
                 }

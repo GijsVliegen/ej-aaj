@@ -84,7 +84,6 @@ function fillButtonElement(button) {
     const link = document.createElement("a");
     link.className = "buttonLink";
     link.href = "#";
-    link.style.color = "white";
     link.textContent = button.display_name;
     if (DEBUG) {
         link.textContent = `[${button.id}] ${button.display_name} (${button.type})`;
@@ -147,8 +146,6 @@ function fillButtonElement(button) {
                 if (childDef.type === "tab") {
                     const childNode = button.childrenButtons[tabIdx++];
                     const childEl = createButtonElement(childNode);
-                    childEl.style.backgroundColor = "#968168";
-                    childEl.style.color = "white";
                     baseDiv.appendChild(childEl);
                 }
                 else if (childDef.type === "markdown") {
@@ -156,8 +153,6 @@ function fillButtonElement(button) {
                     const mdDiv = document.createElement("div");
                     mdDiv.className = "markdown";
                     mdDiv.innerHTML = marked.parse(childDef.content);
-                    mdDiv.style.backgroundColor = "#D7CEC8";
-                    mdDiv.style.color = "black";
                     baseDiv.appendChild(mdDiv);
                 }
                 else if (childDef.type === "game") {
@@ -165,8 +160,6 @@ function fillButtonElement(button) {
                     const gameDiv = document.createElement("div");
                     gameDiv.className = "game";
                     gameDiv.innerHTML = childDef.content;
-                    gameDiv.style.backgroundColor = "#6CA2CC";
-                    gameDiv.style.color = "white";
                     const innerLink = gameDiv.querySelector("a");
                     if (innerLink)
                         innerLink.style.color = "white";

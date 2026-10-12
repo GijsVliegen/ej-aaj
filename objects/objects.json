@@ -14,7 +14,8 @@
     "blog": {
         "children": [
             { "type": "tab", "content": "13-09-2026" },
-            { "type": "tab", "content": "26-09-2026" }
+            { "type": "tab", "content": "26-09-2026" },
+            { "type": "tab", "content": "12-10-2026" }
         ]
     },
     "13-09-2026": {
@@ -30,6 +31,11 @@
             { "type": "markdown", "content": "## On books and papers" },
             { "type": "markdown", "content": "Finished book *The night in Lissabon*, I recommend it." },
             { "type": "markdown", "content": "Came accross paper *Learning Concept Hierarchies from Text Corpora using Formal Concept Analysis* to learn about automatic taxonomy creating" }
+        ]
+    },
+    "12-10-2026": {
+        "children": [
+            { "type": "markdown", "content": "## Issue tracker for Human-Agent collaboration \n https://app.plane.so/ can be used to keep track of tasks/issues/todos and offers an mcp server." }
         ]
     },
     "button A": {

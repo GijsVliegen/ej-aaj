@@ -23,7 +23,7 @@ const allButtons: Record<number, ButtonNode> = {};
 let objectsDict: ObjectsDict = {};
 let labelsDict: Record<string, string[]> = {};
 let categoriesDict: Record<string, string> = {};
-let takeEffects: Record<string, Effect[]> = {}; 
+let takeEffects: Record<string, Effect[]> = {};
 const inventory: ButtonNode[] = [];
 
 function getNextId(): number {
@@ -78,14 +78,14 @@ function generateChildren(button: ButtonNode): void {
     console.warn('No entry found in objects 2 from llm.json for type "' + button.type + '"');
   }
   button.childrenDefs = childDefs;
-    button.childrenButtons = [];
-    button.childrenButtonIds = [];
-    for (const childDef of childDefs) {
-      if (childDef.type === "tab") {
-        new ButtonNode(childDef.content, false, button.id);
-      }
+  button.childrenButtons = [];
+  button.childrenButtonIds = [];
+  for (const childDef of childDefs) {
+    if (childDef.type === "tab") {
+      new ButtonNode(childDef.content, false, button.id);
     }
-    button.childrenGenerated = true;
+  }
+  button.childrenGenerated = true;
 }
 
 /** Creates the (empty) HTML element for a button, then fills it in. */
@@ -125,7 +125,6 @@ function fillButtonElement(button: ButtonNode): void {
   const link = document.createElement("a");
   link.className = "buttonLink";
   link.href = "#";
-  link.style.color = "white";
   link.textContent = button.display_name;
   if (DEBUG) {
     link.textContent = `[${button.id}] ${button.display_name} (${button.type})`;
@@ -192,32 +191,26 @@ function fillButtonElement(button: ButtonNode): void {
       for (const childDef of button.childrenDefs) {
         if (childDef.type === "tab") {
           const childNode = button.childrenButtons[tabIdx++];
-                  const childEl = createButtonElement(childNode);
-                  childEl.style.backgroundColor = "#968168";
-                  childEl.style.color = "white";
-                  baseDiv.appendChild(childEl);
-                } 
+          const childEl = createButtonElement(childNode);
+          baseDiv.appendChild(childEl);
+        }
         else if (childDef.type === "markdown") {
           // render markdown content inline
           const mdDiv = document.createElement("div");
           mdDiv.className = "markdown";
           mdDiv.innerHTML = marked.parse(childDef.content);
-                          mdDiv.style.backgroundColor = "#D7CEC8";
-                          mdDiv.style.color = "black";
-                          baseDiv.appendChild(mdDiv);
-                } else if (childDef.type === "game") {
-                  // render game link inline
-                  const gameDiv = document.createElement("div");
-                  gameDiv.className = "game";
-                  gameDiv.innerHTML = childDef.content;
-                                  gameDiv.style.backgroundColor = "#6CA2CC";
-                                  gameDiv.style.color = "white";
-                  const innerLink = gameDiv.querySelector("a");
-                  if (innerLink) innerLink.style.color = "white";
-                                  baseDiv.appendChild(gameDiv);
-                } else {
-                  console.warn(`Unknown child type: ${childDef.type}`);
-                }
+          baseDiv.appendChild(mdDiv);
+        } else if (childDef.type === "game") {
+          // render game link inline
+          const gameDiv = document.createElement("div");
+          gameDiv.className = "game";
+          gameDiv.innerHTML = childDef.content;
+          const innerLink = gameDiv.querySelector("a");
+          if (innerLink) innerLink.style.color = "white";
+          baseDiv.appendChild(gameDiv);
+        } else {
+          console.warn(`Unknown child type: ${childDef.type}`);
+        }
       }
     }
   }
@@ -235,54 +228,54 @@ function ToggleButtonExpanded(id: number): void {
 
 //effects
 function transformTakeEffect(father: ButtonNode, child: ButtonNode): void {
-    const father_effects = takeEffects[father.type] || [];
-    const effect_type_priority_map: Record<string, number> = {
-      "transform": 2,
-      "exposure": 3,
-      "incomplete": 4,
-      "kill": 5
-    };
-    const sorted_effects = [...father_effects].sort((a, b) => {
-      return effect_type_priority_map[a.take_type] - effect_type_priority_map[b.take_type];
-    });
-    for (const father_effect of sorted_effects) {
-      if (father_effect.child_object_triggers.includes(child.type)) {
-        if (father_effect.take_type === "incomplete") {
-          const parent_effect = father_effect.parent_effect as Record<string, string | string[]>;
-          father.display_name = parent_effect["new_name"] as string;
-          //TODO: redraw display_name
-          father.labels = father.labels.concat(parent_effect["add_labels"] as string[]);
-          father.labels = father.labels.filter(label => !(parent_effect["remove_labels"] as string[]).includes(label));
-        }
-        else if (father_effect.take_type === "kill") {
-          const grand_father = allButtons[father.fatherId];
-          takeFromFather(grand_father, father);
-        }
-        else if (father_effect.take_type === "transform") {
-          const grand_father = allButtons[father.fatherId];
-          const parent_effect = father_effect.parent_effect as string;
-          const transformed_father = new ButtonNode(parent_effect, false, grand_father.id);  
-          fillButtonElement(grand_father);
-          //remove the old father from the DOM, can still be accesed via allObjects if id is known
-          father.div?.remove();
-          father.div = undefined;
-          father.fatherId = -1;
-          father.expanded = false;
-          grand_father.childrenButtons = grand_father.childrenButtons.filter(child => child.id !== father.id);
-          grand_father.childrenButtonIds = grand_father.childrenButtonIds.filter(childId => childId !== father.id);
-
-
-        }
-        else if (father_effect.take_type === "exposure") {
-          const parent_effect = father_effect.parent_effect as Record<string, string[]>;
-          for (const new_child_type of parent_effect["hidden_children"] as string[]) {
-            const new_child = new ButtonNode(new_child_type, false, father.id);
-          }  
-        }  
-        return; // only apply first effect found
+  const father_effects = takeEffects[father.type] || [];
+  const effect_type_priority_map: Record<string, number> = {
+    "transform": 2,
+    "exposure": 3,
+    "incomplete": 4,
+    "kill": 5
+  };
+  const sorted_effects = [...father_effects].sort((a, b) => {
+    return effect_type_priority_map[a.take_type] - effect_type_priority_map[b.take_type];
+  });
+  for (const father_effect of sorted_effects) {
+    if (father_effect.child_object_triggers.includes(child.type)) {
+      if (father_effect.take_type === "incomplete") {
+        const parent_effect = father_effect.parent_effect as Record<string, string | string[]>;
+        father.display_name = parent_effect["new_name"] as string;
+        //TODO: redraw display_name
+        father.labels = father.labels.concat(parent_effect["add_labels"] as string[]);
+        father.labels = father.labels.filter(label => !(parent_effect["remove_labels"] as string[]).includes(label));
       }
+      else if (father_effect.take_type === "kill") {
+        const grand_father = allButtons[father.fatherId];
+        takeFromFather(grand_father, father);
+      }
+      else if (father_effect.take_type === "transform") {
+        const grand_father = allButtons[father.fatherId];
+        const parent_effect = father_effect.parent_effect as string;
+        const transformed_father = new ButtonNode(parent_effect, false, grand_father.id);
+        fillButtonElement(grand_father);
+        //remove the old father from the DOM, can still be accesed via allObjects if id is known
+        father.div?.remove();
+        father.div = undefined;
+        father.fatherId = -1;
+        father.expanded = false;
+        grand_father.childrenButtons = grand_father.childrenButtons.filter(child => child.id !== father.id);
+        grand_father.childrenButtonIds = grand_father.childrenButtonIds.filter(childId => childId !== father.id);
+
+
+      }
+      else if (father_effect.take_type === "exposure") {
+        const parent_effect = father_effect.parent_effect as Record<string, string[]>;
+        for (const new_child_type of parent_effect["hidden_children"] as string[]) {
+          const new_child = new ButtonNode(new_child_type, false, father.id);
+        }
+      }
+      return; // only apply first effect found
     }
-    return; // Placeholder for future implementation of take effects when removing a button from parent.
+  }
+  return; // Placeholder for future implementation of take effects when removing a button from parent.
 }
 
 function takeFromFather(father: ButtonNode, button: ButtonNode): void {

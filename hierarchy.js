@@ -14,6 +14,7 @@ function getNextId() {
 class ButtonNode {
     constructor(type, expanded = false, fatherId = -1) {
         this.labels = [];
+        this.fullPath = fatherId === -1 ? [type] : [...allButtons[fatherId].fullPath, type];
         this.id = getNextId();
         this.fatherId = fatherId;
         this.type = type;
@@ -44,13 +45,11 @@ function generateChildren(button) {
         console.warn('No entry found in objects 2 from llm.json for type "' + button.type + '"');
     }
     button.childrenDefs = childDefs;
-    button.childrenButtons = [];
-    button.childrenButtonIds = [];
-    for (const childDef of childDefs) {
-        if (childDef.type === "tab") {
-            new ButtonNode(childDef.content, false, button.id);
-        }
-    }
+    // create child ButtonNodes for 'tab' entries, mirroring the original tree logic
+    button.childrenButtons = childDefs
+        .filter(def => def.type === "tab")
+        .map(def => new ButtonNode(def.content, false, button.id));
+    button.childrenButtonIds = button.childrenButtons.map(child => child.id);
     button.childrenGenerated = true;
 }
 /** Creates the (empty) HTML element for a button, then fills it in. */
@@ -83,11 +82,9 @@ function fillButtonElement(button) {
     // add click event so it can be expanded/collapsed via handleClick
     const link = document.createElement("a");
     link.className = "buttonLink";
-    link.href = "#";
+    link.href = "#" + button.fullPath.join("/");
+    link.title = "Click!";
     link.textContent = button.display_name;
-    if (DEBUG) {
-        link.textContent = `[${button.id}] ${button.display_name} (${button.type})`;
-    }
     link.addEventListener("click", (event) => {
         event.preventDefault();
         ToggleButtonExpanded(button.id);
@@ -119,8 +116,27 @@ function fillButtonElement(button) {
         const labelSpan = document.createElement("span");
         labelSpan.className = "label";
         labelSpan.textContent = label;
+        labelSpan.title = "Label";
         baseDiv.appendChild(labelSpan);
     }
+    // Drop target so an inventory item can be dragged onto this button.
+    // add link icon to copy deep link
+    const copyLink = document.createElement("span");
+    copyLink.className = "linkIcon";
+    copyLink.title = "Copy link to clipboard";
+    copyLink.textContent = "🔗";
+    copyLink.addEventListener("click", (event) => {
+        event.preventDefault();
+        const url = window.location.origin + window.location.pathname + "#" + button.fullPath.slice(1).join("/");
+        navigator.clipboard.writeText(url);
+        copyLink.title = "Link copied!";
+        copyLink.textContent = "✅";
+        setTimeout(() => {
+            copyLink.title = "Copy link to clipboard";
+            copyLink.textContent = "🔗";
+        }, 1500);
+    });
+    baseDiv.appendChild(copyLink);
     // Drop target so an inventory item can be dragged onto this button.
     if (!DEBUG) {
         const dropTarget = document.createElement("a");
@@ -224,6 +240,9 @@ function transformTakeEffect(father, child) {
                 const parent_effect = father_effect.parent_effect;
                 for (const new_child_type of parent_effect["hidden_children"]) {
                     const new_child = new ButtonNode(new_child_type, false, father.id);
+                    // also update definitions for newly exposed children
+                    father.childrenDefs.push({ type: "tab", content: new_child_type });
+                    father.childrenButtonIds.push(new_child.id);
                 }
             }
             return; // only apply first effect found
@@ -232,7 +251,12 @@ function transformTakeEffect(father, child) {
     return; // Placeholder for future implementation of take effects when removing a button from parent.
 }
 function takeFromFather(father, button) {
+    // sync childrenDefs and childrenButtonIds when removing a tab child dynamically
+    const idx = father.childrenDefs.findIndex(def => def.type === "tab" && def.content === button.type);
+    if (idx >= 0)
+        father.childrenDefs.splice(idx, 1);
     father.childrenButtons = father.childrenButtons.filter(child => child.id !== button.id);
+    father.childrenButtonIds = father.childrenButtons.map(child => child.id);
     transformTakeEffect(father, button);
     fillButtonElement(father); // lets the father flip back into a "leaf" if it has no children left
 }
@@ -369,6 +393,9 @@ function receiveItem(receiver, incoming) {
     incoming.fatherId = receiver.id;
     incoming.expanded = false;
     receiver.childrenButtons.push(incoming);
+    // sync childrenDefs and childrenButtonIds when adding a tab child dynamically
+    receiver.childrenDefs.push({ type: "tab", content: incoming.type });
+    receiver.childrenButtonIds.push(incoming.id);
     fillButtonElement(receiver);
     return true;
 }
@@ -399,7 +426,7 @@ function addDEBUGClickEvents() {
         if (!button) {
             return;
         }
-        if (DEBUG && event.ctrlKey) {
+        if (event.ctrlKey) {
             saveToInventory(button.id);
             return;
         }
@@ -466,10 +493,54 @@ function initialize() {
         if (DEBUG) {
             addDEBUGClickEvents();
         }
+        handleDeepLink();
     })
         .catch(error => console.error("Error initializing hierarchy:", error));
 }
 let only_real_stuff = false;
-let DEBUG = false;
-window.onload = initialize;
+let DEBUG = true;
+/** Expands nodes along the given path segments, returns the final node. */
+function deepLinkByPath(pathSegments) {
+    let node = allButtons[0];
+    for (const seg of pathSegments) {
+        if (!node.childrenGenerated) {
+            generateChildren(node);
+        }
+        node.expanded = true;
+        fillButtonElement(node);
+        const next = node.childrenButtons.find(child => child.type === seg);
+        if (!next) {
+            return null;
+        }
+        node = next;
+    }
+    if (!node.childrenGenerated) {
+        generateChildren(node);
+    }
+    node.expanded = true;
+    fillButtonElement(node);
+    return node;
+}
+/** Scrolls element into view if provided. */
+function scrollToNode(button) {
+    const el = document.getElementById("Button" + button.id);
+    if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+    }
+}
+/** Handles deep links on load, based on path. */
+function handleDeepLink() {
+    const slug = window.location.hash.slice(1);
+    if (!slug) {
+        return;
+    }
+    const segments = slug.split("/").filter(Boolean);
+    const target = deepLinkByPath(segments);
+    if (target) {
+        scrollToNode(target);
+    }
+}
+window.onload = () => {
+    initialize();
+};
 //# sourceMappingURL=hierarchy.js.map

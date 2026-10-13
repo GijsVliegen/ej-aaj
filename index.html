@@ -19,9 +19,11 @@
 	.left-panel {
 		flex: 4; /* Adjust the ratio for the left side width */
 		background-color: #8C7B70;
-		padding: 21px;
+		padding-left: 21px;
+		padding-top: 21px;
+		padding-bottom: 21px;
 		box-sizing: border-box;
-		overflow-y: scroll;
+		overflow-x: scroll;
 	}
 
 	.right-panel {
@@ -45,7 +47,7 @@
       border: 1px solid black;
 	  border-radius: 13px;
       position: relative;
-      width:100%;
+      width: calc(100% - 21px - 3px);
       margin-left: 21px;
       margin-top: 8px;
       z-index: 5;
@@ -77,16 +79,21 @@
 	  padding-right: 3px;
 	  text-decoration: None;
 	  vertical-align: top;
-      width: 200px;
 	  margin-top: 6px;
 	  margin-left: 6px;	
 	  font-weight: bold;
 	  color: #ffffff;
     }
+	.linkIcon {
+		margin-left: 4px;
+		cursor: pointer;
+		color: #ffffff;
+	}
 	.saveLink {
 	  padding-left: 3px;
 	  padding-right: 3px;
-	  text-decoration: None;	
+	  text-decoration: None;
+	  vertical-align: top;	
 	  color: rgb(247, 209, 107);
 	  font-weight: bold;
 	  cursor: pointer;

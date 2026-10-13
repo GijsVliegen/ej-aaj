@@ -128,6 +128,7 @@ function fillButtonElement(button: ButtonNode): void {
   link.title = "Click!"
   link.textContent = button.display_name;
   link.addEventListener("click", (event: MouseEvent) => {
+    event.stopPropagation();
     event.preventDefault();
     ToggleButtonExpanded(button.id);
   });
@@ -142,6 +143,7 @@ function fillButtonElement(button: ButtonNode): void {
     saveLink.title = "Save to inventory";
     saveLink.textContent = "\uD83D\uDCBE"; // 💾
     saveLink.addEventListener("click", (event: MouseEvent) => {
+      event.stopPropagation();
       event.preventDefault();
       saveToInventory(button.id);
     });

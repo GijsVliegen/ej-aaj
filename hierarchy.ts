@@ -173,15 +173,16 @@ function fillButtonElement(button: ButtonNode): void {
   copyLink.textContent = "🔗";
   copyLink.addEventListener("click", (event: MouseEvent) => {
     event.preventDefault();
-    const url = window.location.origin + window.location.pathname + "#" + button.fullPath.slice(1).join("/");
-    navigator.clipboard.writeText(url);
-    copyLink.title = "Link copied!";
-    copyLink.textContent = "✅";
-
-    setTimeout(() => {
-      copyLink.title = "Copy link to clipboard"
-      copyLink.textContent = "🔗";
-    }, 1500);
+        event.stopPropagation();
+        const url = window.location.origin + window.location.pathname + "#" + button.fullPath.slice(1).join("/");
+      navigator.clipboard.writeText(url).then(() => {
+        copyLink.title = "Link copied!";
+        copyLink.textContent = "✅";
+        setTimeout(() => {
+          copyLink.title = "Copy link to clipboard";
+          copyLink.textContent = "🔗";
+        }, 1500);
+      });
   });
   baseDiv.appendChild(copyLink);
 

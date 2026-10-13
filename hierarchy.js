@@ -127,14 +127,16 @@ function fillButtonElement(button) {
     copyLink.textContent = "🔗";
     copyLink.addEventListener("click", (event) => {
         event.preventDefault();
+        event.stopPropagation();
         const url = window.location.origin + window.location.pathname + "#" + button.fullPath.slice(1).join("/");
-        navigator.clipboard.writeText(url);
-        copyLink.title = "Link copied!";
-        copyLink.textContent = "✅";
-        setTimeout(() => {
-            copyLink.title = "Copy link to clipboard";
-            copyLink.textContent = "🔗";
-        }, 1500);
+        navigator.clipboard.writeText(url).then(() => {
+            copyLink.title = "Link copied!";
+            copyLink.textContent = "✅";
+            setTimeout(() => {
+                copyLink.title = "Copy link to clipboard";
+                copyLink.textContent = "🔗";
+            }, 1500);
+        });
     });
     baseDiv.appendChild(copyLink);
     // Drop target so an inventory item can be dragged onto this button.

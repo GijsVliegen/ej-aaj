@@ -15,7 +15,13 @@
         "children": [
             { "type": "tab", "content": "13-09-2026" },
             { "type": "tab", "content": "26-09-2026" },
-            { "type": "tab", "content": "12-10-2026" }
+            { "type": "tab", "content": "12-10-2026" },
+            { "type": "tab", "content": "14-10-2026" }
+        ]
+    },
+    "14-10-2026": {
+        "children": [
+            { "type": "markdown", "content": "llms_as_general_purpose_classifiers.md"}
         ]
     },
     "13-09-2026": {

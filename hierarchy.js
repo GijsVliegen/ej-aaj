@@ -1,4 +1,5 @@
 "use strict";
+const markdownCache = {};
 let _idCounter = 0;
 const allButtons = {};
 let objectsDict = {};
@@ -69,11 +70,25 @@ function createButtonElement(button) {
     return baseDiv;
 }
 /** (Re)renders a button's own link, save/drop controls, and its children, if expanded. */
+//TODO: currently we redraw everything,
+//this also includes deleting from cache and reloading every time a single markdown exists
+//FIX: catch first draw en keep in cache most of it, only delete the necessary
 function fillButtonElement(button) {
     const baseDiv = button.div;
     if (!baseDiv) {
         return;
     }
+    // remove and cleanup file markdown elements from the div, to re-render from scratch
+    const oldMdDivs = baseDiv.querySelectorAll('.markdown[data-md-file]');
+    oldMdDivs.forEach(mdDiv => {
+        const fname = mdDiv.getAttribute('data-md-file');
+        if (fname && markdownCache[fname]) {
+            markdownCache[fname].refCount--;
+            if (markdownCache[fname].refCount <= 0) {
+                delete markdownCache[fname];
+            }
+        }
+    });
     // remove everything from the div, so we can re-render it from scratch
     while (baseDiv.firstChild) {
         baseDiv.removeChild(baseDiv.firstChild);
@@ -86,6 +101,7 @@ function fillButtonElement(button) {
     link.title = "Click!";
     link.textContent = button.display_name;
     link.addEventListener("click", (event) => {
+        event.stopPropagation();
         event.preventDefault();
         ToggleButtonExpanded(button.id);
     });
@@ -99,6 +115,7 @@ function fillButtonElement(button) {
         saveLink.title = "Save to inventory";
         saveLink.textContent = "\uD83D\uDCBE"; // 💾
         saveLink.addEventListener("click", (event) => {
+            event.stopPropagation();
             event.preventDefault();
             saveToInventory(button.id);
         });
@@ -166,11 +183,40 @@ function fillButtonElement(button) {
                     const childEl = createButtonElement(childNode);
                     baseDiv.appendChild(childEl);
                 }
-                else if (childDef.type === "markdown") {
-                    // render markdown content inline
+                else if (childDef.type === "markdown") { //styling
                     const mdDiv = document.createElement("div");
                     mdDiv.className = "markdown";
-                    mdDiv.innerHTML = marked.parse(childDef.content);
+                    const content = childDef.content;
+                    if (content.endsWith('.md')) { //only draw when content ends in .md
+                        const fname = content;
+                        mdDiv.setAttribute('data-md-file', fname);
+                        if (markdownCache[fname]) { //cache entry
+                            markdownCache[fname].refCount++;
+                            mdDiv.innerHTML = marked.parse(markdownCache[fname].content);
+                        }
+                        else { //no hit -> load it in
+                            markdownCache[fname] = { content: '', refCount: 1 };
+                            mdDiv.textContent = 'Loading...';
+                            fetch(`objects/markdown/${encodeURIComponent(fname)}`, { cache: 'no-store' })
+                                .then(resp => {
+                                if (!resp.ok)
+                                    throw new Error(`Failed to load ${fname}: ${resp.status}`);
+                                return resp.text();
+                            })
+                                .then(text => {
+                                if (markdownCache[fname]) {
+                                    markdownCache[fname].content = text;
+                                    mdDiv.innerHTML = marked.parse(text);
+                                }
+                            })
+                                .catch(err => {
+                                mdDiv.textContent = ` ${fname} is currently unavailable due to maintenance.`;
+                            });
+                        }
+                    }
+                    else { //content doenst end in .md so parse as markdown itself
+                        mdDiv.innerHTML = marked.parse(content);
+                    }
                     baseDiv.appendChild(mdDiv);
                 }
                 else if (childDef.type === "game") {

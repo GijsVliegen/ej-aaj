@@ -58,15 +58,21 @@
             { "type": "markdown", "content": "text B.B" }
         ]
     },
+    "license": {
+        "children": [
+            { "type": "markdown", "content": "license.md" }
+        ]
+    },
     "about": {
         "children": [
-            { "type": "markdown", "content": "Design by Gijs Vliegen" },
-            {"type": "tab", "content": "references"}
+            { "type": "markdown", "content": "about.md" },
+            {"type": "tab", "content": "references"},
+            { "type": "tab", "content": "license" }
         ]
     },
     "references": {
         "children": [
-            { "type": "markdown", "content": "Inspiration of design from https://orteil.dashnet.org/nested" }
+            { "type": "markdown", "content": "references.md" }
         ]
     }
 }

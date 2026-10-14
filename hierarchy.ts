@@ -231,16 +231,16 @@ function fillButtonElement(button: ButtonNode): void {
     } else {
       let tabIdx = 0;
       for (const childDef of button.childrenDefs) {
-        if (childDef.type === "tab") {
+        if (childDef.type === "tab") { //handle new buttons
           const childNode = button.childrenButtons[tabIdx++];
           const childEl = createButtonElement(childNode);
           baseDiv.appendChild(childEl);
         }
-        else if (childDef.type === "markdown") { //styling
+        else if (childDef.type === "markdown") { //handle markdown
                   const mdDiv = document.createElement("div");
                   mdDiv.className = "markdown";
                   const content = childDef.content;
-                  if (content.endsWith('.md')) { //only draw when content ends in .md
+                  if (content.endsWith('.md')) { //load file when content ends in .md
                     const fname = content;
                     mdDiv.setAttribute('data-md-file', fname);
                     if (markdownCache[fname]) { //cache entry
@@ -267,6 +267,15 @@ function fillButtonElement(button: ButtonNode): void {
                   } else { //content doenst end in .md so parse as markdown itself
                     mdDiv.innerHTML = marked.parse(content);
                   }
+                  const link = document.createElement("a"); 
+                  link.className = "buttonLink";
+                  link.href = "#" + button.fullPath.join("/");
+                  link.title = "Click!"
+                  link.textContent = button.display_name;
+                  link.addEventListener("click", (event: MouseEvent) => { //add empty click event to stop toggle of parent
+                    event.stopPropagation();
+                    event.preventDefault();
+                  });
                   baseDiv.appendChild(mdDiv);
                 } 
         else if (childDef.type === "game") {
@@ -539,18 +548,21 @@ function addDEBUGClickEvents(): void {
     return;
   }
   baseEl.addEventListener("click", (event: MouseEvent) => {
+    const target = event.target as HTMLElement;
+    // ignore clicks inside markdown blocks so they don’t collapse the section
+    if (target.closest('.markdown')) {
+      return;
+    }
+
     event.preventDefault();
 
-    const target = event.target as HTMLElement;
     const baseDiv = target.closest(".button") as HTMLDivElement | null;
-
     if (!baseDiv) {
       return;
     }
 
     const buttonId = Number(baseDiv.id.replace("Button", ""));
     const button = allButtons[buttonId];
-
     if (!button) {
       return;
     }

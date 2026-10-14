@@ -1,0 +1,1 @@
+Site concept is loosely based on the game **[Nested](https://orteil.dashnet.org/nested)** by Orteil, he is known as the developer of Cookie Clicker! Or check out **[his version](https://orteil.dashnet.org/experiments/life)** of Conway's Game-Of-Life. I greatly recommend to check out his site. 

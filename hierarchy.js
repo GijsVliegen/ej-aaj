@@ -604,4 +604,5 @@ function handleDeepLink() {
 window.onload = () => {
     initialize();
 };
+window.addEventListener("hashchange", handleDeepLink);
 //# sourceMappingURL=hierarchy.js.map

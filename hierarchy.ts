@@ -691,3 +691,5 @@ window.onload = () => {
   initialize();
 };
 
+window.addEventListener("hashchange", handleDeepLink);
+
